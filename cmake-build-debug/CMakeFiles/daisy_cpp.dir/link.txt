@@ -1,1 +1,0 @@
-/usr/bin/arm-none-eabi-g++ -mtune=cortex-m7 -march=armv7-m -O0 -mthumb -fno-builtin -Wall -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -W -Wl,--gc-sections --specs=nano.specs --specs=nosys.specs -mthumb -mabi=aapcs -Wl,-Map=.map CMakeFiles/daisy_cpp.dir/main.cpp.o -o daisy_cpp  libdaisy.a 

@@ -1,0 +1,1551 @@
+[remote] Sending packet: $qXfer:memory-map:read::0,3fb#e5
+[remote] Received Ack
+[remote] Packet received: E01
+Loading section .init, size 0xc lma 0x8000
+blackmagic.gdb:12: Error in sourced command file:
+Load failed
+`/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp' has changed; re-reading symbols.
+[auto-load] auto_load_objfile_script_1: Attempted file "/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.gdb" does not exist.
+[auto-load] auto_load_expand_dir_vars: Expanded $-variables to "/usr/lib/debug:/usr/share/gdb/auto-load".
+[auto-load] auto_load_objfile_script_1: Searching 'set auto-load scripts-directory' path "$debugdir:$datadir/auto-load".
+[auto-load] auto_load_objfile_script_1: Attempted file "/usr/lib/debug/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.gdb" does not exist.
+[auto-load] auto_load_objfile_script_1: Attempted file "/usr/share/gdb/auto-load/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.gdb" does not exist.
+[auto-load] auto_load_objfile_script_1: Attempted file "/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.py" does not exist.
+[auto-load] auto_load_expand_dir_vars: Expanded $-variables to "/usr/lib/debug:/usr/share/gdb/auto-load".
+[auto-load] auto_load_objfile_script_1: Searching 'set auto-load scripts-directory' path "$debugdir:$datadir/auto-load".
+[auto-load] auto_load_objfile_script_1: Attempted file "/usr/lib/debug/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.py" does not exist.
+[auto-load] auto_load_objfile_script_1: Attempted file "/usr/share/gdb/auto-load/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.py" does not exist.
+[auto-load] auto_load_objfile_script_1: Attempted file "/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.scm" does not exist.
+[auto-load] auto_load_expand_dir_vars: Expanded $-variables to "/usr/lib/debug:/usr/share/gdb/auto-load".
+[auto-load] auto_load_objfile_script_1: Searching 'set auto-load scripts-directory' path "$debugdir:$datadir/auto-load".
+[auto-load] auto_load_objfile_script_1: Attempted file "/usr/lib/debug/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.scm" does not exist.
+[auto-load] auto_load_objfile_script_1: Attempted file "/usr/share/gdb/auto-load/home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp-gdb.scm" does not exist.
+Loading section .init, size 0xc lma 0x8000
+Load failed
+Generic command for setting gdb debugging flags.
+
+List of set debug subcommands:
+
+set debug arch -- Set architecture debugging.
+set debug arm -- Set ARM debugging.
+set debug auto-load -- Set auto-load verifications debugging.
+set debug bfd-cache -- Set bfd cache debugging.
+set debug check-physname -- Set cross-checking of "physname" code against demangler.
+set debug coff-pe-read -- Set coff PE read debugging.
+set debug compile -- Set compile command debugging.
+set debug compile-cplus-scopes -- Set debugging of C++ compile scopes.
+set debug compile-cplus-types -- Set debugging of C++ compile type conversion.
+set debug displaced -- Set displaced stepping debugging.
+set debug dwarf-die -- Set debugging of the DWARF DIE reader.
+set debug dwarf-line -- Set debugging of the dwarf line reader.
+set debug dwarf-read -- Set debugging of the DWARF reader.
+set debug entry-values -- Set entry values and tail call frames debugging.
+set debug event-loop -- Set event-loop debugging.
+set debug expression -- Set expression debugging.
+set debug fortran-array-slicing -- Set debugging of Fortran array slicing.
+set debug frame -- Set frame debugging.
+set debug index-cache -- Set display of index-cache debug messages.
+set debug infcall -- Set inferior call debugging.
+set debug infrun -- Set inferior debugging.
+set debug jit -- Set JIT debugging.
+set debug notification -- Set debugging of async remote notification.
+set debug observer -- Set observer debugging.
+set debug overload -- Set debugging of C++ overloading.
+set debug parser -- Set parser debugging.
+set debug py-breakpoint -- Set Python breakpoint debugging.
+set debug py-micmd -- Set Python micmd debugging.
+set debug py-unwind -- Set Python unwinder debugging.
+set debug record -- Set debugging of record/replay feature.
+set debug remote -- Set debugging of remote protocol.
+set debug remote-packet-max-chars -- Set the maximum number of characters to display for each remote packet.
+set debug separate-debug-file -- Set printing of separate debug info file search debug.
+set debug serial -- Set serial debugging.
+set debug skip -- Set whether to print the debug output about skipping files and functions.
+set debug solib -- Set solib debugging.
+set debug stap-expression -- Set SystemTap expression debugging.
+set debug symbol-lookup -- Set debugging of symbol lookup.
+set debug symfile -- Set debugging of the symfile functions.
+set debug symtab-create -- Set debugging of symbol table creation.
+set debug target -- Set target debugging.
+set debug threads -- Set thread debugging.
+set debug timestamp -- Set timestamping of debugging messages.
+set debug tui -- Set tui debugging.
+set debug varobj -- Set varobj debugging.
+set debug xml -- Set XML parser debugging.
+
+Type "help set debug" followed by set debug subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Type "apropos -v word" for full documentation of commands related to "word".
+Command name abbreviations are allowed if unambiguous.
+-> extended-remote->log_command (...)
+<- extended-remote->log_command (load)
+-> extended-remote->load (...)
+Loading section .init, size 0xc lma 0x8000
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8000,0:#b6
+[remote] Received Ack
+[remote] Packet received: OK
+[remote] check_binary_download: binary downloading supported by target
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8000,c:øµ\000¿ø¼\b¼\236FpG#68
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7aab710, 0x8000, 0xc, 0xc) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7a0c3d0, 0x8000, 12) = 1, 12, bytes =
+ f8 b5 00 bf f8 bc 08 bc 9e 46 70 47
+Loading section .text, size 0x9df0 lma 0x8010
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8010,3d0:\bµ\006K\004F\023±\000!\bğ'ÿ\004K\eh\003±\230G F\tğèşm\016\001\000@Ë\001\000\006K0 \003!Oğ~RÃé\002\001\000 \000!\032aZaÃé\006\001pGPv\001\0008µ\aM\aL}\nF\aH!F\bğÂû}\nF!F\005H½è8@\bğ»»\000¿@0\001\0005\215\000\000\214v\001\000\210v\001\000\004K\020"\032t\203øè \203øÀ!\203ø\230"pG\\|\001\000\bK\032\035\230\035\003ñ\b\001\020´\234\034\232f\003ñ\n\002Ãé\0304Ãé\e\001]ø\004KZgpGÀ\177\001\000\003H\000}\003\003J\004I\003`\bğ\213»\000¿ğ\204\001\000@0\001\000µ¢\000\000WI\b"\002}\003WH\237íS{ğ´VMÁø\224&Áø4(JaÁø´!ÁøT}\003Áøô}\004\001õ\004bPLÁø¤6ÁøD8KbÁøÄ1Áød3Áø\0045«xJO}\003rcqJN;r3r\002í\002{}\n\210â\200¤ø\003 FLú\200â\200}\003rELò\200â\200}\003r\001õ d\201íÖ{\201í\006{\201ín{\001õÔa\004í\002{\001í\002{=L)hÂ\200\003r ø\003 Cq;Hâ\200}\003rÂ\200:L\003r\b\f!\200 p¤ø\003 cqâ\200}\003r6L6M!\200 p¤ø\003 cqâ\200}\003r3L¥ø\003 !\200 p¤ø\003 cqâ\200}\003r/Lkq!\200ê\200+r p¤ø\003 cqâ\200}\003r+L!\200 p¤ø\003 cqâ\200}\003r(L!\200 p¤ø\003 cqâ\200}\003r%L!\200 p [503 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x8010, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b92940, 0x8010, 32752) = 1, 976, bytes =
+ 08 b5 06 4b 04 46 13 b1 00 21 08 f0 27 ff 04 4b ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X83e0,3e0:ZqÙ\200\032r"K\030\200£ø\003\020ZqÙ\200\032r\203ø\002À\036K\030\200£ø\003\020ZqÙ\200\032r\203ø\002À\eK\030\200£ø\003\020\032HZqÙ\200\032r\203ø\002À\030K ø\003\020BqÁ\200\002r£ø\003\020ZqÙ\200\032r0¼pG\001\000\000\000\000\000\000\000Ğº\001\000L5\001\000@5\001\00045\001\000\0345\001\000\0045\001\000(5\001\000Àº\001\000\0205\001\000ì4\001\000ø4\001\000à4\001\000´º\001\000¨º\001\000\234º\001\000Ô4\001\000È4\001\000\020µ\005L}\003x3¹\004K\023±\004H¯ó\000\200\001}\003}\003p\020½¸u\001\000\000\000\000\000¬\037\001\000\bµ\003K\e±\003I\003H¯ó\000\200\b½\000\000\000\000¼u\001\000¬\037\001\000£õ\200:pG\000¿\025K\000+\b¿\021K\235Fÿ÷õÿ\000!\213F\017F\021H\022J\022\032\bğÃû\fK\000+\000Ğ\230G\013K\000+\000Ğ\230G\000 \000!\004\000\r\000\013H\bğuù\bğ\020ü \000)\000\000ğ}\004øÿ÷|ı\000\000\b\000\000\000\000\000\000\000\000\000\000\000\000\000¸u\001\000èÌ\001\000u\r\001\000pG\000\000\bµ\005H\000}\003\003`Ca\003bÃc\003J\003I\bğMù\b½Ôu\001\000@0\001\0005\205\000\000\bµ\000!\005H\000ğËø\000 \000ğJü\003H\000ğãû\000 \b½\000¿Ôu\001\000\f\036\001\000\bµÿ÷Ùÿ\b½\020µ@ò\0031\216°\000}\004Oö\013s@ò\003B­ø\b\020\002\231\t¨­ø\0200­ø}\0040\001}\003­ø\f "F\000\224\a\224\f\224Íé\005DÍé\nD\000ğÌü\004¨\001}\003"F\003\231 [508 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x83e0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b92d10, 0x83e0, 31776) = 1, 992, bytes =
+ 5a 71 d9 80 1a 72 22 4b 18 80 a3 f8 03 10 5a 71 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X87c0,3d0:\001ğ>ù×ç\000¿\005\a\005\006\005\b\005\t\020µ\204°\003F\001}\004\003¨­ø\f0­ø\016@\000ğßü!F\003¨\000ğ¹ı F\001ğbı\000!\003¨\000ğ²ı F\001ğ[ı!F\003¨\000ğ«ı\004°\020½\000¿\020µÂó\000}\003\204°\fF\001|\215ø\r CêD\002ú}\004\002}\003\215ø\f \003ª\000\224\000ğvÿ\030±\001}\004 F\004°\020½\004F\n \001ğ9ı F\004°\020½\003FpµCø\004+\004F\204°ú%\aÉ\203è\a\000¡y\036}\003\000\225\003ª\0321­ø\f0 F\002}\003É²!t\000ğSÿ\020±\001 \004°p½\n \001ğ\030ıOô¸R\000\225\002}\003­ø\f  F\003ª!|\000ğAÿ\000(ìÑ\n \001ğ\bıAò\002r\000\225\002}\003­ø\f  F\003ª!|\000ğ1ÿ\000(ÜÑ\n \001ğøü\004"\000\225\002}\003­ø\f  F\003ª!|\000ğ"ÿ\000(ÍÑ\n \001ğéü\006"\000\225\002}\003­ø\f  F\003ª!|\000ğ\023ÿ\000(¾Ñ\n \001ğÚüAò\b"\000\225\002}\003­ø\f  F\003ª!|\000ğ\003ÿ\000(®Ñ\n \n&\001ğÉü\000\225\002}\003\003ª!| F­ø\f`\000ğôş\000(\237Ñ0F\001ğ»ü}\003y\f"\000\225\000+!|\215ø\f  F\024¿b}\003B}\003jD\215ø\r0\002}\003\000ğŞş\000(\211Ñ0F\001ğ¥ü£h\000\225 Fâh!|\023C"yÛ²\202ğ\001\002Cê\202\023byRB\002ğ \002\023C\016"\215ø\r0\002}\003\215ø\f \003ª\000ğ¿ş\000 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x87c0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b930f0, 0x87c0, 30784) = 1, 976, bytes =
+ 01 f0 3e f9 d7 e7 00 bf 05 07 05 06 05 08 05 09 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8b90,3e0:\002ğ\b\002\003\222\003\232Óøà Bô\200rÃøà Óøà \002ô\200r\004\222\004\232Óøà Bğ\200\002Ãøà Óøà \002ğ\200\002\005\222\005\232Óøà Bğ \002Ãøà Óøà \002ğ \002\006\222\006\232Óøà Bğ\004\002Ãøà Oö\203rÓøà0\013\226\003ğ\004\003\f\225\a\223\002}\003\a\231\b©Íé\b}\003\002ğàüHò7\023\b©}\003H\b\223\f\225\t\227Íé\nF\002ğÕüLò\003s\b©\036H\b\223Íé\ttÍé\013e\002ğÊü@òÿc\b©\032H\b\223Íé\ttÍé\013e\002ğ¿üOö\fs\b©\025H\b\223Íé\ttÍé\013e\002ğ´üOö?\003\b©\021H\b\223Íé\ttÍé\013e\002ğ©ü }\003\b©\013H\t\227\f\225\b\223Íé\nF\002ğ\237ü\017°ğ½\000¿\024v\001\000\000D\002X\000\020\002X\000\030\002X\000\f\002X\000 \002X\000\034\002X\000\024\002X0µ\030L\025F\205°\004`\004ñ\b\016ìF\017É\216è\017\000Ôí\004zõîÀz\214è\017\000ñî\020ú\032İ·î\000j\224í\005z'î'zÆî'j\204í\rzÄí\fjm± F@ø\030_\001ğÆú\006I\003i\000 \006J!b¢bã`\005°0½\001 \005°0½Pv\001\000¸U\001\000¸5\001\000\000h\b0pG\000¿\000h\0300\001ğ®ºpG\000¿\017´ğµ\203°,L,N\b« hSø\004+Àñ\200\0010D\001\223\ağ\177ÿ}\003hÀ\030'Ğ2\030\000à ³\022ø\001=\001F\0018\r+\030¿\n+öĞ\215\034\177-3ÙBò}\004B\200}\003 [509 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x8b90, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b934c0, 0x8b90, 29808) = 1, 992, bytes =
+ 02 f0 08 02 03 92 03 9a d3 f8 e0 20 42 f4 80 72 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8f70,3e0:\001}\003/Ğ\220ø\001à\204F¾ñ\017\017)Ø\002}\n9Ğ\003}\n\004Ğ¢ñ\001\002²ú\202òR\t\001+\016\222\005Ğ£ñ\002\003³ú\203ó[\t[\000\002,\017\223\006Ğ\003,\004Ğ¤ñ\001\004´ú\204ôd\t\n)\020\224\fÙ\000}\003\030FÌø\0200\001}\003\r©\003ú\016ó\r\223\002ğüú\022°\020½[KJ\036\003ë\201}\003Ìø\0200\t}\n\000ò\237\200ßè\002ğ\216\177paRC4%\026\a\021"ÊçSKTHÓøà Bô\200bÃøà Óøà0\003ô\200c\f\223\f\233ÕçLKMHÓøà Bô\000rÃøà Óøà0\003ô\000s\013\223\013\233ÆçDKGHÓøà Bô\200rÃøà Óøà0\003ô\200s\n\223\n\233·ç=K@HÓøà Bğ\200\002Ãøà Óøà0\003ğ\200\003\t\223\t\233¨ç5K:HÓøà Bğ@\002Ãøà Óøà0\003ğ@\003\b\223\b\233\231ç.K3HÓøà Bğ \002Ãøà Óøà0\003ğ \003\a\223\a\233\212ç&K-HÓøà Bğ\020\002Ãøà Óøà0\003ğ\020\003\006\223\006\233{ç\037K&HÓøà Bğ\b\002Ãøà Óøà0\003ğ\b\003\005\223\005\233lç\027K HÓøà Bğ\004\002Ãøà Óøà0\003ğ\004\003\004\223\004\233]ç\020K\031HÓøà Bğ\002\002Ãøà Óøà0\003ğ\002\003\003\223\003\233Nç\bK\aHÓøà Bğ\001\002Ãøà Óøà0\003ğ\001\003\002\223\002\233?ç\000¿\000\000\002X\000D\002X\000(\002X\000}\004\002X\000 \002X\000 [504 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x8f70, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b938a0, 0x8f70, 28816) = 1, 992, bytes =
+ 01 23 2f d0 90 f8 01 e0 84 46 be f1 0f 0f 29 d8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9350,3e0:\002ğ<ù\017°0½\032F1ç\000D\002Xpµ\006F\rF\001ğ9ı\004F0F\001ğ=ı}\n\036\001F F\030¿\001"½èp@\002ğd¼pµ\000}\003\206°\022"\004F\003\223Íé\001}\003\003h\003+\001Ø\004}\003\004\223&\035\00640F\001ğ\032ı\005F0F\001ğ\036ı\003FiF(F\000\223\002ğ\bù F\001ğ\rı\003F F\034F\001ğ\020ıiF\003F F\000\223\002ğúø\006°p½cJ\003h\223B\020µ\214°(ĞaJ\223BXĞaJ\223B\000ğ\224\200`J\223B\001Ğ\f°\020½^L_HÔøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\n\223\n\233ÿ÷²ÿÔøô0Cğ\200\003Äøô0Ôøô0\003ğ\200\003\013\223\013\233àçPLQHÔøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\001\223\001\233ÿ÷\225ÿÔøè0\000"\037 Cô\000\023\021FÄøè0Ôøè0\003ô\000\023\002\223\002\233ÔøØ0Cğ\001\003ÄøØ0ÔøØ0\003ğ\001\003\003\223\003\233\001ğ<ı\037 \f°½è\020@\001ğr½6L9HÔøà0Cğ\200\003Äøà0Ôøà0\003ğ\200\003\004\223\004\233Ôøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\005\223\005\233ÿ÷VÿÔøè0\000"! Cô\200\003\021FÄøè0Ôøè0\003ô\200\003\006\223\006\233ÔøØ0Cğ\001\003ÄøØ0ÔøØ0\003ğ\001\003\a\223\a\233\001ğıü! \f°½è\020@\001ğ3½\eHÿ÷0ÿ\025K\000"H Óøè@\021FDô\000\004Ãøè@Óøè@\004ô\000\004\b [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x9350, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b93c80, 0x9350, 27824) = 1, 992, bytes =
+ 02 f0 3c f9 0f b0 30 bd 1a 46 31 e7 00 44 02 58 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9730,3d0:\bñ\214\004 F\002ğGı (úÑØø\f0s¹m\000 F\b\2343F:F©²\000\224\002ğ\207û\0008\030¿\001 \002°½èğ\201\b\2332F9F F\002ğGüòç0µ\000}\003\225°Oô\200q\006"\004F\013\223\006\222\023\223Íé\f\023Íé\0163Íé\0213\000ğøş\a(}\nĞ\004ñ\020\005Aò\2102\006©(F\003ğNù(±\001}\003\204ø\\0\001 \025°0½\002}\003\020"\006©(F\002\222\000"Íé\0003\001}\003\003\223Oô\200\003Íé\004}\003\005"Oğ\200s\006\222jF\017\223Aò\2103\003ğ¿ú\000(ßÑ\025°0½\003}\003\204ø\\0Üç\000¿pµ\000}\003¤°Oğ\200rOô\200u\004F­ø\0060\e\223Íé\0362\001"Íé\034SÍé }\003Íé"3\000)BĞğ}\003\000ñ\020\005\026®­ø\0060À}\003Aò\21021F(F\026\223\003ğ\002ù(±\001}\003\204ø\\0\001 }\004°p½Aò\2102\rñ\006\001(F\003ğbù\003F\000(ïÑOô\200q\005"(F\001%\b\222\020"\020\223\r\223\025\223\002\223\005\225Íé\016\023\237í\036{Oğ\200qÍé\0233\021\221Aò\2103\b©Íé\003R\002ª\215í\006{\003ğbú\000(ÒĞ\204ø\\PÎç\000ñ\020\005\026®a}\003Aò\21021F(F\026\223\003ğÂø\000(¾ÑAò\2102\rñ\006\001(F\003ğµù\000(µÑ½ø\0060 F}\003ğx\003Cğ@\003­ø\0060ÿ÷Bÿ\000(\237Ğ§ç\000¿¯ó\000\200\000\000\000\000\000\000@\000-éğO\000}\003Oô\200v\001%Oğ\200x\004F-í\002 [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x9730, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94060, 0x9730, 26832) = 1, 976, bytes =
+ 08 f1 8c 04 20 46 02 f0 47 fd 20 28 fa d1 d8 f8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9b00,3e0:\200s!\220\024©\035\223\020}\003Íø\f\200\002\223Aò\2103\237í}\004{Íé\032\220Íé\037\000Íé\000\b(\035\215í\004{\003ğ\eù\000(¼Ñ1F Fÿ÷_ş\000(¶Ñ Fÿ÷Şş\006F\000(°Ñ\000/²Ñë}\003\006ª\024©(\035\024\223Oô@cÍøh\220\e\223Oô\000S\030\226\027\223Oô@C\034\223 }\003\026\223\006}\003\031\223Oğ\200S\237í\f{!\223Oğ@sÍé\037f\035\223\215í\006{\003ğvù\000(\215Ğ\204ø\\\200\211ç\003}\003\204ø\\0\205ç\000¿\000\000\000\000\000\000@\000\000\000\000\000\000\000\000\000À\177\001\000\000P\000R-éğO\217°AK\000}\004\002h\000¯\232B|cÇé\tDÇé\013D\003Ğ<7½F½èğ\217:K@ö\t!:HêFÓøÔ \añ\034\006\añ"\013Oğ\002\tBô\200BOğ\003\bÃøÔ ÓøÔ \002ô\200Bº`ºhÓøà Bğ@\002Ãøà Óøà \002ğ@\002ú`úhÓøà Bğ \002Ãøà Óøà \002ğ \002:a:iÓøà Bğ\020\002Ãøà Óøà \002ğ\020\002zaziÓøà Bğ\002\002Ãøà Óøà0øa\003ğ\002\0039\204»a\027K{`»i{hSø\004\017{`\001ğ©ø{h\005F\030h\001ğ¬ø\026ø\001;xb\añ}\004\001(FÇø0\200{cÇé\n\224\001ğ\217ü^EåÑ\000"\\ \021F\001ğ(ù\\ \001ğaù<7ÕF½F½èğ\217\000P\000R\000D\002X\n\n\t\t\034\200\001\000\021K\002h\232B\000ĞpG\020JpµÒøÔ [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x9b00, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94430, 0x9b00, 25856) = 1, 992, bytes =
+ 80 73 21 90 14 a9 1d 93 10 23 cd f8 0c 80 02 93 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9ee0,3e0:\000(\000ğ\225\200ÿ¾şç_L`NÔøà00FCğ\001\003Äøà0Ôøà0\003ğ\001\003\000\223\000\233Ôøà0Cğ\020\003Äøà0Ôøà0\003ğ\020\003\001\223\001\233Ôøà0Cğ@\003Äøà0Ôøà0\003ğ@\003\002\223\002\233Ôøğ0Cô\200\003Äøğ0Ôøğ0\003ô\200\003\003\223\003\233ÿ÷îşÔøØ0)hCğ\001\003@J0hÄøØ0\221BÔøØ0\003ğ\001\003\004\223\004\233'Ğsj\001;\030¿\001}\003\233\001\000(RÑ;J\006õètX!À6Æø\020!\000" FÄé\001\023Oô\200SOô\200abbcaOô\200sÄé\003!Oô\200BÄé\006}\003Oô\0003}\003b\001ğRù\b³ÿ¾şç3j\001;\030¿\001}\003\233\001\030»\002õ(B\006õ¬tW!(6\f2Æø0!ÕçÓø|"\001:\030¿\001"\222\001X» HW!\003õmt\003õ!uÃø´\003UçÆé D¦c\n°p½Åé D¥c\n°p½\030J\006õ¬tY!(6Æø0!³ç\025J\006õètZ!À6Æø\020!«ç\021HZ!\003ò,D\003õGuÃø,\0042ç\013HY!\003õmt\003õ!uÃø´\003)ç\000¿\004X\001@\004\\\001@\000D\002X\224\202\001\0008\200\001\000(\000\002@\020\000\002@X\000\002@p\000\002@\000\000\000\000-éğO\fhOô\027wyN\207°\004û\a÷\001,\006ë\a\bÀø\000\200\000ó\237\200Oğ\000\t\aõ\022s\rF\216FFø\003\2203DÄFÃø\004\220ÈøP\222h£Óé\000}\003i¡Ñé\000\001 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0x9ee0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94810, 0x9ee0, 24864) = 1, 992, bytes =
+ 00 28 00 f0 95 80 ff be fe e7 5f 4c 60 4e d4 f8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xa2c0,3e0:Î°\004FL"\000!\n¨\006ğÑü "\000!\002¨\006ğÌü¼"\000!\036¨\006ğÇü\002 \002ğ0ú}\003h\001+Oğ\000\003PĞPJ\002%\001\223È ÑjNK!ğ\001\001ÑbÒj\002ğ\001\002\001\222\232iBô@B\232a\233i\003ô@C\001\223\001\233FJ\223i\231\004üÕEI\002}\004\000"\001&\213jOğ\004\b\b'}\003ğ\003\003}\003C\213b\005}\003\026\220\n¨\030\223Oô\2003\020\226\027\224\031\224ÍøT\200\032\227Íé\e"!"Íé\023DÍé\n}\003\002ğîı\000±şç@}\003)F?"Oô\200e\t\223\004\220\002¨\005\227\b\225Íé\0063\003}\003Íé\002}\003\003ğõø\003F¸±şç(J\004%\000\223ğ \221i%KAô@A\221a\222i\002ô@B\000\222ÚjBğ\001\002ÚbÛj\003ğ\001\003\000\223\000\233­çOô\2002Oô\200Q"\224\036¨F\222/\2243\224\006}\0045\221!\227Íø¨\200,\225\037\226}\003\226Íé%1Íé02Íé-3\000"Oô\200qÍé;3Oô@\023C\221\020!Íé>}\003@ò'\022\200}\003)\221}\004\2234\223\f}\003Íé'B " \223+\222\bJ\036\222\003ğÁú\000±şç\002ğ³ùN°½èğ\201\000\004\000X\000H\002X\000D\002X\017\023\017\003-éğA\rF\004F\204°Ñé\000\001\204è\003\000\000ğùü®y\000.5ĞlF\005ğ\227ÿÿ÷\223ø\005ğ\215ı\005ğ\023ÿ+y\000+RÑky\233±¿óO\217¿óo\217;K\000"ÃøP"¿óO\217¿óo\217ZiBô\0002Za¿óO\217¿óo\217\000} [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xa2c0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94bf0, 0xa2c0, 23872) = 1, 992, bytes =
+ ce b0 04 46 4c 22 00 21 0a a8 06 f0 d1 fc 20 22 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xa6a0,3e0:\005ğ\202û\bI\aH\005ğ\210û\aK\032h\n±\000 \b½\006J\000 \032`\b½\000¿ü\204\001\000¼y\001\000ü\214\001\000ô\204\001\000ı¥\000\000 (\fĞ!(\001Ğ\000 pG\tK\030h\232\210\233y\b`\000 \212\200\213qpG\005K\bh±ø\004À\212y\030`\000 £ø\004À\232qpG\2240\001\000 (\fĞ!(\001Ğ\000 pG\tK\030h\232\210\233y\b`\000 \212\200\213qpG\005K\bh±ø\004À\212y\030`\000 £ø\004À\232qpG\2140\001\000\000 pG\020µ\tLÔø\2202Óø\0242\013±\001 \020½\nF\001F F\005ğ"û F½è\020@\005ğ/»\000¿ w\001\000KJ\003h0µ\223B\213°Oğ\000\004Íé\004DÍé\006D\b\224\004ĞFJ\223BIĞ\013°0½DMOôÀRDHÕøà0Cğ\001\003Åøà0Õøà0\003ğ\001\003\000\223\002}\003\000\231\004©Íé\004}\003\n}\003\b\223\000ğ\002ÿOô\000r\000}\003\004©7H\006\224Íé\004}\003\000ğøşÕøØ0"F!FCğ\000cb ÅøØ0ÕøØ0\003ğ\000c\001\223\001\233\000ğ\207ûb \000ğÀû"F!Fc \000ğ\177ûc \000ğ¸û"F!Fe \000ğwûe \000ğ°û\013°0½ MOô@B\004©Õøà0Cğ\002\003Åøà0Õøà0\003ğ\002\003\002\223\002}\003\002\230\032HÍé\004}\003\f}\003\b\223\000ğºşÕøØ0"F!FJ Cğ\000sÅøØ0ÕøØ0\003ğ\000s\003\223\003\233\000ğIûJ \000ğ\202û"F!FK \000ğAûK \000 [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xa6a0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94fd0, 0xa6a0, 22880) = 1, 992, bytes =
+ 05 f0 82 fb 08 49 07 48 05 f0 88 fb 07 4b 1a 68 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xaa80,3f0:\020µ\004L\nF\004H!F\005ğ\eú F\020½\000¿\020­\001\000T\036\001\000\020µ\004L\nF\004H!F\005ğ\rú F\020½\000¿\020­\001\000`\036\001\000\020µ\004L\nF\004H!F\005ğÿù F\020½\000¿\020­\001\000p\036\001\000\004}\003\001H\013\200pGØ0\001\000\020µ\004L\nF\004H!F\005ğëù F\020½\000¿\020­\001\0000\036\001\000RJOğ\032\fÒø\0008Òø\b\b¡ø\000À\e\030\001ÑNHpGÒø\004\030\030\017KJ³ñ OOğ\000\f,¿7000\202ø\003ÀÃó\003l\220p¼ñ\t\017`FOğ\000\f\214¿7000\202ø\005ÀÃó\003\\\020q¼ñ\t\017`FOğ\000\f\214¿7000\202ø\aÀÃó\003L\220q¼ñ\t\017`FOğ\000\f\214¿7000\202ø\tÀÃó\003<\020r¼ñ\t\017`FOğ\000\f\214¿7000\202ø\013ÀÃó\003,\220r¼ñ\t\017`FOğ\000\f\214¿7000\202ø\rÀÃó\003\034\020s¼ñ\t\017`FOğ\000\f\214¿7000\202ø\017ÀOğ\000\f\220s\003ğ\017\000\202ø\023ÀOğ\000\f\003F\t(Oğ\000\000\202ø\025À\224¿0373±ñ OPt\023tOê\021sÁó\003`Oğ\000\f,¿7303\t(\202ø\027À\223t\003FÁó\003P\214¿7303\t(\023u\003FÁó\003@Oğ\000\001\214¿7303\t(Qv\223u\003F\004H\224¿0373\023vpG\000¿\000àñ\037¼0\001\000RJOğ\032\fÒø\0008Òø\b\b¡ø\000À\e\030\001ÑNHpGÒø\004\030\030\017KJ³ñ [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xaa80, 0x400, 0x3f0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b953b0, 0xaa80, 21888) = 1, 1008, bytes =
+ 10 b5 04 4c 0a 46 04 48 21 46 05 f0 1b fa 20 46 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xae70,3e0:\016 +`\222i\002ğ\017\002\212\\\002ğ\037\002Ó@}\003`ÿ÷¼ÿ\020±\001}\004 F8½\004Fÿ÷³ÿ F8½\000¿T5\001\000P5\001\000\000D\002X\\\037\001\000\001K\030hpG\000¿\020¯\001\0008µ\004Fÿ÷öÿ\005Fc\034\002Ğ\004K\ex\034Dÿ÷îÿ@\e BúÓ8½<1\001\000\001K\030h\000\fpG\000\020\000\\\006IOöÿ\f\000\002\005KÊh\000ôà`\002ê\f\002\020C\003CË`pG\000í\000à\000\000ú\005\032KÛhÃó\002}\003\000µÃñ\a\016\003ñ\004\f¾ñ\004\017(¿Oğ\004\016¼ñ\006\017\032Ù£ñ\003\fOğÿ3\003ú\fó"ê\003\002Oğÿ3\000(\003ú\016ó!ê\003\003\003ú\fóCê\002\003Oê\003\023Û²\006Û\aJ\023T]ø\004û\000"\224Féç\000ğ\017\000\004J\023T]ø\004û\000¿\000í\000à\000ä\000à\024í\000à\000(\aÛ\000ğ\037\001\001}\003@\t\002J\213@Bø 0pG\000¿\000á\000à\000(\fÛC\t\001"\000ğ\037\000\004I 3\202@Aø}\003 ¿óO\217¿óo\217pG\000á\000àC\036³ñ\200\177\001Ó\001 pGOğà"\000 \005IOğğ\fSa\a}\003\201ø}\003À\220a\023apG\000¿\000í\000à¿ó_\217\004K\000!Zj"ô\2002ZbÃø\224\020pG\000¿\000í\000à\006K@ğ\001\000Ãø\224\000ZjBô\2002Zb¿óO\217¿óo\217pG\000í\000à\027JCxÂø\2300\001x!³Ch\000µÂø\2340Ãz\220ø\fÀ\e\006\220ø\017àCê\fs\220ø\nÀ\013C\201{CêÌC\220ø [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xae70, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b957a0, 0xae70, 20880) = 1, 992, bytes =
+ 0e 20 2b 60 92 69 02 f0 0f 02 8a 5c 02 f0 1f 02 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xb250,3e0:\200X\002Xğûı¿«ªªª\000\202\000\020\200\b\002@pµ\005Fÿ÷ ş\000-\000ğ©\200+h\004F\220J\220I\213B\030¿\223B\001ñ\030\001\f¿\001"\000"\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\001õVq\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\032¹lJ\223B@ğã\200\002"\000!\205ø5 \205ø4\020\032h"ğ\001\002\032`\005àÿ÷¾ı\003\e\005+AØ+h\032hÑ\aöÔÕé\002}\004)i"C¨i\034h\nCii\nCéi\002C\nC[I!@,j"C\nCij\004)0Ğ\032`Zi"ğ\a\002\021CYa(Fÿ÷\214şêm?}\003\002ğ\037\002\223@\203`(Fÿ÷\003ÿ«h\200+nĞkh¨nÙ²\001;Õé\030B\a+!`P`.Ù\000}\003Åé\e3kg\000}\003\001"ke\030F\205ø5 p½ "\003}\003je\205ø50\001 p½Õé\013A!C\021Cªj\031`Yi!ğ\a\001\021CAğ\004\001\000,ÅĞ\000(JÑ\001}\n_Ğ2ğ\002\002¾Ñâ\001¼Õ@"\001}\003je\205ø50àç}\nhH\0360K0L¢B\030¿\232B\004ñ\024\004\f¿\001}\003\000}\003¢B\b¿Cğ\001\003\0244¢B\b¿Cğ\001\003\0244¢B\b¿Cğ\001\003\0244¢B\b [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xb250, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b95b80, 0xb250, 19888) = 1, 992, bytes =
+ 80 58 02 58 f0 fb fd bf ab aa aa aa 00 82 00 10 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xb630,3e0:oê\t\013Eê\f\005\005`\215h\005ú\aüĞø\b\220}\004\tÍh\tê\013\t\224@\005ú\a÷Gê\t\a\207`Gh'ê\006\0064CD`Äh\004ê\013\004Dê\f\004Ä`\00123ú\002ôyĞ\bú\002ö\026ê\003\töĞLh}\004ğ\020\005\002-²ĞW\000Oğ\003\f\005ñÿ:Ğø\000°\fú\aü\004ğ\003\005ºñ\001\017+ê\f\013\005ú\aõEê\013\005oê\f\013\005`\215h\005ú\aüÀÙÆh\013ê\006\005Eê\f\005Å`å\000ÏÕEN"ğ\003\aOğ\017\fÖøôP\añ°GEğ\002\005\aõ\200gÆøôPÖøôP\002ğ\003\006\005ğ\002\005¶\000\003\225\fú\006ü\003\235½h%ê\f\n7M¨B^Ğ7M¨B-ĞßøØÀ`E\000ğB\201ßøÔÀ`E\000ğD\201ßøÌÀ`E\000ğ1\201ßøÈÀ`E\000ğA\201ßøÀÀ`E\000ğC\201ßø¼À`E\000ğE\201ßø´À`E\f¿Oğ\t\fOğ\n\f\fú\006öJê\006\005\bà\005°½èğ\217Oğ\002\f\fú\006öJê\006\005½`oê\t\006Şø\200Pç\003T¿5@Iê\005\005§\003Îø\200PŞø\204PT¿5@Iê\005\005ç\002Îø\204PŞø\000PT¿5@Iê\005\005¤\002Îø\000PŞø\004PT¿5@Iê\005\005Îø\004PPç\bú\006öJê\006\005Òçßø\f°Oğ°F{à\000\000\002X\000D\002X\000\004\002X\000\b\002X\000\f\002X\000\020\002X\000\024\002X\000\030\002X\000\034\002X\000 \002X\000}\004\002X\fñÿ7OêB\016Ğø\000 \004ğ\003\b\001\227\003'\bú [502 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xb630, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b95f60, 0xb630, 18896) = 1, 992, bytes =
+ 6f ea 09 0b 45 ea 0c 05 05 60 8d 68 05 fa 07 fc ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xba10,3d0:wĞ}\003ğ\003\005\003ğ\003\004\177O\005ñ°Eä\000¸B\tú\004øÕø\bÄ\005õ\200e\bê\f\f'ĞyO¸BnĞxO¸BpĞxO¸BcĞßøà±XE\000ğÑ\200ßøÜ±XE\000ğÒ\200ßøÔ±XE\000ğÂ\200ßøĞ±XE\000ğÍ\200ßøÈ±XE\f¿Oğ\t\013Oğ\n\013\013ú\004ô\002à\001'\aú\004ô¤E\027Ñ¬h}\004ê\b\004¬`Öø\200@}\004ê\016\004Æø\200@Öø\204@}\004ê\016\004Æø\204@4h}\004ê\016\0044`th}\004ê\016\004t`]\000\004hOêÓ\f\nú\005õ\000ë\214\f,C\004`\003ğ\a\004Üø à¤\000\tú\004ô.ê\004\004Ìø @\204h}\004ê\005\004\204`Dh}\004ê\002\002B`Âh"ê\005\002Â`\00131ú\003ò\177ô~¯½èğ\217Oğ\004\013\013ú\004ô¸çOğ\002\013\013ú\004ô³çOğ\003\013\013ú\004ô®ç\000"Oğ\001\f<O\017%Oğ°FOğ\003\016\002ğ\003\003\fú\002ô"ğ\003\bÛ\000\021ê\004\t¸D\005ú\003óAĞØø\b \023ê\n\017\031ÑØø\b }\nê\003\003Èø\b0Öø\2000}\003ê\t\003Æø\2000Öø\2040}\003ê\t\003Æø\20403h}\003ê\t\0033`sh}\003ê\t\003s`OêB\b\003hOêÒ\t\016ú\bø\000ë\211\tCê\b\003\003`\002ğ\a\003Ùø  \233\000\005ú\003ó}\nê\003\003Éø 0\203h}\003ê\b\003\203`Ch}\003ê\004\003C`Ãh}\003ê\b\003Ã`\00121ú\002ó¬Ñ½èğ\217Oğ\a\013\013ú\004ôKç [504 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xba10, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96340, 0xba10, 17904) = 1, 976, bytes =
+ 77 d0 23 f0 03 05 03 f0 03 04 7f 4f 05 f1 b0 45 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xbde0,3d0:\001\001\001(\031`\032a\232h¡h"ô\000B\232`)ĞAô\004A\002(\231`\002ÑOô\000bZ`XhOğ \f\025I"i\001CY`Ùh!ô\000AÙ`Ôé\005\001\002CBê\001"Ôé\a\020Ú`\000"\001C\020F\031`\031hAğ\001\001\031`bd\204øAÀ"c\204øB \020½Aô\000A\231`Ùç\200ø@ ı÷Âú¸ç\001 pG\000¿\000\200\000\002-éøC\230F\220øA0\b\236 +@ğ\204\200\220ø@0\004F\001+~Ğ\001}\003\017F\221F\200ø@0ÿ÷\017ø\005F\004àÿ÷\013ø@\e\031(}]Ø}\003h\230i\020ô\000@õÑ!"Çó\t\aÄø}\004\220\204øA \020"`c\204øB `d¤ø}\n\200b\215\222²ÿ}\ntØb\215EH\222²Yh"\205Ò²\001@Gê\002B\nCBI\021CY`c\215}\nF1F F\233²\000+4Ğÿ÷¯ş\000(YÑaj"h\021ø\001\013}\003\215\220b´ø}\nÀ\001;ab\fñÿ<\233²\037ú\214ü}\003\205¤ø}\nÀa\215\211²\000)ŞĞ\000+ÜÑp\034,Ñ\223i\031\006üÕc\215\233²ÿ+EÙSh F}\nI\013@}\nI;C\031Cÿ}\003}\003\205Q`}\nFc\2151F\233²\000+ÊÑÿ÷Øş(»}\003h !}\003MÙaZh}\n@Z`\204øA\020\204ø@\000\204øB\000\000à\002 ½èø\203F±"h\223i\e\006ÒÔş÷\215ÿC\e\236BõÒcl !\000"\013C\204ø@ cd\204øA\020\204øB \001 ½èø\203Zh\013I\n@\017I:C\021Cÿ" [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xbde0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96710, 0xbde0, 16928) = 1, 976, bytes =
+ 01 01 01 28 19 60 1a 61 9a 68 a1 68 22 f4 00 42 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc1b0,3d0:@\020cd\204øA\000\204øB\020ShCô\000CS`¢ç\000¿\220øA\000pG\000¿\220øA  }\n}\003Ñ_ú\202ü\220ø@ \003F\001}\n\034Ğ\002h}\004 \000µ\203øA\000Oğ\000\016\020h ğ\001\000\020`\020h ô\200P\020`\020h\001CpF\021`\021hAğ\001\001\021`\203øAÀ\203ø@à]ø\004û\002 pG\220øA  }\n"Ñ\003F\000µ_ú\202ş\220ø@ \001}\n\034Ğ\002h}\004 Oğ\000\f\203øA\000\020h ğ\001\000\020`\020h ôp`@ê\001!`F\021`\021hAğ\001\001\021`\203øAà\203ø@À]ø\004û\002 pG\002 ]ø\004ûğµ\213°`³\220ø½3\005F\004h\003ğÿ\002\000+yĞ F\003}\003.F/\035\205ø½3ãklF\023ô\200s\b¿+a\003ğgøVø\020ë´F¼è\017\000\017Ä¼è\017\000\017Ä\234è\003\000\204è\003\000pF\227è\016\000\002ğ»ÿ\004F0±\002}\003\205ø½3\001}\004 F\013°ğ½\001F(h\003ğPøhhX³"FOğ\001\016!FÂëÂ\003\002ñ\001\f\005ë\203\003\203ø< £øB _ú\214ò\203ø=à\202B\203ø?\020\031eÃé\021\021êÓ\000"ÄëÄ\003a\034\005ë\203\003\203øüAÌ²\203øı!\204B\203øÿ!Ãø\020"Ãé\201"íÓlF\017Î\017Ä\017Î\017Ä\226è\003\000\204è\003\000\227è\016\000(h\003ğ,ø\004F\000(µÑ\001"kj\205ø8\000\223B\205ø½}\003\013Ğ(h\003ğxû F\013°ğ½\200ø¼}\003ş÷óù(h\200ç(F\000ğÀùï [500 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xc1b0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96ae0, 0xc1b0, 15952) = 1, 976, bytes =
+ 40 10 63 64 84 f8 41 00 84 f8 42 10 53 68 43 f4 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc580,3d0:8µCh\001ğ\017\005\235B4Ø\013\006\004F\035Ô\034"ÁëÁ\003\002û\001\001\000ë\203\003\000"\001õşq\203øı!\001}\003\rp\213p\224ø¼}\003\232B\034Ğ h\204ø¼3\003ğ\021úÕ±\000}\003\030F\204ø¼38½\034!ÅëÅ\003\001"\001û\005\001\000ë\203\003<1\203ø= \001}\003\rp\213p\224ø¼}\003\232BâÑ\002 8½\001 8½\004õqr!| h\003ğCúİç\000h\022\004Cj\031¹\023C\203b\000 pG0´\0019\204j\003ë\024CkĞĞø\004A\001)\003ë\024CeĞĞø\bA\002)\003ë\024C_ĞĞø\fA\003)\003ë\024CYĞĞø\020A\004)\003ë\024CSĞĞø\024A\005)\003ë\024CMĞĞø\030A\006)\003ë\024CGĞĞø\034A\a)\003ë\024CAĞĞø A\b)\003ë\024C;ĞĞø}\004A\t)\003ë\024C5ĞĞø(A\n)\003ë\024C/ĞĞø,A\013)\003ë\024C)ĞĞø0A\f)\003ë\024C}\003ĞĞø4A\r)\003ë\024C\035ĞĞø8A\016)\003ë\024C\027ĞĞø<A\017)\003ë\024C\021ĞĞø@A\020)\003ë\024C\013Ğ\020}\004\004ñ@\f\0014\000ë\214\f\214BÜø\004P\003ë\025CôÓ@1\032C\000ë\201\003\000 0¼Z`pG\003F\000 \ehYbpG\000¿\003FOğ\000\f\tI\032h`F\020´\001}\004\203øôÃÃøüC\223i]ø\004KCğ\000c\223aSm\031CQepG\003\000\000\0208µ\021KÚhR\a\004ÔÛh\003ğ\a\003\203B\024Ñ\fLãh}\003ğ\a\003\003Cã`ş÷  [496 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xc580, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96eb0, 0xc580, 14976) = 1, 976, bytes =
+ 38 b5 43 68 01 f0 0f 05 9d 42 34 d8 0b 06 04 46 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc950,3d0:\000+7Ğ¦l"h¡h\023h\0019}\003ôpcCê\001}\003\023`\223h\233\006\004Õp\0342Ñ\223h\231\006üÔÔé\aPãh\021h+C\000%\003C`hCê\000c\034H\b@ai\003C\023`£iPh\013C!iCê\001C\030I\001@(F\013CS`\023hCğ\001\003\023`\001}\003ed\204øA0\000}\003\204ø@0p½ F\204ø@ ı÷ùøAò\2103\036F£d¾çş÷hú@\e°B\006Ø.±"h¿ç\001 p½\002 p½\004}\003\001 \204øA0cl\003Ccdİç/ÿÿ\000şøàÿÈ±\020µ\220ø@0\004F\001+\021Ğ\002h\001}\003\200ø@0\023h}\003ğ\001\003\023`ı÷Yù\000}\003cd\030F\204øA0\204ø@0\020½\002 \020½\001 pG\000¿-éøC\004F\017F\026Fş÷-ú\224ø@0\001+3Ğ\001}\003\204ø@0\224øA0\001+_ú\203ø\aĞOğ\002\b\000}\003@F\204ø@0½èø\203\000}\003q\034\201FcdOğ\002\003\204øA0\036Ñ%hªh\022ğ \002ûÑ9F Fÿ÷\202ş{j+±\001}\003\204øA0Oğ\000\bßç«h\232\aüÕ\002"\001}\003ê`\204øA0óçOğ\002\b@F½èø\203%hªh\022ğ \002\017Ğş÷éù ë\t\003\236B\001Ó\000.òÑ\004}\003\204øA0clCğ\001\003cd¼ç9F Fÿ÷Sş{j\000+ÏÑ«h\233\aÕÔş÷Ïù ë\t\003\236BçÓ\000.åĞ%hòç\000¿-éøC\004F\016F\027Fş÷¿ù\224ø@0%h\001+8 [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xc950, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97280, 0xc950, 14000) = 1, 976, bytes =
+ 00 2b 37 d0 a6 6c 22 68 a1 68 13 68 01 39 23 f4 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xcd20,3c0:clCğ\001\003cdäç+F\bàş÷½ø ë\t\003\237BïÓ\000/íĞ}\003h\233h\023ğ\006\017òĞ\225ø  }\003k\032p¢k}\003k\001:\0013¢c¢k}\003c\000}\níÑÕç-éğG\004F\230F\017F\026Fş÷\234ø\224ø@0\001+?Ğ\001}\003\204ø@0\224øA0\001+_ú\203ù\aĞOğ\002\t\000}\003HF\204ø@0½èğ\207\000}\003¸ñÿ?\202FcdOğB\003\204øA0)Ñ%h«h\230\006üÔ3h F2i«bshñhkb³hëb+h}\003ô@\003\023COğ\000bCô\200\003+`¹b9Fÿ÷ßü«h\032\aüÕ\b"\001}\003Oğ\000\tê`\204øA0ÊçOğ\002\tHF½èğ\207%h«h\231\006\020Õş÷Mø ë\n\003\230E\002Ó¸ñ\000\017òÑ\004}\003\204øA0clCğ\001\003cd°ç3h9F2i F«bshkb³hëb+h}\003ô@\003\023CòhCô\200\003+`ºbOğ\000bÿ÷¤ü«h\e\aÄÔş÷}\003ø ë\n\003\230EØÓ¸ñ\000\017ÕĞ%h«h\e\aòÕ¶ç\000¿-éğC\004F\203°\017F\026Fş÷\016ø\224ø@0\001+0Ğ\001}\003\204ø@0\224øA0\001+_ú\203ø\bĞOğ\002\b\000}\003@F\204ø@0\003°½èğ\203\000}\003\201Fcd\202}\003\204øA0£lX\034\eÑ%h«h\231\006üÔ+hrh}\003ğ\b\003\b}\nCê\002\003+`}\004ĞOğ@b9F FOğ\000\bÿ÷VüÙçOğ\002\b@F\003 [496 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xcd20, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97650, 0xcd20, 13024) = 1, 960, bytes =
+ 63 6c 43 f0 01 03 63 64 e4 e7 2b 46 08 e0 fe f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd0e0,3d0:<M+h}\003ğ\031\003\023C+`ı÷Şş\006F\005àı÷Úş\200\e\002(\000ò\231\200+h[\aöÕı÷éşAò\003\003"i\230Bkh\000òğ\200}\003ô|3Cê\0023k`}\003hJç\030+\000ğâ\200)Mâh+h\000}\n\000ğË\200}\003ğ\031\003\023C+`ı÷´ş\006F\004àı÷°ş\200\e\002(oØ+h_\a÷ÕÕç\001ğ\003\001\002)\177ô\003¯\eJ\022h\221\003\177õ}\004¯bh\000}\n\177ô ¯\001 ø½\002ğ\003\002\001}\n\177ô)¯\023K\ehÚ\005\002Õãi\200+ñÑı÷£şAò\003\003\016J\230B!j\000ò±\200Sh}\003ğøCCê\201cS`}\003h5ç\aJ\023hCô\2003\023`éæ\005M+hCô\200s+`ı÷oş\006F\tà\000¿\000D\002X\000H\002Xı÷fş\200\ed(%Ø+hÚ\005÷Õ£h\001+\000ğ \201\000+\000ğû\200\005+\225K\032o\000ğ\036\201"ğ\001\002\032g\032o"ğ\004\002\032gı÷Kş\217NAò\2107\005F\004àı÷Dş@\e¸B\003Ø3o\233\a÷Õ+ç\003 ø½\207MAò\2107+h}\003ô\2003+`+h}\003ô\200}\003+`ı÷.ş\006F\004àı÷}\nş\200\e¸BéØ+h\233\003÷Ô¦æko}\003ğ\001\003kgı÷\035ş\006F\004àı÷\031ş\200\e\002(ØØko\231\a÷Ôãæ+h}\003ô\200S+`ı÷\fş\006F\004àı÷\bş\200\e\002(ÇØ+h\230\004÷Ôëæ+h}\003ğ\200\003+`ı÷ûı\006F\004àı÷÷ı\200\e\002(¶Ø [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xd0e0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97a10, 0xd0e0, 12064) = 1, 976, bytes =
+ 3c 4d 2b 68 23 f0 19 03 13 43 2b 60 fd f7 de fe ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd4b0,3d0:\006î\220:úîéj\002Ğ\002)HĞI³\237í(z\207î'j\023kÃó\b\003\aî\020:÷î\000Z¸îÇz7î&z7î%z'î\006z\035K\ekÃóF}\003\0013\aî\220:øîçjÇî&züîçz\027î\220\n0¼pG\027HpG\027HpG\023HpG\023h\233\006\035Õ\020h÷î\000Z\023k\017IÀóÁ\002Ãó\b\003Ñ@\aî\020:\006î\020\032¸îÇz¸îÆjwî&j\206î'zvî¥z'î'zÊç\237í\az¶ç\237í\az³ç\000D\002X\000\220Ğ\003\000}\004tJ\000}\004ô\000\000\t=\000\000}\004tK\000}\004tL\000(\000ğ\004\201\210J\023h\003ğ\017\003\213B-éğA\004F\rF\fÒ\023h}\003ğ\017\003\013C\023`\023h\003ğ\017\003\213B\002Ğ\001 ½èğ\201}\003hX\a\013Õ|I i\212i\002ğp\002\220B\004Ù\212i"ğp\002\002C\212a\031\a\013ÕuI`iÊi\002ğp\002\220B\004ÙÊi"ğp\002\002CÊaÚ\006\013ÕnI iÊi\002ôàb\220B\004ÙÊi"ôàb\002CÊa\237\006\013ÕgIài\nj\002ğp\002\220B\004Ù\nj"ğp\002\002C\nb\236\a\003ğ\001\002@ñ¡\200^Nàh±i\001ğ\017\001\210B\004Ù±i!ğ\017\001\001C±a\000}\n0ĞWJ¡h\223i}\003ôpc\013C\223aah\023h\002)\000ğ\227\200\003)\000ğ\216\200\001)\000ğ\227\200_\a\234ÕMNAò\21083i}\003ğ\a\003\013C3aı÷\026ü\aF\005àı÷\022üÀ\e@E\000ò\201\2003ibh\003ğ8\003³ëÂ [501 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xd4b0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97de0, 0xd4b0, 11088) = 1, 976, bytes =
+ 06 ee 90 3a fa ee e9 6a 02 d0 02 29 48 d0 49 b3 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd880,3c0:ãjß±\001/\f¿Cô\200\023Cô\000\023ãb\fL}\003hCğ\200c}\003`ı÷\006û\005F\004àı÷\002û@\e\002(\004Ø}\003h\e\001÷Õ\000 ø½\003 ø½Cô\000}\003ãbæç\000D\002Xøµ6L\006F\017F}\003h}\003ğ\200S}\003`ı÷èú\005F\004àı÷äú@\e\002(VØ}\003h\232\000÷Ô£j2h}\003ğ|sCê\002S£bÖé\0022\001;\001:[\002\022\004\233²\002ôş\002\023Crh\001:Âó\b\002\023C2i\001:\022\006\002ğşB\023C}\003dãjri}\003ô@c\023Cãbãj²i}\003ô\000s\023Cãbãj}\003ô\200sãbclòioóÏ\003CêÂ\003cdãjCô\200sãbãjß±\001/\f¿Cô\000\003Cğ\200sãb\fL}\003hCğ\200S}\003`ı÷\226ú\005F\004àı÷\222ú@\e\002(\004Ø}\003h\233\000÷Õ\000 ø½\003 ø½Cô\200\003ãbæç\000D\002X-éøC\003h\004F\023ğ\000f}\003ĞBn²õ\000\037\000ğ\026\205\000òı\205\000}\n\000ğ}\n\205²õ\200\037@ğú\205¢J\222j\002ğ\003\002\003}\n\000ğó\205\002!\0040ÿ÷\000ÿ\006F}\003h>¹bn\232H\000&\001m!ô@\021\nC\002eİ\005\nÕbm\004}\n\006Øßè\022ğk\003³\004\237\004p\003p\003\001&5F\230\005"Õ¢m\200}\n\000ğ~\204\000ò¿\205\000}\n\000ğ¯\204@}\n@ğÀ\205\211J\222j\002ğ\003\002\003}\n\000ğ¹\205\000! \035ÿ÷Îş}\003h\005F\000-@ğw\204\201I m [509 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xd880, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b981b0, 0xd880, 10112) = 1, 960, bytes =
+ e3 6a df b1 01 2f 0c bf 43 f4 80 13 43 f4 00 13 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xdc40,3d0:\001&5FØ\001\024Õbl\003}\n\000òã\204ßè\022ğ\013\000\006\000\013\003\013\000\000D\002X5IÊjBô\0002Êb\000-\000ğ\216\202.FY\002\000ñô\201ß\a/Õ¢o(}\n}\nØßè\022ğÑ\001)\000)\000)\000)\000)\000)\000)\000Ä\001)\000)\000)\000)\000)\000)\000)\000\025\004)\000)\000)\000)\000)\000)\000)\000Ñ\001)\000)\000)\000)\000)\000)\000)\000Ñ\001)\000)\000)\000)\000)\000)\000)\000Ñ\001\001&5F\230\a\034Õbo\005}\n\000ò\217\204ßè\022ğ\023\000\006\000Ğ\003\023\000\023\000\023\000\017J\222j\002ğ\003\002\003}\n\000ğ\200\204\001! \035ÿ÷mı}\003h\005F\000-\000ğM\202.FY\a\037ÕÔø\220 \005}\n\000òs\204ßè\022ğ\025\000\b\000\236\003\025\000\025\000\025\000\000D\002X©J\222j\002ğ\003\002\003}\n\000ğb\204\001! \035ÿ÷Kı}\003h\005F\000-\000ğ"\202.F\232\006}\004ÕÔø\214 ²ñ\000_\000ğ\\\202\000ò¾\203\202±²ñ\200_@ğÃ\203\231J\222j\002ğ\003\002\003}\n\000ğ¼\203\000! \035ÿ÷+ı}\003h\005F\000-@ğ\031\202\221IÔø\214\000Jm"ğàB\002CJe_\006}\004ÕÔø\230 ²õ\000o\000ğF\202\000òÀ\203\202±²õ\200o@ğÅ\203\206J\222j\002ğ\003\002\003}\n\000ğ¾\203\000! \035ÿ÷\004ı}\003h\005F\000-@ğğ\201~IÔø\230\000\212m"ôàR\002C\212e\030\006}\004ÕÔø\234 ²õ\200O\000ğı\201\000òc\203\202±²õ\000_@ğh\203rJ\222j\002ğ\003\002\003}\n\000ğ [508 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xdc40, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b98570, 0xdc40, 9152) = 1, 976, bytes =
+ 01 26 35 46 d8 01 14 d5 62 6c 03 2a 00 f2 e3 84 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe010,3c0:\222j\002ğ\003\002\003}\n?ô^®\001! \035ÿ÷âû}\003h\005F\000-@ğ·\200\227I oJm"ğ8\002\002CJeNæ\223IÊjBô\0002Êb\000-@ğ\233\200\217IÔø\204\000Jm"ô@\022\002CJeFç\213O;hCô\200s;`ü÷\037ÿ\200F\006àü÷\eÿ ë\b\000d(\000ò­\202;hÚ\005õÕ\000-@ğ¨\202\177JÔø°0\021oY@\021ô@\177\013Ğ\021o\020o!ô@q@ô\2000\020g\020o ô\2000\020g\021g³õ\200\177\000ğ±\202\003ô@r²õ@\177\000ğ¿\202pI\ni"ô|R\nanJÃó\013\003\021o\013C\023g}\003hÊåjIÊjBô\0002Êb5F\000-@ğ<\201eI`m\nm"ğ\a\002\002C\ne\212äaJ\222j\002ğ\003\002\003}\n\bĞ\002!\004ñ}\004\000ÿ÷×û}\003h\000(?ô¯®\001&¬æYJ\222j\002ğ\003\002\003}\n\bĞ\002!\004ñ}\004\000ÿ÷Æû}\003h\000(?ô\220®\001&\215æPHÁjAô\0001Áb\000-\177ô?¯LM0\036im\030¿\001 !ô@q\nCjeôæGIÊjBô\0002Êb\000-?ôÑ®.FÕæ.F_å.F²æ.FØä?I`lÊl"ğ\003\002\002CÊdjå.F\235å:IÔø\220\000\212m"ğ\a\002\002C\212eÕå6I`oJm"ğ\a\002\002CJe«å.F\aå.F,å.F\025æ.Fìå.F8æ.Fwæ\000}\n\177ôû®·ç}\nJ\222j\002ğ\003\002\003}\n\000ğ¤\201\001!\004ñ}\004\000ÿ÷ [510 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xe010, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b98940, 0xe010, 8176) = 1, 960, bytes =
+ 92 6a 02 f0 03 02 03 2a 3f f4 5e ae 01 21 20 1d ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe3d0,3d0:Ì\200\000!\004ñ}\004\000ÿ÷vú\005F}\003h\000-?ô\211«.Fÿ÷\216»mJ\222j\002ğ\003\002\003}\n\000ğæ\200\002!}\0040ÿ÷cú\006Fÿ÷ñºfIÊjBô\0002Êb\000-?ôG«.Fÿ÷L»aHÁjAô\0001Ábÿ÷âº]IÊjBô\0002Êbÿ÷\\»ZJ\222j\002ğ\003\002\003}\n\000ğ©\200\000!\004ñ}\004\000ÿ÷;ú}\003h\005Fÿ÷}\003»RIÊjBô\0002Êbÿ÷\210»NJ\222j\002ğ\003\002\003}\n\000ğÌ\200\001!\004ñ}\004\000ÿ÷}\004ú\005F}\003h\000-\177ôi¬\211æEJ\222j\002ğ\003\002\003}\n\000ğ¶\200\001!\004ñ}\004\000ÿ÷\022ú\005F}\003h\000-\177ô5¬\200æ<J\222j\002ğ\003\002\003}\n?ô\r¬\001!\004ñ}\004\000ÿ÷\000ú\005F}\003h\000-\177ôe®¬å"ô\000Q±õ\000O?ô©¬²õÀO?ô¥¬\001&5F¬ä"ğ\200Q±ñ\200O?ôN¬²ñ@_?ôJ¬\001&5FQä"ô\2001±õ\200/?ôW«²õ@??ôS«\001&5Fÿ÷Y»"ğ\200Q±ñ\200O?ôo«²ñ@_?ôk«\001&5Fÿ÷r»"ô\200a±õ\200_?ôL¬²õ@o?ôH¬\001&5FOä²ñ@\177?ôÈª²ñ\200o?ôÄª\001&5Fÿ÷Ëº²õ@_?ôÿª²õ\200O?ôûª\001&5Fÿ÷\001»²õÀ\017?ô\207ª²õ\000\017?ô\203ª\001&5Fÿ÷\212º\000¿\000D\002XÀ}\n?ôQª²õ\200\177 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xe3d0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b98d00, 0xe3d0, 7216) = 1, 976, bytes =
+ cc 80 00 21 04 f1 24 00 ff f7 76 fa 05 46 23 68 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe7a0,3e0:GJp´\224j\225jÖj\025ğ|\177Åó\005SQl[ĞÁóÌ\001\006ô\200v\004ğ\003\004\aî\220:\006û\001ñ\001,¸îçz\006î\220\032úîéj\003Ğ\002,jĞ\000,JĞßí8z\207î\207j\023lÃó\b\003\aî\220:÷î\000Zøîçzwî¦zwî¥zgî\206z-J·î\000j\023lÃóF}\003\aî\020:¸îÇzp¼7î\006zÇî\207jüîæjÀí\000j\023lÃó\006C\aî\020:¸îÇz7î\006zÇî\207jüîæjÀí\001j\023lÃó\006c\006î\220:øîæjvî\206j\207î¦züîÇz\027î\220:\203`pGp¼Àé\0003\203`pG\023h\233\006\035Õ\024h÷î\000Z\023l\020IÄóÁ\002Ãó\b\003Ñ@\aî\220:\006î\020\032øîçz¸îÆjwî¦jÆî\az6î¥zgî\207z©çßí\005z\225çßí\005z\222ç\000D\002X\000}\004tJ\000\220Ğ\003\000}\004tK\000}\004tLGJp´\224j\225jÖj\025ô|\177Åó\005\023Qk[ĞÁóÌ\001\006ğ\001\006\004ğ\003\004\aî\220:\006û\001ñ\001,¸îçz\006î\220\032úîéj\003Ğ\002,jĞ\000,JĞßí8z\207î\207j\023kÃó\b\003\aî\220:÷î\000Zøîçzwî¦zwî¥zgî\206z-J·î\000j\023kÃóF}\003\aî\020:¸îÇzp¼7î\006zÇî\207jüîæjÀí\000j\023kÃó\006C\aî\020:¸îÇz7î\006zÇî\207jüîæjÀí\001j\023kÃó\006c\006î\220:øîæjvî [505 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xe7a0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b990d0, 0xe7a0, 6240) = 1, 992, bytes =
+ 47 4a 70 b4 94 6a 95 6a d6 6a 15 f0 7c 7f c5 f3 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xeb80,3e0:T5\001\000\000(\000ğ\204\201øµ\005Fü÷¥ù\225ø80)h\001+§K\024Ğ\231B}\004Ğ 3\231B!Ğ¤K\231BcĞ 3\231B`Ğ\003õxs\231B\003Ğ 3\231B@ğ}\004\201\236L\022à\231B\005Ğ\003ñÀS£õ\2023\231BFÑkh\001+CÑkl\000+@Ñ\224K\231B@ğ\017\201\225L\225ø\2210\003ğÿ\002\000+DĞ\223K\223J\eh¢û\003}\003\nh\e\013"ô\2002\233\000\n`\e³\nh\001;\022ô\2002ùÑ\002}\003\205ø\2210ëh\001+ Ğ\002+\013¿  \000 Oğ!\fOğ\001\f\013¿"'\002'}\003&\003&«h\001;\004+\000òX\201ßè\023ğ}\003\001"\000}\n\001!\000&\001Õø\2240Cğ@\003Åø\2240\001 ø½Oğ\021\f\022'\023&\020 åç\225ø\2210uL\003ğÿ\002\000+ºÑ(F\205ø\220 û÷§ø)h³ç8FOô\000f+j `\000+@ĞeK\231B\000ğ\026\201 3\231B\000ğ\022\201bK\231B\000ğ\a\201 3\231B\000ğ\003\201dK\231B\000ğø\200 3\231B\000ğô\200aK\231B\000ğ\005\201`K\231B\000ğ\b\201«i\002ë\202\002)j³õ\000/OêB\002\000ğÜ\200«j³ñ\200o\024¿\001}\003\002}\003\001û\003ó\e\002²ûóóUJ¢û\003\022Ò\b\002ë\202\001£ëA\003\t+\b¿\0012jbkh/m3ğ\002\003@ğ«\200\001?\030¿\001'\177\002ü÷Ñøil°õ\000_Õé\0002Bê\001\002©lBê\001\002élBê\001\002éjBê\001\002iiBê\001\002Àğ\210\200©i\030h\nC©j [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xeb80, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b994b0, 0xeb80, 5248) = 1, 992, bytes =
+ 54 35 01 00 00 28 00 f0 84 81 f8 b5 05 46 fc f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xef60,3d0:\204fDh4ğ\002\004\024¿\001}\004\000}\004\004eOô\2004ÄeOöÿtDg\023ğ\001\004çÑM\036\001-!ØDfOô\0004\004f\003}\nŞØßè\002ğ.H8}\004à![\001\200"\201dCeÂf0¼ÿ÷ë½À!õç\200"[\001\202dCeÂfôç\200!\e\001@"\201dCeÂfíçOô\200!Àé\030A\003}\n¼Øßè\002ğ\f85\002[\bà}\004\232\001\200![\001\204dÁfÀé\025}\003Ùç[\b\200}\004@!Z\001\204d\e\001ÁfÀé\025}\003Ïç[\bÀ"\200%\002)Oê\203\024\202dOêC\023ÅfDe\203eÂÑ\b}\003\203f¿ç[\b\200"\002)Oê\203\024\202dOêC\023ÂfÀé\025C³Ñ\020}\003\203f°ç[\bÀ}\004Ëç[\b\200"\231\001\202d[\001ÂfÀé\025\023¤ç\000¿\030³8µ\220ø,0\004F\rF\003ğÿ\002³±!F\002}\003\204ø,0Qø\004\013\000ğQøbh)F h\000ğ\202ø\bJ\001!\000 \023hCğ\000C\023`\204ø,\0208½\200ø- ù÷8ıãç\001 pG\000¿\000@\000Rpµ\220ø,0\005F\002+Ø²\004Ğ\000ğû\004\001,\001Ğ\001 p½\002}\003\016F(h\205ø,0\000ğ\230ø3h\002+\003Ğ\205ø,@\000 p½\005}\003\205ø,0ùç\000¿8µ\220ø,0\004F\002+Ø²\005Ğ\224ø,0\001+İ²\001Ğ\001 8½\002}\003 h\204ø,0\000ğ\214ø\000 \204ø,P8½-éğAÑé\a>Ñé\000\202OjCê\016\003Ñé\002ÆÑé\004T\211i¸ñ\000\017\017 [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xef60, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b99890, 0xef60, 4256) = 1, 976, bytes =
+ 84 66 44 68 34 f0 02 04 14 bf 01 24 00 24 04 65 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xf330,3d0:´ç\000}\003\fJ\001\223Üø\0200Cğ\001\003Ìø\0200\004àÜø\020\000\020ğ\001\000ËĞ\001\233\0013\223B\001\223õÙÄçÃhCô\200\023Ã`\214ç\000¿@\r\003\000\003F\000 \232hBğ\001\002\232`pG\000¿\003F\000 \232h"ğ\001\002\232`pG\000¿\bµÃh\001)}\003ğÀCÃ`\013ĞA¹ÃhCğ\200CÃ`2 û÷\207ı\000 \b½\001 \b½ÃhCğ\000SÃ`óç\204°\204F-éğA\202°\t¬\f\235\204è\016\000\000}\003\023\234\nFÀø\0041Àø\b1Àø\f1Àø\0201Àø\0241Àø\0301Àø\0341Àø 1Àø}\0041Àø(1Àø,1Àø01Àø41Àø81Àø<1\203k\000,@ğ¹\200}\003ô\000\023\203c\003hCğ@\003\003`\003hCğ\200\003\003`\000}\003\fõ\000aÌø\000>Üø\0008Ìø\0008\016\233\001+\000ğ³\200Üø\0008Cğ\003\003Ìø\0008\000}\003]N\000\223Oô\204cÌø\0200\004àÜø\020\000\020ğ \000\005Ğ\000\233\0013³B\000\223õÙ\001 \000}\003SN\001\223\020}\003Ìø\0200\003àÜø\0200Û\006\005Õ\001\233\0013³B\001\223öÙ\001 \000&\016aNaÎa\002³Üø\000y\fõ\020c¶F\000/\024Û\000&\036`Oğ\000\bOö\1777\016ñ\001\016Ãø\020\200\237` 3\226E:Ğ\036h\000.îÚOğ\220F\036`ğçOğ\000fÌø\000içç\013i\001-}\003ô\200s\013aNĞ\000}\003Ìø\0300oğ\200CÌø\0240-¹Üø\0300Cğ\020\003Ìø\0300Üø\030 .K\023C\017\232 [498 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xf330, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b99c60, 0xf330, 3280) = 1, 976, bytes =
+ b4 e7 00 23 0c 4a 01 93 dc f8 10 30 43 f0 01 03 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xf700,3d0:\020[oóÜEÌø\020[\215h\223³+DuN\001}\n\003ñÿ3³ûõó\006êÃF\233²\005û\003óŞø\020PEê\006\005Ãó\022\003Îø\020PŞø\020PCê\005\003Îø\0200'Ğ\001,\fÑĞø\b8\023ô\200\177Üø\000;\f¿Cğ\000SCğ\200SÌø\000;Üø\000;Cğ\004CÌø\000;\000 ½èğ\203Şø\0200Åó\022\005\001}\nEê\003\005Îø\020PŞø\0200Cô\000}\003Îø\0200×ÑËh\000+ÔĞÎø\0240Ñç\fõ\020e\000+6Ñ.i\001}\noóÜF.a.iFô\000&.a.ioó\022\006.alĞÜø\000Y\001,Eğ\004EÌø\000YÌÑĞø\bH\024ô\200\177Üø\000I\f¿Dğ\000TDğ\200TÌø\000I\000}\n½Ñ\233²\0033\232\b¹ĞËh\000ë\016>\003ë\202\001\016õ\200^Sø\004+\213BÎø\000 ùÑ«ç/i\001,Ñø\b\220oó\022\a\të\003\b/a\bñÿ8/i¸ûùøoóÜG/a+O\aêÈGÕø\020\200Gê\b\a/aÃó\022\aÕø\020\200Gê\b\a/a\021Ğ\001}\n?ĞÜø\0009\016ğ\017\016Cğ\004C\006ú\016öÌø\0009Ğø48\036CÀø4hxç,i\001}\n}\004ğÀD,a,iDğ\000T,a\024ĞÜø\000IDğ\004DÌø\000I\232ç\013i\003±ka\001,\013ĞÜø\0009\000 Cğ\004CÌø\0009½èğ\203\013i\003±kaĞø\b8\023ô\200\177Üø\0009\f¿Cğ\000SCğ\200SÌø\0009åç\013i\000+âĞkaàç\000¿\000\000ø\037K [503 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xf700, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a030, 0xf700, 2304) = 1, 976, bytes =
+ 10 5b 6f f3 dc 45 cc f8 10 5b 8d 68 93 b3 2b 44 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xfad0,3e0:\000 0¼pG\000¿\n0TOĞø\2242\203±\020µĞø\220B\224ø\000\002ÿ(\aĞ\233h!F\224ø\001"\230Gÿ}\003\204ø\0002\000 \020½\000 pG\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000\2101\001\000\0202\001\000\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000Ì1\001\000\0202\001\000\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000D1\001\000\0202\001\000\003F\n"\001H\032\200pG\000¿´2\001\0008µ\004FĞø\220Rú÷FÿÔø\2202Åø\f\002K±Ôø\2242\005õ\003qÕø\004\002Ûh\230G\000 8½\002 8½\000¿8µĞø\220Bô±\001ë\201\fĞø\230R\000ë\214\fÜø\0340}\003¹\000}\003Äø\0242\000 8½ÁëÁ\002\005ë\202\005jl³ûòõ\002û\0253\000+ïÑ\032FÌø\0340ú÷úşìç\002 8½\000¿pµ\000}\003\202°\fF\005F\215ø\0050­ø\0060\013xĞø\220b\023ğ`\002\032Ğ }\n\006Ğ(F!F\000ğAù\002 \002°p½Ê\210\221ø\001Àò±\e\0062ÕÕø\22421F`F\233h\230Gâ\2101F(F\000ğaù\025àKx\n+\031Ğ\013+\022Ğ\000+ßÑ\220øt2\003+ÛÑ\002"\rñ\006\001\000ğPù\004àĞø\2242`F\233h\230G\000 Óç\220øt2\003+ùĞÉç\220øt2\003+ÅÑ\001"\rñ\005\001\000ğ:ùîç1F\206ø\000Â\206ø\001"\000ğ@ùæç\000¿8µ\004F\000%\201!ú [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7957b80, 0xfad0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a400, 0xfad0, 1328) = 1, 992, bytes =
+ 00 20 30 bc 70 47 00 bf 0a 30 54 4f d0 f8 94 32 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xfeb0,150:\200!ú÷\217ı\000! F½è\020@ú÷\211½\000¿\b³pµ\003x\016F\005F\024Fã±\0010\000ğeÿC\034Û²\0013[\000Ú²}\003\200\003}\0032psp,xd±(F\002}\003\000!Z\034ôT\0023Ò²Û²±T\020ø\001O\000,õÑp½pG\002"\023Fçç\000¿\020µ\023F\002}\004\nF\000!ÀølBÀé\a3ú÷aı\000 \020½\000¿\020µ\023F\003}\004\nF\000!ÀølBÀéR3ú÷_ı\000 \020½\000¿\fJ\202°\fKÒøÜ\020Ağ@\001ÂøÜ\020ÒøÜ \002ğ@\002\001\222\001\232\032h"ğ \002\032`\032hBğ\004\002\032`\002°pG\000¿\000D\002X\000\030\002H-éğC\000"\211°\eK\001!\rñ\004\f\236F\032K\a\221áFàFgF\016ñ\034\006\016ñ8\005\016ñT\004Íé\001"Íé\003"Íé\005"ÿ"\032p¼è\017\000®è\017\000\234è\a\000\216è\a\000¹è\017\000\017Æ\234è\a\000\206è\a\000¸è\017\000\017Å\234è\a\000\205è\a\000\017Ï\017Ä\234è\a\000\204è\a\000\t°½èğ\203\000¿#ca
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7a4d350, 0xfeb0, 0x150, 0x150) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a7e0, 0xfeb0, 336) = 1, 336, bytes =
+ 80 21 fa f7 8f fd 00 21 20 46 bd e8 10 40 fa f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a930, 0x10000, 7680) = -1, 0
+-> extended-remote->supports_terminal_ours (...)
+<- extended-remote->supports_terminal_ours () = false
+blackmagic.gdb:14: Error in sourced command file:
+Load failed
+-> extended-remote->log_command (...)
+<- extended-remote->log_command (load)
+-> extended-remote->load (...)
+Loading section .init, size 0xc lma 0x8000
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8000,c:øµ\000¿ø¼\b¼\236FpG#68
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f79c1b40, 0x8000, 0xc, 0xc) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7a688a0, 0x8000, 12) = 1, 12, bytes =
+ f8 b5 00 bf f8 bc 08 bc 9e 46 70 47
+Loading section .text, size 0x9df0 lma 0x8010
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8010,3d0:\bµ\006K\004F\023±\000!\bğ'ÿ\004K\eh\003±\230G F\tğèşm\016\001\000@Ë\001\000\006K0 \003!Oğ~RÃé\002\001\000 \000!\032aZaÃé\006\001pGPv\001\0008µ\aM\aL}\nF\aH!F\bğÂû}\nF!F\005H½è8@\bğ»»\000¿@0\001\0005\215\000\000\214v\001\000\210v\001\000\004K\020"\032t\203øè \203øÀ!\203ø\230"pG\\|\001\000\bK\032\035\230\035\003ñ\b\001\020´\234\034\232f\003ñ\n\002Ãé\0304Ãé\e\001]ø\004KZgpGÀ\177\001\000\003H\000}\003\003J\004I\003`\bğ\213»\000¿ğ\204\001\000@0\001\000µ¢\000\000WI\b"\002}\003WH\237íS{ğ´VMÁø\224&Áø4(JaÁø´!ÁøT}\003Áøô}\004\001õ\004bPLÁø¤6ÁøD8KbÁøÄ1Áød3Áø\0045«xJO}\003rcqJN;r3r\002í\002{}\n\210â\200¤ø\003 FLú\200â\200}\003rELò\200â\200}\003r\001õ d\201íÖ{\201í\006{\201ín{\001õÔa\004í\002{\001í\002{=L)hÂ\200\003r ø\003 Cq;Hâ\200}\003rÂ\200:L\003r\b\f!\200 p¤ø\003 cqâ\200}\003r6L6M!\200 p¤ø\003 cqâ\200}\003r3L¥ø\003 !\200 p¤ø\003 cqâ\200}\003r/Lkq!\200ê\200+r p¤ø\003 cqâ\200}\003r+L!\200 p¤ø\003 cqâ\200}\003r(L!\200 p¤ø\003 cqâ\200}\003r%L!\200 p [503 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x8010, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b92940, 0x8010, 32752) = 1, 976, bytes =
+ 08 b5 06 4b 04 46 13 b1 00 21 08 f0 27 ff 04 4b ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X83e0,3e0:ZqÙ\200\032r"K\030\200£ø\003\020ZqÙ\200\032r\203ø\002À\036K\030\200£ø\003\020ZqÙ\200\032r\203ø\002À\eK\030\200£ø\003\020\032HZqÙ\200\032r\203ø\002À\030K ø\003\020BqÁ\200\002r£ø\003\020ZqÙ\200\032r0¼pG\001\000\000\000\000\000\000\000Ğº\001\000L5\001\000@5\001\00045\001\000\0345\001\000\0045\001\000(5\001\000Àº\001\000\0205\001\000ì4\001\000ø4\001\000à4\001\000´º\001\000¨º\001\000\234º\001\000Ô4\001\000È4\001\000\020µ\005L}\003x3¹\004K\023±\004H¯ó\000\200\001}\003}\003p\020½¸u\001\000\000\000\000\000¬\037\001\000\bµ\003K\e±\003I\003H¯ó\000\200\b½\000\000\000\000¼u\001\000¬\037\001\000£õ\200:pG\000¿\025K\000+\b¿\021K\235Fÿ÷õÿ\000!\213F\017F\021H\022J\022\032\bğÃû\fK\000+\000Ğ\230G\013K\000+\000Ğ\230G\000 \000!\004\000\r\000\013H\bğuù\bğ\020ü \000)\000\000ğ}\004øÿ÷|ı\000\000\b\000\000\000\000\000\000\000\000\000\000\000\000\000¸u\001\000èÌ\001\000u\r\001\000pG\000\000\bµ\005H\000}\003\003`Ca\003bÃc\003J\003I\bğMù\b½Ôu\001\000@0\001\0005\205\000\000\bµ\000!\005H\000ğËø\000 \000ğJü\003H\000ğãû\000 \b½\000¿Ôu\001\000\f\036\001\000\bµÿ÷Ùÿ\b½\020µ@ò\0031\216°\000}\004Oö\013s@ò\003B­ø\b\020\002\231\t¨­ø\0200­ø}\0040\001}\003­ø\f "F\000\224\a\224\f\224Íé\005DÍé\nD\000ğÌü\004¨\001}\003"F\003\231 [508 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x83e0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b92d10, 0x83e0, 31776) = 1, 992, bytes =
+ 5a 71 d9 80 1a 72 22 4b 18 80 a3 f8 03 10 5a 71 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X87c0,3d0:\001ğ>ù×ç\000¿\005\a\005\006\005\b\005\t\020µ\204°\003F\001}\004\003¨­ø\f0­ø\016@\000ğßü!F\003¨\000ğ¹ı F\001ğbı\000!\003¨\000ğ²ı F\001ğ[ı!F\003¨\000ğ«ı\004°\020½\000¿\020µÂó\000}\003\204°\fF\001|\215ø\r CêD\002ú}\004\002}\003\215ø\f \003ª\000\224\000ğvÿ\030±\001}\004 F\004°\020½\004F\n \001ğ9ı F\004°\020½\003FpµCø\004+\004F\204°ú%\aÉ\203è\a\000¡y\036}\003\000\225\003ª\0321­ø\f0 F\002}\003É²!t\000ğSÿ\020±\001 \004°p½\n \001ğ\030ıOô¸R\000\225\002}\003­ø\f  F\003ª!|\000ğAÿ\000(ìÑ\n \001ğ\bıAò\002r\000\225\002}\003­ø\f  F\003ª!|\000ğ1ÿ\000(ÜÑ\n \001ğøü\004"\000\225\002}\003­ø\f  F\003ª!|\000ğ"ÿ\000(ÍÑ\n \001ğéü\006"\000\225\002}\003­ø\f  F\003ª!|\000ğ\023ÿ\000(¾Ñ\n \001ğÚüAò\b"\000\225\002}\003­ø\f  F\003ª!|\000ğ\003ÿ\000(®Ñ\n \n&\001ğÉü\000\225\002}\003\003ª!| F­ø\f`\000ğôş\000(\237Ñ0F\001ğ»ü}\003y\f"\000\225\000+!|\215ø\f  F\024¿b}\003B}\003jD\215ø\r0\002}\003\000ğŞş\000(\211Ñ0F\001ğ¥ü£h\000\225 Fâh!|\023C"yÛ²\202ğ\001\002Cê\202\023byRB\002ğ \002\023C\016"\215ø\r0\002}\003\215ø\f \003ª\000ğ¿ş\000 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x87c0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b930f0, 0x87c0, 30784) = 1, 976, bytes =
+ 01 f0 3e f9 d7 e7 00 bf 05 07 05 06 05 08 05 09 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8b90,3e0:\002ğ\b\002\003\222\003\232Óøà Bô\200rÃøà Óøà \002ô\200r\004\222\004\232Óøà Bğ\200\002Ãøà Óøà \002ğ\200\002\005\222\005\232Óøà Bğ \002Ãøà Óøà \002ğ \002\006\222\006\232Óøà Bğ\004\002Ãøà Oö\203rÓøà0\013\226\003ğ\004\003\f\225\a\223\002}\003\a\231\b©Íé\b}\003\002ğàüHò7\023\b©}\003H\b\223\f\225\t\227Íé\nF\002ğÕüLò\003s\b©\036H\b\223Íé\ttÍé\013e\002ğÊü@òÿc\b©\032H\b\223Íé\ttÍé\013e\002ğ¿üOö\fs\b©\025H\b\223Íé\ttÍé\013e\002ğ´üOö?\003\b©\021H\b\223Íé\ttÍé\013e\002ğ©ü }\003\b©\013H\t\227\f\225\b\223Íé\nF\002ğ\237ü\017°ğ½\000¿\024v\001\000\000D\002X\000\020\002X\000\030\002X\000\f\002X\000 \002X\000\034\002X\000\024\002X0µ\030L\025F\205°\004`\004ñ\b\016ìF\017É\216è\017\000Ôí\004zõîÀz\214è\017\000ñî\020ú\032İ·î\000j\224í\005z'î'zÆî'j\204í\rzÄí\fjm± F@ø\030_\001ğÆú\006I\003i\000 \006J!b¢bã`\005°0½\001 \005°0½Pv\001\000¸U\001\000¸5\001\000\000h\b0pG\000¿\000h\0300\001ğ®ºpG\000¿\017´ğµ\203°,L,N\b« hSø\004+Àñ\200\0010D\001\223\ağ\177ÿ}\003hÀ\030'Ğ2\030\000à ³\022ø\001=\001F\0018\r+\030¿\n+öĞ\215\034\177-3ÙBò}\004B\200}\003 [509 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x8b90, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b934c0, 0x8b90, 29808) = 1, 992, bytes =
+ 02 f0 08 02 03 92 03 9a d3 f8 e0 20 42 f4 80 72 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8f70,3e0:\001}\003/Ğ\220ø\001à\204F¾ñ\017\017)Ø\002}\n9Ğ\003}\n\004Ğ¢ñ\001\002²ú\202òR\t\001+\016\222\005Ğ£ñ\002\003³ú\203ó[\t[\000\002,\017\223\006Ğ\003,\004Ğ¤ñ\001\004´ú\204ôd\t\n)\020\224\fÙ\000}\003\030FÌø\0200\001}\003\r©\003ú\016ó\r\223\002ğüú\022°\020½[KJ\036\003ë\201}\003Ìø\0200\t}\n\000ò\237\200ßè\002ğ\216\177paRC4%\026\a\021"ÊçSKTHÓøà Bô\200bÃøà Óøà0\003ô\200c\f\223\f\233ÕçLKMHÓøà Bô\000rÃøà Óøà0\003ô\000s\013\223\013\233ÆçDKGHÓøà Bô\200rÃøà Óøà0\003ô\200s\n\223\n\233·ç=K@HÓøà Bğ\200\002Ãøà Óøà0\003ğ\200\003\t\223\t\233¨ç5K:HÓøà Bğ@\002Ãøà Óøà0\003ğ@\003\b\223\b\233\231ç.K3HÓøà Bğ \002Ãøà Óøà0\003ğ \003\a\223\a\233\212ç&K-HÓøà Bğ\020\002Ãøà Óøà0\003ğ\020\003\006\223\006\233{ç\037K&HÓøà Bğ\b\002Ãøà Óøà0\003ğ\b\003\005\223\005\233lç\027K HÓøà Bğ\004\002Ãøà Óøà0\003ğ\004\003\004\223\004\233]ç\020K\031HÓøà Bğ\002\002Ãøà Óøà0\003ğ\002\003\003\223\003\233Nç\bK\aHÓøà Bğ\001\002Ãøà Óøà0\003ğ\001\003\002\223\002\233?ç\000¿\000\000\002X\000D\002X\000(\002X\000}\004\002X\000 \002X\000 [504 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x8f70, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b938a0, 0x8f70, 28816) = 1, 992, bytes =
+ 01 23 2f d0 90 f8 01 e0 84 46 be f1 0f 0f 29 d8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9350,3e0:\002ğ<ù\017°0½\032F1ç\000D\002Xpµ\006F\rF\001ğ9ı\004F0F\001ğ=ı}\n\036\001F F\030¿\001"½èp@\002ğd¼pµ\000}\003\206°\022"\004F\003\223Íé\001}\003\003h\003+\001Ø\004}\003\004\223&\035\00640F\001ğ\032ı\005F0F\001ğ\036ı\003FiF(F\000\223\002ğ\bù F\001ğ\rı\003F F\034F\001ğ\020ıiF\003F F\000\223\002ğúø\006°p½cJ\003h\223B\020µ\214°(ĞaJ\223BXĞaJ\223B\000ğ\224\200`J\223B\001Ğ\f°\020½^L_HÔøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\n\223\n\233ÿ÷²ÿÔøô0Cğ\200\003Äøô0Ôøô0\003ğ\200\003\013\223\013\233àçPLQHÔøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\001\223\001\233ÿ÷\225ÿÔøè0\000"\037 Cô\000\023\021FÄøè0Ôøè0\003ô\000\023\002\223\002\233ÔøØ0Cğ\001\003ÄøØ0ÔøØ0\003ğ\001\003\003\223\003\233\001ğ<ı\037 \f°½è\020@\001ğr½6L9HÔøà0Cğ\200\003Äøà0Ôøà0\003ğ\200\003\004\223\004\233Ôøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\005\223\005\233ÿ÷VÿÔøè0\000"! Cô\200\003\021FÄøè0Ôøè0\003ô\200\003\006\223\006\233ÔøØ0Cğ\001\003ÄøØ0ÔøØ0\003ğ\001\003\a\223\a\233\001ğıü! \f°½è\020@\001ğ3½\eHÿ÷0ÿ\025K\000"H Óøè@\021FDô\000\004Ãøè@Óøè@\004ô\000\004\b [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x9350, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b93c80, 0x9350, 27824) = 1, 992, bytes =
+ 02 f0 3c f9 0f b0 30 bd 1a 46 31 e7 00 44 02 58 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9730,3d0:\bñ\214\004 F\002ğGı (úÑØø\f0s¹m\000 F\b\2343F:F©²\000\224\002ğ\207û\0008\030¿\001 \002°½èğ\201\b\2332F9F F\002ğGüòç0µ\000}\003\225°Oô\200q\006"\004F\013\223\006\222\023\223Íé\f\023Íé\0163Íé\0213\000ğøş\a(}\nĞ\004ñ\020\005Aò\2102\006©(F\003ğNù(±\001}\003\204ø\\0\001 \025°0½\002}\003\020"\006©(F\002\222\000"Íé\0003\001}\003\003\223Oô\200\003Íé\004}\003\005"Oğ\200s\006\222jF\017\223Aò\2103\003ğ¿ú\000(ßÑ\025°0½\003}\003\204ø\\0Üç\000¿pµ\000}\003¤°Oğ\200rOô\200u\004F­ø\0060\e\223Íé\0362\001"Íé\034SÍé }\003Íé"3\000)BĞğ}\003\000ñ\020\005\026®­ø\0060À}\003Aò\21021F(F\026\223\003ğ\002ù(±\001}\003\204ø\\0\001 }\004°p½Aò\2102\rñ\006\001(F\003ğbù\003F\000(ïÑOô\200q\005"(F\001%\b\222\020"\020\223\r\223\025\223\002\223\005\225Íé\016\023\237í\036{Oğ\200qÍé\0233\021\221Aò\2103\b©Íé\003R\002ª\215í\006{\003ğbú\000(ÒĞ\204ø\\PÎç\000ñ\020\005\026®a}\003Aò\21021F(F\026\223\003ğÂø\000(¾ÑAò\2102\rñ\006\001(F\003ğµù\000(µÑ½ø\0060 F}\003ğx\003Cğ@\003­ø\0060ÿ÷Bÿ\000(\237Ğ§ç\000¿¯ó\000\200\000\000\000\000\000\000@\000-éğO\000}\003Oô\200v\001%Oğ\200x\004F-í\002 [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x9730, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94060, 0x9730, 26832) = 1, 976, bytes =
+ 08 f1 8c 04 20 46 02 f0 47 fd 20 28 fa d1 d8 f8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9b00,3e0:\200s!\220\024©\035\223\020}\003Íø\f\200\002\223Aò\2103\237í}\004{Íé\032\220Íé\037\000Íé\000\b(\035\215í\004{\003ğ\eù\000(¼Ñ1F Fÿ÷_ş\000(¶Ñ Fÿ÷Şş\006F\000(°Ñ\000/²Ñë}\003\006ª\024©(\035\024\223Oô@cÍøh\220\e\223Oô\000S\030\226\027\223Oô@C\034\223 }\003\026\223\006}\003\031\223Oğ\200S\237í\f{!\223Oğ@sÍé\037f\035\223\215í\006{\003ğvù\000(\215Ğ\204ø\\\200\211ç\003}\003\204ø\\0\205ç\000¿\000\000\000\000\000\000@\000\000\000\000\000\000\000\000\000À\177\001\000\000P\000R-éğO\217°AK\000}\004\002h\000¯\232B|cÇé\tDÇé\013D\003Ğ<7½F½èğ\217:K@ö\t!:HêFÓøÔ \añ\034\006\añ"\013Oğ\002\tBô\200BOğ\003\bÃøÔ ÓøÔ \002ô\200Bº`ºhÓøà Bğ@\002Ãøà Óøà \002ğ@\002ú`úhÓøà Bğ \002Ãøà Óøà \002ğ \002:a:iÓøà Bğ\020\002Ãøà Óøà \002ğ\020\002zaziÓøà Bğ\002\002Ãøà Óøà0øa\003ğ\002\0039\204»a\027K{`»i{hSø\004\017{`\001ğ©ø{h\005F\030h\001ğ¬ø\026ø\001;xb\añ}\004\001(FÇø0\200{cÇé\n\224\001ğ\217ü^EåÑ\000"\\ \021F\001ğ(ù\\ \001ğaù<7ÕF½F½èğ\217\000P\000R\000D\002X\n\n\t\t\034\200\001\000\021K\002h\232B\000ĞpG\020JpµÒøÔ [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x9b00, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94430, 0x9b00, 25856) = 1, 992, bytes =
+ 80 73 21 90 14 a9 1d 93 10 23 cd f8 0c 80 02 93 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9ee0,3e0:\000(\000ğ\225\200ÿ¾şç_L`NÔøà00FCğ\001\003Äøà0Ôøà0\003ğ\001\003\000\223\000\233Ôøà0Cğ\020\003Äøà0Ôøà0\003ğ\020\003\001\223\001\233Ôøà0Cğ@\003Äøà0Ôøà0\003ğ@\003\002\223\002\233Ôøğ0Cô\200\003Äøğ0Ôøğ0\003ô\200\003\003\223\003\233ÿ÷îşÔøØ0)hCğ\001\003@J0hÄøØ0\221BÔøØ0\003ğ\001\003\004\223\004\233'Ğsj\001;\030¿\001}\003\233\001\000(RÑ;J\006õètX!À6Æø\020!\000" FÄé\001\023Oô\200SOô\200abbcaOô\200sÄé\003!Oô\200BÄé\006}\003Oô\0003}\003b\001ğRù\b³ÿ¾şç3j\001;\030¿\001}\003\233\001\030»\002õ(B\006õ¬tW!(6\f2Æø0!ÕçÓø|"\001:\030¿\001"\222\001X» HW!\003õmt\003õ!uÃø´\003UçÆé D¦c\n°p½Åé D¥c\n°p½\030J\006õ¬tY!(6Æø0!³ç\025J\006õètZ!À6Æø\020!«ç\021HZ!\003ò,D\003õGuÃø,\0042ç\013HY!\003õmt\003õ!uÃø´\003)ç\000¿\004X\001@\004\\\001@\000D\002X\224\202\001\0008\200\001\000(\000\002@\020\000\002@X\000\002@p\000\002@\000\000\000\000-éğO\fhOô\027wyN\207°\004û\a÷\001,\006ë\a\bÀø\000\200\000ó\237\200Oğ\000\t\aõ\022s\rF\216FFø\003\2203DÄFÃø\004\220ÈøP\222h£Óé\000}\003i¡Ñé\000\001 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0x9ee0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94810, 0x9ee0, 24864) = 1, 992, bytes =
+ 00 28 00 f0 95 80 ff be fe e7 5f 4c 60 4e d4 f8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xa2c0,3e0:Î°\004FL"\000!\n¨\006ğÑü "\000!\002¨\006ğÌü¼"\000!\036¨\006ğÇü\002 \002ğ0ú}\003h\001+Oğ\000\003PĞPJ\002%\001\223È ÑjNK!ğ\001\001ÑbÒj\002ğ\001\002\001\222\232iBô@B\232a\233i\003ô@C\001\223\001\233FJ\223i\231\004üÕEI\002}\004\000"\001&\213jOğ\004\b\b'}\003ğ\003\003}\003C\213b\005}\003\026\220\n¨\030\223Oô\2003\020\226\027\224\031\224ÍøT\200\032\227Íé\e"!"Íé\023DÍé\n}\003\002ğîı\000±şç@}\003)F?"Oô\200e\t\223\004\220\002¨\005\227\b\225Íé\0063\003}\003Íé\002}\003\003ğõø\003F¸±şç(J\004%\000\223ğ \221i%KAô@A\221a\222i\002ô@B\000\222ÚjBğ\001\002ÚbÛj\003ğ\001\003\000\223\000\233­çOô\2002Oô\200Q"\224\036¨F\222/\2243\224\006}\0045\221!\227Íø¨\200,\225\037\226}\003\226Íé%1Íé02Íé-3\000"Oô\200qÍé;3Oô@\023C\221\020!Íé>}\003@ò'\022\200}\003)\221}\004\2234\223\f}\003Íé'B " \223+\222\bJ\036\222\003ğÁú\000±şç\002ğ³ùN°½èğ\201\000\004\000X\000H\002X\000D\002X\017\023\017\003-éğA\rF\004F\204°Ñé\000\001\204è\003\000\000ğùü®y\000.5ĞlF\005ğ\227ÿÿ÷\223ø\005ğ\215ı\005ğ\023ÿ+y\000+RÑky\233±¿óO\217¿óo\217;K\000"ÃøP"¿óO\217¿óo\217ZiBô\0002Za¿óO\217¿óo\217\000} [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xa2c0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94bf0, 0xa2c0, 23872) = 1, 992, bytes =
+ ce b0 04 46 4c 22 00 21 0a a8 06 f0 d1 fc 20 22 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xa6a0,3e0:\005ğ\202û\bI\aH\005ğ\210û\aK\032h\n±\000 \b½\006J\000 \032`\b½\000¿ü\204\001\000¼y\001\000ü\214\001\000ô\204\001\000ı¥\000\000 (\fĞ!(\001Ğ\000 pG\tK\030h\232\210\233y\b`\000 \212\200\213qpG\005K\bh±ø\004À\212y\030`\000 £ø\004À\232qpG\2240\001\000 (\fĞ!(\001Ğ\000 pG\tK\030h\232\210\233y\b`\000 \212\200\213qpG\005K\bh±ø\004À\212y\030`\000 £ø\004À\232qpG\2140\001\000\000 pG\020µ\tLÔø\2202Óø\0242\013±\001 \020½\nF\001F F\005ğ"û F½è\020@\005ğ/»\000¿ w\001\000KJ\003h0µ\223B\213°Oğ\000\004Íé\004DÍé\006D\b\224\004ĞFJ\223BIĞ\013°0½DMOôÀRDHÕøà0Cğ\001\003Åøà0Õøà0\003ğ\001\003\000\223\002}\003\000\231\004©Íé\004}\003\n}\003\b\223\000ğ\002ÿOô\000r\000}\003\004©7H\006\224Íé\004}\003\000ğøşÕøØ0"F!FCğ\000cb ÅøØ0ÕøØ0\003ğ\000c\001\223\001\233\000ğ\207ûb \000ğÀû"F!Fc \000ğ\177ûc \000ğ¸û"F!Fe \000ğwûe \000ğ°û\013°0½ MOô@B\004©Õøà0Cğ\002\003Åøà0Õøà0\003ğ\002\003\002\223\002}\003\002\230\032HÍé\004}\003\f}\003\b\223\000ğºşÕøØ0"F!FJ Cğ\000sÅøØ0ÕøØ0\003ğ\000s\003\223\003\233\000ğIûJ \000ğ\202û"F!FK \000ğAûK \000 [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xa6a0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b94fd0, 0xa6a0, 22880) = 1, 992, bytes =
+ 05 f0 82 fb 08 49 07 48 05 f0 88 fb 07 4b 1a 68 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xaa80,3f0:\020µ\004L\nF\004H!F\005ğ\eú F\020½\000¿\020­\001\000T\036\001\000\020µ\004L\nF\004H!F\005ğ\rú F\020½\000¿\020­\001\000`\036\001\000\020µ\004L\nF\004H!F\005ğÿù F\020½\000¿\020­\001\000p\036\001\000\004}\003\001H\013\200pGØ0\001\000\020µ\004L\nF\004H!F\005ğëù F\020½\000¿\020­\001\0000\036\001\000RJOğ\032\fÒø\0008Òø\b\b¡ø\000À\e\030\001ÑNHpGÒø\004\030\030\017KJ³ñ OOğ\000\f,¿7000\202ø\003ÀÃó\003l\220p¼ñ\t\017`FOğ\000\f\214¿7000\202ø\005ÀÃó\003\\\020q¼ñ\t\017`FOğ\000\f\214¿7000\202ø\aÀÃó\003L\220q¼ñ\t\017`FOğ\000\f\214¿7000\202ø\tÀÃó\003<\020r¼ñ\t\017`FOğ\000\f\214¿7000\202ø\013ÀÃó\003,\220r¼ñ\t\017`FOğ\000\f\214¿7000\202ø\rÀÃó\003\034\020s¼ñ\t\017`FOğ\000\f\214¿7000\202ø\017ÀOğ\000\f\220s\003ğ\017\000\202ø\023ÀOğ\000\f\003F\t(Oğ\000\000\202ø\025À\224¿0373±ñ OPt\023tOê\021sÁó\003`Oğ\000\f,¿7303\t(\202ø\027À\223t\003FÁó\003P\214¿7303\t(\023u\003FÁó\003@Oğ\000\001\214¿7303\t(Qv\223u\003F\004H\224¿0373\023vpG\000¿\000àñ\037¼0\001\000RJOğ\032\fÒø\0008Òø\b\b¡ø\000À\e\030\001ÑNHpGÒø\004\030\030\017KJ³ñ [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xaa80, 0x400, 0x3f0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b953b0, 0xaa80, 21888) = 1, 1008, bytes =
+ 10 b5 04 4c 0a 46 04 48 21 46 05 f0 1b fa 20 46 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xae70,3e0:\016 +`\222i\002ğ\017\002\212\\\002ğ\037\002Ó@}\003`ÿ÷¼ÿ\020±\001}\004 F8½\004Fÿ÷³ÿ F8½\000¿T5\001\000P5\001\000\000D\002X\\\037\001\000\001K\030hpG\000¿\020¯\001\0008µ\004Fÿ÷öÿ\005Fc\034\002Ğ\004K\ex\034Dÿ÷îÿ@\e BúÓ8½<1\001\000\001K\030h\000\fpG\000\020\000\\\006IOöÿ\f\000\002\005KÊh\000ôà`\002ê\f\002\020C\003CË`pG\000í\000à\000\000ú\005\032KÛhÃó\002}\003\000µÃñ\a\016\003ñ\004\f¾ñ\004\017(¿Oğ\004\016¼ñ\006\017\032Ù£ñ\003\fOğÿ3\003ú\fó"ê\003\002Oğÿ3\000(\003ú\016ó!ê\003\003\003ú\fóCê\002\003Oê\003\023Û²\006Û\aJ\023T]ø\004û\000"\224Féç\000ğ\017\000\004J\023T]ø\004û\000¿\000í\000à\000ä\000à\024í\000à\000(\aÛ\000ğ\037\001\001}\003@\t\002J\213@Bø 0pG\000¿\000á\000à\000(\fÛC\t\001"\000ğ\037\000\004I 3\202@Aø}\003 ¿óO\217¿óo\217pG\000á\000àC\036³ñ\200\177\001Ó\001 pGOğà"\000 \005IOğğ\fSa\a}\003\201ø}\003À\220a\023apG\000¿\000í\000à¿ó_\217\004K\000!Zj"ô\2002ZbÃø\224\020pG\000¿\000í\000à\006K@ğ\001\000Ãø\224\000ZjBô\2002Zb¿óO\217¿óo\217pG\000í\000à\027JCxÂø\2300\001x!³Ch\000µÂø\2340Ãz\220ø\fÀ\e\006\220ø\017àCê\fs\220ø\nÀ\013C\201{CêÌC\220ø [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xae70, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b957a0, 0xae70, 20880) = 1, 992, bytes =
+ 0e 20 2b 60 92 69 02 f0 0f 02 8a 5c 02 f0 1f 02 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xb250,3e0:\200X\002Xğûı¿«ªªª\000\202\000\020\200\b\002@pµ\005Fÿ÷ ş\000-\000ğ©\200+h\004F\220J\220I\213B\030¿\223B\001ñ\030\001\f¿\001"\000"\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\001õVq\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\032¹lJ\223B@ğã\200\002"\000!\205ø5 \205ø4\020\032h"ğ\001\002\032`\005àÿ÷¾ı\003\e\005+AØ+h\032hÑ\aöÔÕé\002}\004)i"C¨i\034h\nCii\nCéi\002C\nC[I!@,j"C\nCij\004)0Ğ\032`Zi"ğ\a\002\021CYa(Fÿ÷\214şêm?}\003\002ğ\037\002\223@\203`(Fÿ÷\003ÿ«h\200+nĞkh¨nÙ²\001;Õé\030B\a+!`P`.Ù\000}\003Åé\e3kg\000}\003\001"ke\030F\205ø5 p½ "\003}\003je\205ø50\001 p½Õé\013A!C\021Cªj\031`Yi!ğ\a\001\021CAğ\004\001\000,ÅĞ\000(JÑ\001}\n_Ğ2ğ\002\002¾Ñâ\001¼Õ@"\001}\003je\205ø50àç}\nhH\0360K0L¢B\030¿\232B\004ñ\024\004\f¿\001}\003\000}\003¢B\b¿Cğ\001\003\0244¢B\b¿Cğ\001\003\0244¢B\b¿Cğ\001\003\0244¢B\b [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xb250, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b95b80, 0xb250, 19888) = 1, 992, bytes =
+ 80 58 02 58 f0 fb fd bf ab aa aa aa 00 82 00 10 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xb630,3e0:oê\t\013Eê\f\005\005`\215h\005ú\aüĞø\b\220}\004\tÍh\tê\013\t\224@\005ú\a÷Gê\t\a\207`Gh'ê\006\0064CD`Äh\004ê\013\004Dê\f\004Ä`\00123ú\002ôyĞ\bú\002ö\026ê\003\töĞLh}\004ğ\020\005\002-²ĞW\000Oğ\003\f\005ñÿ:Ğø\000°\fú\aü\004ğ\003\005ºñ\001\017+ê\f\013\005ú\aõEê\013\005oê\f\013\005`\215h\005ú\aüÀÙÆh\013ê\006\005Eê\f\005Å`å\000ÏÕEN"ğ\003\aOğ\017\fÖøôP\añ°GEğ\002\005\aõ\200gÆøôPÖøôP\002ğ\003\006\005ğ\002\005¶\000\003\225\fú\006ü\003\235½h%ê\f\n7M¨B^Ğ7M¨B-ĞßøØÀ`E\000ğB\201ßøÔÀ`E\000ğD\201ßøÌÀ`E\000ğ1\201ßøÈÀ`E\000ğA\201ßøÀÀ`E\000ğC\201ßø¼À`E\000ğE\201ßø´À`E\f¿Oğ\t\fOğ\n\f\fú\006öJê\006\005\bà\005°½èğ\217Oğ\002\f\fú\006öJê\006\005½`oê\t\006Şø\200Pç\003T¿5@Iê\005\005§\003Îø\200PŞø\204PT¿5@Iê\005\005ç\002Îø\204PŞø\000PT¿5@Iê\005\005¤\002Îø\000PŞø\004PT¿5@Iê\005\005Îø\004PPç\bú\006öJê\006\005Òçßø\f°Oğ°F{à\000\000\002X\000D\002X\000\004\002X\000\b\002X\000\f\002X\000\020\002X\000\024\002X\000\030\002X\000\034\002X\000 \002X\000}\004\002X\fñÿ7OêB\016Ğø\000 \004ğ\003\b\001\227\003'\bú [502 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xb630, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b95f60, 0xb630, 18896) = 1, 992, bytes =
+ 6f ea 09 0b 45 ea 0c 05 05 60 8d 68 05 fa 07 fc ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xba10,3d0:wĞ}\003ğ\003\005\003ğ\003\004\177O\005ñ°Eä\000¸B\tú\004øÕø\bÄ\005õ\200e\bê\f\f'ĞyO¸BnĞxO¸BpĞxO¸BcĞßøà±XE\000ğÑ\200ßøÜ±XE\000ğÒ\200ßøÔ±XE\000ğÂ\200ßøĞ±XE\000ğÍ\200ßøÈ±XE\f¿Oğ\t\013Oğ\n\013\013ú\004ô\002à\001'\aú\004ô¤E\027Ñ¬h}\004ê\b\004¬`Öø\200@}\004ê\016\004Æø\200@Öø\204@}\004ê\016\004Æø\204@4h}\004ê\016\0044`th}\004ê\016\004t`]\000\004hOêÓ\f\nú\005õ\000ë\214\f,C\004`\003ğ\a\004Üø à¤\000\tú\004ô.ê\004\004Ìø @\204h}\004ê\005\004\204`Dh}\004ê\002\002B`Âh"ê\005\002Â`\00131ú\003ò\177ô~¯½èğ\217Oğ\004\013\013ú\004ô¸çOğ\002\013\013ú\004ô³çOğ\003\013\013ú\004ô®ç\000"Oğ\001\f<O\017%Oğ°FOğ\003\016\002ğ\003\003\fú\002ô"ğ\003\bÛ\000\021ê\004\t¸D\005ú\003óAĞØø\b \023ê\n\017\031ÑØø\b }\nê\003\003Èø\b0Öø\2000}\003ê\t\003Æø\2000Öø\2040}\003ê\t\003Æø\20403h}\003ê\t\0033`sh}\003ê\t\003s`OêB\b\003hOêÒ\t\016ú\bø\000ë\211\tCê\b\003\003`\002ğ\a\003Ùø  \233\000\005ú\003ó}\nê\003\003Éø 0\203h}\003ê\b\003\203`Ch}\003ê\004\003C`Ãh}\003ê\b\003Ã`\00121ú\002ó¬Ñ½èğ\217Oğ\a\013\013ú\004ôKç [504 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xba10, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96340, 0xba10, 17904) = 1, 976, bytes =
+ 77 d0 23 f0 03 05 03 f0 03 04 7f 4f 05 f1 b0 45 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xbde0,3d0:\001\001\001(\031`\032a\232h¡h"ô\000B\232`)ĞAô\004A\002(\231`\002ÑOô\000bZ`XhOğ \f\025I"i\001CY`Ùh!ô\000AÙ`Ôé\005\001\002CBê\001"Ôé\a\020Ú`\000"\001C\020F\031`\031hAğ\001\001\031`bd\204øAÀ"c\204øB \020½Aô\000A\231`Ùç\200ø@ ı÷Âú¸ç\001 pG\000¿\000\200\000\002-éøC\230F\220øA0\b\236 +@ğ\204\200\220ø@0\004F\001+~Ğ\001}\003\017F\221F\200ø@0ÿ÷\017ø\005F\004àÿ÷\013ø@\e\031(}]Ø}\003h\230i\020ô\000@õÑ!"Çó\t\aÄø}\004\220\204øA \020"`c\204øB `d¤ø}\n\200b\215\222²ÿ}\ntØb\215EH\222²Yh"\205Ò²\001@Gê\002B\nCBI\021CY`c\215}\nF1F F\233²\000+4Ğÿ÷¯ş\000(YÑaj"h\021ø\001\013}\003\215\220b´ø}\nÀ\001;ab\fñÿ<\233²\037ú\214ü}\003\205¤ø}\nÀa\215\211²\000)ŞĞ\000+ÜÑp\034,Ñ\223i\031\006üÕc\215\233²ÿ+EÙSh F}\nI\013@}\nI;C\031Cÿ}\003}\003\205Q`}\nFc\2151F\233²\000+ÊÑÿ÷Øş(»}\003h !}\003MÙaZh}\n@Z`\204øA\020\204ø@\000\204øB\000\000à\002 ½èø\203F±"h\223i\e\006ÒÔş÷\215ÿC\e\236BõÒcl !\000"\013C\204ø@ cd\204øA\020\204øB \001 ½èø\203Zh\013I\n@\017I:C\021Cÿ" [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xbde0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96710, 0xbde0, 16928) = 1, 976, bytes =
+ 01 01 01 28 19 60 1a 61 9a 68 a1 68 22 f4 00 42 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc1b0,3d0:@\020cd\204øA\000\204øB\020ShCô\000CS`¢ç\000¿\220øA\000pG\000¿\220øA  }\n}\003Ñ_ú\202ü\220ø@ \003F\001}\n\034Ğ\002h}\004 \000µ\203øA\000Oğ\000\016\020h ğ\001\000\020`\020h ô\200P\020`\020h\001CpF\021`\021hAğ\001\001\021`\203øAÀ\203ø@à]ø\004û\002 pG\220øA  }\n"Ñ\003F\000µ_ú\202ş\220ø@ \001}\n\034Ğ\002h}\004 Oğ\000\f\203øA\000\020h ğ\001\000\020`\020h ôp`@ê\001!`F\021`\021hAğ\001\001\021`\203øAà\203ø@À]ø\004û\002 pG\002 ]ø\004ûğµ\213°`³\220ø½3\005F\004h\003ğÿ\002\000+yĞ F\003}\003.F/\035\205ø½3ãklF\023ô\200s\b¿+a\003ğgøVø\020ë´F¼è\017\000\017Ä¼è\017\000\017Ä\234è\003\000\204è\003\000pF\227è\016\000\002ğ»ÿ\004F0±\002}\003\205ø½3\001}\004 F\013°ğ½\001F(h\003ğPøhhX³"FOğ\001\016!FÂëÂ\003\002ñ\001\f\005ë\203\003\203ø< £øB _ú\214ò\203ø=à\202B\203ø?\020\031eÃé\021\021êÓ\000"ÄëÄ\003a\034\005ë\203\003\203øüAÌ²\203øı!\204B\203øÿ!Ãø\020"Ãé\201"íÓlF\017Î\017Ä\017Î\017Ä\226è\003\000\204è\003\000\227è\016\000(h\003ğ,ø\004F\000(µÑ\001"kj\205ø8\000\223B\205ø½}\003\013Ğ(h\003ğxû F\013°ğ½\200ø¼}\003ş÷óù(h\200ç(F\000ğÀùï [500 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xc1b0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96ae0, 0xc1b0, 15952) = 1, 976, bytes =
+ 40 10 63 64 84 f8 41 00 84 f8 42 10 53 68 43 f4 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc580,3d0:8µCh\001ğ\017\005\235B4Ø\013\006\004F\035Ô\034"ÁëÁ\003\002û\001\001\000ë\203\003\000"\001õşq\203øı!\001}\003\rp\213p\224ø¼}\003\232B\034Ğ h\204ø¼3\003ğ\021úÕ±\000}\003\030F\204ø¼38½\034!ÅëÅ\003\001"\001û\005\001\000ë\203\003<1\203ø= \001}\003\rp\213p\224ø¼}\003\232BâÑ\002 8½\001 8½\004õqr!| h\003ğCúİç\000h\022\004Cj\031¹\023C\203b\000 pG0´\0019\204j\003ë\024CkĞĞø\004A\001)\003ë\024CeĞĞø\bA\002)\003ë\024C_ĞĞø\fA\003)\003ë\024CYĞĞø\020A\004)\003ë\024CSĞĞø\024A\005)\003ë\024CMĞĞø\030A\006)\003ë\024CGĞĞø\034A\a)\003ë\024CAĞĞø A\b)\003ë\024C;ĞĞø}\004A\t)\003ë\024C5ĞĞø(A\n)\003ë\024C/ĞĞø,A\013)\003ë\024C)ĞĞø0A\f)\003ë\024C}\003ĞĞø4A\r)\003ë\024C\035ĞĞø8A\016)\003ë\024C\027ĞĞø<A\017)\003ë\024C\021ĞĞø@A\020)\003ë\024C\013Ğ\020}\004\004ñ@\f\0014\000ë\214\f\214BÜø\004P\003ë\025CôÓ@1\032C\000ë\201\003\000 0¼Z`pG\003F\000 \ehYbpG\000¿\003FOğ\000\f\tI\032h`F\020´\001}\004\203øôÃÃøüC\223i]ø\004KCğ\000c\223aSm\031CQepG\003\000\000\0208µ\021KÚhR\a\004ÔÛh\003ğ\a\003\203B\024Ñ\fLãh}\003ğ\a\003\003Cã`ş÷  [496 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xc580, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b96eb0, 0xc580, 14976) = 1, 976, bytes =
+ 38 b5 43 68 01 f0 0f 05 9d 42 34 d8 0b 06 04 46 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc950,3d0:\000+7Ğ¦l"h¡h\023h\0019}\003ôpcCê\001}\003\023`\223h\233\006\004Õp\0342Ñ\223h\231\006üÔÔé\aPãh\021h+C\000%\003C`hCê\000c\034H\b@ai\003C\023`£iPh\013C!iCê\001C\030I\001@(F\013CS`\023hCğ\001\003\023`\001}\003ed\204øA0\000}\003\204ø@0p½ F\204ø@ ı÷ùøAò\2103\036F£d¾çş÷hú@\e°B\006Ø.±"h¿ç\001 p½\002 p½\004}\003\001 \204øA0cl\003Ccdİç/ÿÿ\000şøàÿÈ±\020µ\220ø@0\004F\001+\021Ğ\002h\001}\003\200ø@0\023h}\003ğ\001\003\023`ı÷Yù\000}\003cd\030F\204øA0\204ø@0\020½\002 \020½\001 pG\000¿-éøC\004F\017F\026Fş÷-ú\224ø@0\001+3Ğ\001}\003\204ø@0\224øA0\001+_ú\203ø\aĞOğ\002\b\000}\003@F\204ø@0½èø\203\000}\003q\034\201FcdOğ\002\003\204øA0\036Ñ%hªh\022ğ \002ûÑ9F Fÿ÷\202ş{j+±\001}\003\204øA0Oğ\000\bßç«h\232\aüÕ\002"\001}\003ê`\204øA0óçOğ\002\b@F½èø\203%hªh\022ğ \002\017Ğş÷éù ë\t\003\236B\001Ó\000.òÑ\004}\003\204øA0clCğ\001\003cd¼ç9F Fÿ÷Sş{j\000+ÏÑ«h\233\aÕÔş÷Ïù ë\t\003\236BçÓ\000.åĞ%hòç\000¿-éøC\004F\016F\027Fş÷¿ù\224ø@0%h\001+8 [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xc950, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97280, 0xc950, 14000) = 1, 976, bytes =
+ 00 2b 37 d0 a6 6c 22 68 a1 68 13 68 01 39 23 f4 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xcd20,3c0:clCğ\001\003cdäç+F\bàş÷½ø ë\t\003\237BïÓ\000/íĞ}\003h\233h\023ğ\006\017òĞ\225ø  }\003k\032p¢k}\003k\001:\0013¢c¢k}\003c\000}\níÑÕç-éğG\004F\230F\017F\026Fş÷\234ø\224ø@0\001+?Ğ\001}\003\204ø@0\224øA0\001+_ú\203ù\aĞOğ\002\t\000}\003HF\204ø@0½èğ\207\000}\003¸ñÿ?\202FcdOğB\003\204øA0)Ñ%h«h\230\006üÔ3h F2i«bshñhkb³hëb+h}\003ô@\003\023COğ\000bCô\200\003+`¹b9Fÿ÷ßü«h\032\aüÕ\b"\001}\003Oğ\000\tê`\204øA0ÊçOğ\002\tHF½èğ\207%h«h\231\006\020Õş÷Mø ë\n\003\230E\002Ó¸ñ\000\017òÑ\004}\003\204øA0clCğ\001\003cd°ç3h9F2i F«bshkb³hëb+h}\003ô@\003\023CòhCô\200\003+`ºbOğ\000bÿ÷¤ü«h\e\aÄÔş÷}\003ø ë\n\003\230EØÓ¸ñ\000\017ÕĞ%h«h\e\aòÕ¶ç\000¿-éğC\004F\203°\017F\026Fş÷\016ø\224ø@0\001+0Ğ\001}\003\204ø@0\224øA0\001+_ú\203ø\bĞOğ\002\b\000}\003@F\204ø@0\003°½èğ\203\000}\003\201Fcd\202}\003\204øA0£lX\034\eÑ%h«h\231\006üÔ+hrh}\003ğ\b\003\b}\nCê\002\003+`}\004ĞOğ@b9F FOğ\000\bÿ÷VüÙçOğ\002\b@F\003 [496 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xcd20, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97650, 0xcd20, 13024) = 1, 960, bytes =
+ 63 6c 43 f0 01 03 63 64 e4 e7 2b 46 08 e0 fe f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd0e0,3d0:<M+h}\003ğ\031\003\023C+`ı÷Şş\006F\005àı÷Úş\200\e\002(\000ò\231\200+h[\aöÕı÷éşAò\003\003"i\230Bkh\000òğ\200}\003ô|3Cê\0023k`}\003hJç\030+\000ğâ\200)Mâh+h\000}\n\000ğË\200}\003ğ\031\003\023C+`ı÷´ş\006F\004àı÷°ş\200\e\002(oØ+h_\a÷ÕÕç\001ğ\003\001\002)\177ô\003¯\eJ\022h\221\003\177õ}\004¯bh\000}\n\177ô ¯\001 ø½\002ğ\003\002\001}\n\177ô)¯\023K\ehÚ\005\002Õãi\200+ñÑı÷£şAò\003\003\016J\230B!j\000ò±\200Sh}\003ğøCCê\201cS`}\003h5ç\aJ\023hCô\2003\023`éæ\005M+hCô\200s+`ı÷oş\006F\tà\000¿\000D\002X\000H\002Xı÷fş\200\ed(%Ø+hÚ\005÷Õ£h\001+\000ğ \201\000+\000ğû\200\005+\225K\032o\000ğ\036\201"ğ\001\002\032g\032o"ğ\004\002\032gı÷Kş\217NAò\2107\005F\004àı÷Dş@\e¸B\003Ø3o\233\a÷Õ+ç\003 ø½\207MAò\2107+h}\003ô\2003+`+h}\003ô\200}\003+`ı÷.ş\006F\004àı÷}\nş\200\e¸BéØ+h\233\003÷Ô¦æko}\003ğ\001\003kgı÷\035ş\006F\004àı÷\031ş\200\e\002(ØØko\231\a÷Ôãæ+h}\003ô\200S+`ı÷\fş\006F\004àı÷\bş\200\e\002(ÇØ+h\230\004÷Ôëæ+h}\003ğ\200\003+`ı÷ûı\006F\004àı÷÷ı\200\e\002(¶Ø [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xd0e0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97a10, 0xd0e0, 12064) = 1, 976, bytes =
+ 3c 4d 2b 68 23 f0 19 03 13 43 2b 60 fd f7 de fe ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd4b0,3d0:\006î\220:úîéj\002Ğ\002)HĞI³\237í(z\207î'j\023kÃó\b\003\aî\020:÷î\000Z¸îÇz7î&z7î%z'î\006z\035K\ekÃóF}\003\0013\aî\220:øîçjÇî&züîçz\027î\220\n0¼pG\027HpG\027HpG\023HpG\023h\233\006\035Õ\020h÷î\000Z\023k\017IÀóÁ\002Ãó\b\003Ñ@\aî\020:\006î\020\032¸îÇz¸îÆjwî&j\206î'zvî¥z'î'zÊç\237í\az¶ç\237í\az³ç\000D\002X\000\220Ğ\003\000}\004tJ\000}\004ô\000\000\t=\000\000}\004tK\000}\004tL\000(\000ğ\004\201\210J\023h\003ğ\017\003\213B-éğA\004F\rF\fÒ\023h}\003ğ\017\003\013C\023`\023h\003ğ\017\003\213B\002Ğ\001 ½èğ\201}\003hX\a\013Õ|I i\212i\002ğp\002\220B\004Ù\212i"ğp\002\002C\212a\031\a\013ÕuI`iÊi\002ğp\002\220B\004ÙÊi"ğp\002\002CÊaÚ\006\013ÕnI iÊi\002ôàb\220B\004ÙÊi"ôàb\002CÊa\237\006\013ÕgIài\nj\002ğp\002\220B\004Ù\nj"ğp\002\002C\nb\236\a\003ğ\001\002@ñ¡\200^Nàh±i\001ğ\017\001\210B\004Ù±i!ğ\017\001\001C±a\000}\n0ĞWJ¡h\223i}\003ôpc\013C\223aah\023h\002)\000ğ\227\200\003)\000ğ\216\200\001)\000ğ\227\200_\a\234ÕMNAò\21083i}\003ğ\a\003\013C3aı÷\026ü\aF\005àı÷\022üÀ\e@E\000ò\201\2003ibh\003ğ8\003³ëÂ [501 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xd4b0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b97de0, 0xd4b0, 11088) = 1, 976, bytes =
+ 06 ee 90 3a fa ee e9 6a 02 d0 02 29 48 d0 49 b3 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd880,3c0:ãjß±\001/\f¿Cô\200\023Cô\000\023ãb\fL}\003hCğ\200c}\003`ı÷\006û\005F\004àı÷\002û@\e\002(\004Ø}\003h\e\001÷Õ\000 ø½\003 ø½Cô\000}\003ãbæç\000D\002Xøµ6L\006F\017F}\003h}\003ğ\200S}\003`ı÷èú\005F\004àı÷äú@\e\002(VØ}\003h\232\000÷Ô£j2h}\003ğ|sCê\002S£bÖé\0022\001;\001:[\002\022\004\233²\002ôş\002\023Crh\001:Âó\b\002\023C2i\001:\022\006\002ğşB\023C}\003dãjri}\003ô@c\023Cãbãj²i}\003ô\000s\023Cãbãj}\003ô\200sãbclòioóÏ\003CêÂ\003cdãjCô\200sãbãjß±\001/\f¿Cô\000\003Cğ\200sãb\fL}\003hCğ\200S}\003`ı÷\226ú\005F\004àı÷\222ú@\e\002(\004Ø}\003h\233\000÷Õ\000 ø½\003 ø½Cô\200\003ãbæç\000D\002X-éøC\003h\004F\023ğ\000f}\003ĞBn²õ\000\037\000ğ\026\205\000òı\205\000}\n\000ğ}\n\205²õ\200\037@ğú\205¢J\222j\002ğ\003\002\003}\n\000ğó\205\002!\0040ÿ÷\000ÿ\006F}\003h>¹bn\232H\000&\001m!ô@\021\nC\002eİ\005\nÕbm\004}\n\006Øßè\022ğk\003³\004\237\004p\003p\003\001&5F\230\005"Õ¢m\200}\n\000ğ~\204\000ò¿\205\000}\n\000ğ¯\204@}\n@ğÀ\205\211J\222j\002ğ\003\002\003}\n\000ğ¹\205\000! \035ÿ÷Îş}\003h\005F\000-@ğw\204\201I m [509 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xd880, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b981b0, 0xd880, 10112) = 1, 960, bytes =
+ e3 6a df b1 01 2f 0c bf 43 f4 80 13 43 f4 00 13 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xdc40,3d0:\001&5FØ\001\024Õbl\003}\n\000òã\204ßè\022ğ\013\000\006\000\013\003\013\000\000D\002X5IÊjBô\0002Êb\000-\000ğ\216\202.FY\002\000ñô\201ß\a/Õ¢o(}\n}\nØßè\022ğÑ\001)\000)\000)\000)\000)\000)\000)\000Ä\001)\000)\000)\000)\000)\000)\000)\000\025\004)\000)\000)\000)\000)\000)\000)\000Ñ\001)\000)\000)\000)\000)\000)\000)\000Ñ\001)\000)\000)\000)\000)\000)\000)\000Ñ\001\001&5F\230\a\034Õbo\005}\n\000ò\217\204ßè\022ğ\023\000\006\000Ğ\003\023\000\023\000\023\000\017J\222j\002ğ\003\002\003}\n\000ğ\200\204\001! \035ÿ÷mı}\003h\005F\000-\000ğM\202.FY\a\037ÕÔø\220 \005}\n\000òs\204ßè\022ğ\025\000\b\000\236\003\025\000\025\000\025\000\000D\002X©J\222j\002ğ\003\002\003}\n\000ğb\204\001! \035ÿ÷Kı}\003h\005F\000-\000ğ"\202.F\232\006}\004ÕÔø\214 ²ñ\000_\000ğ\\\202\000ò¾\203\202±²ñ\200_@ğÃ\203\231J\222j\002ğ\003\002\003}\n\000ğ¼\203\000! \035ÿ÷+ı}\003h\005F\000-@ğ\031\202\221IÔø\214\000Jm"ğàB\002CJe_\006}\004ÕÔø\230 ²õ\000o\000ğF\202\000òÀ\203\202±²õ\200o@ğÅ\203\206J\222j\002ğ\003\002\003}\n\000ğ¾\203\000! \035ÿ÷\004ı}\003h\005F\000-@ğğ\201~IÔø\230\000\212m"ôàR\002C\212e\030\006}\004ÕÔø\234 ²õ\200O\000ğı\201\000òc\203\202±²õ\000_@ğh\203rJ\222j\002ğ\003\002\003}\n\000ğ [508 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xdc40, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b98570, 0xdc40, 9152) = 1, 976, bytes =
+ 01 26 35 46 d8 01 14 d5 62 6c 03 2a 00 f2 e3 84 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe010,3c0:\222j\002ğ\003\002\003}\n?ô^®\001! \035ÿ÷âû}\003h\005F\000-@ğ·\200\227I oJm"ğ8\002\002CJeNæ\223IÊjBô\0002Êb\000-@ğ\233\200\217IÔø\204\000Jm"ô@\022\002CJeFç\213O;hCô\200s;`ü÷\037ÿ\200F\006àü÷\eÿ ë\b\000d(\000ò­\202;hÚ\005õÕ\000-@ğ¨\202\177JÔø°0\021oY@\021ô@\177\013Ğ\021o\020o!ô@q@ô\2000\020g\020o ô\2000\020g\021g³õ\200\177\000ğ±\202\003ô@r²õ@\177\000ğ¿\202pI\ni"ô|R\nanJÃó\013\003\021o\013C\023g}\003hÊåjIÊjBô\0002Êb5F\000-@ğ<\201eI`m\nm"ğ\a\002\002C\ne\212äaJ\222j\002ğ\003\002\003}\n\bĞ\002!\004ñ}\004\000ÿ÷×û}\003h\000(?ô¯®\001&¬æYJ\222j\002ğ\003\002\003}\n\bĞ\002!\004ñ}\004\000ÿ÷Æû}\003h\000(?ô\220®\001&\215æPHÁjAô\0001Áb\000-\177ô?¯LM0\036im\030¿\001 !ô@q\nCjeôæGIÊjBô\0002Êb\000-?ôÑ®.FÕæ.F_å.F²æ.FØä?I`lÊl"ğ\003\002\002CÊdjå.F\235å:IÔø\220\000\212m"ğ\a\002\002C\212eÕå6I`oJm"ğ\a\002\002CJe«å.F\aå.F,å.F\025æ.Fìå.F8æ.Fwæ\000}\n\177ôû®·ç}\nJ\222j\002ğ\003\002\003}\n\000ğ¤\201\001!\004ñ}\004\000ÿ÷ [510 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xe010, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b98940, 0xe010, 8176) = 1, 960, bytes =
+ 92 6a 02 f0 03 02 03 2a 3f f4 5e ae 01 21 20 1d ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe3d0,3d0:Ì\200\000!\004ñ}\004\000ÿ÷vú\005F}\003h\000-?ô\211«.Fÿ÷\216»mJ\222j\002ğ\003\002\003}\n\000ğæ\200\002!}\0040ÿ÷cú\006Fÿ÷ñºfIÊjBô\0002Êb\000-?ôG«.Fÿ÷L»aHÁjAô\0001Ábÿ÷âº]IÊjBô\0002Êbÿ÷\\»ZJ\222j\002ğ\003\002\003}\n\000ğ©\200\000!\004ñ}\004\000ÿ÷;ú}\003h\005Fÿ÷}\003»RIÊjBô\0002Êbÿ÷\210»NJ\222j\002ğ\003\002\003}\n\000ğÌ\200\001!\004ñ}\004\000ÿ÷}\004ú\005F}\003h\000-\177ôi¬\211æEJ\222j\002ğ\003\002\003}\n\000ğ¶\200\001!\004ñ}\004\000ÿ÷\022ú\005F}\003h\000-\177ô5¬\200æ<J\222j\002ğ\003\002\003}\n?ô\r¬\001!\004ñ}\004\000ÿ÷\000ú\005F}\003h\000-\177ôe®¬å"ô\000Q±õ\000O?ô©¬²õÀO?ô¥¬\001&5F¬ä"ğ\200Q±ñ\200O?ôN¬²ñ@_?ôJ¬\001&5FQä"ô\2001±õ\200/?ôW«²õ@??ôS«\001&5Fÿ÷Y»"ğ\200Q±ñ\200O?ôo«²ñ@_?ôk«\001&5Fÿ÷r»"ô\200a±õ\200_?ôL¬²õ@o?ôH¬\001&5FOä²ñ@\177?ôÈª²ñ\200o?ôÄª\001&5Fÿ÷Ëº²õ@_?ôÿª²õ\200O?ôûª\001&5Fÿ÷\001»²õÀ\017?ô\207ª²õ\000\017?ô\203ª\001&5Fÿ÷\212º\000¿\000D\002XÀ}\n?ôQª²õ\200\177 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xe3d0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b98d00, 0xe3d0, 7216) = 1, 976, bytes =
+ cc 80 00 21 04 f1 24 00 ff f7 76 fa 05 46 23 68 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe7a0,3e0:GJp´\224j\225jÖj\025ğ|\177Åó\005SQl[ĞÁóÌ\001\006ô\200v\004ğ\003\004\aî\220:\006û\001ñ\001,¸îçz\006î\220\032úîéj\003Ğ\002,jĞ\000,JĞßí8z\207î\207j\023lÃó\b\003\aî\220:÷î\000Zøîçzwî¦zwî¥zgî\206z-J·î\000j\023lÃóF}\003\aî\020:¸îÇzp¼7î\006zÇî\207jüîæjÀí\000j\023lÃó\006C\aî\020:¸îÇz7î\006zÇî\207jüîæjÀí\001j\023lÃó\006c\006î\220:øîæjvî\206j\207î¦züîÇz\027î\220:\203`pGp¼Àé\0003\203`pG\023h\233\006\035Õ\024h÷î\000Z\023l\020IÄóÁ\002Ãó\b\003Ñ@\aî\220:\006î\020\032øîçz¸îÆjwî¦jÆî\az6î¥zgî\207z©çßí\005z\225çßí\005z\222ç\000D\002X\000}\004tJ\000\220Ğ\003\000}\004tK\000}\004tLGJp´\224j\225jÖj\025ô|\177Åó\005\023Qk[ĞÁóÌ\001\006ğ\001\006\004ğ\003\004\aî\220:\006û\001ñ\001,¸îçz\006î\220\032úîéj\003Ğ\002,jĞ\000,JĞßí8z\207î\207j\023kÃó\b\003\aî\220:÷î\000Zøîçzwî¦zwî¥zgî\206z-J·î\000j\023kÃóF}\003\aî\020:¸îÇzp¼7î\006zÇî\207jüîæjÀí\000j\023kÃó\006C\aî\020:¸îÇz7î\006zÇî\207jüîæjÀí\001j\023kÃó\006c\006î\220:øîæjvî [505 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xe7a0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b990d0, 0xe7a0, 6240) = 1, 992, bytes =
+ 47 4a 70 b4 94 6a 95 6a d6 6a 15 f0 7c 7f c5 f3 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xeb80,3e0:T5\001\000\000(\000ğ\204\201øµ\005Fü÷¥ù\225ø80)h\001+§K\024Ğ\231B}\004Ğ 3\231B!Ğ¤K\231BcĞ 3\231B`Ğ\003õxs\231B\003Ğ 3\231B@ğ}\004\201\236L\022à\231B\005Ğ\003ñÀS£õ\2023\231BFÑkh\001+CÑkl\000+@Ñ\224K\231B@ğ\017\201\225L\225ø\2210\003ğÿ\002\000+DĞ\223K\223J\eh¢û\003}\003\nh\e\013"ô\2002\233\000\n`\e³\nh\001;\022ô\2002ùÑ\002}\003\205ø\2210ëh\001+ Ğ\002+\013¿  \000 Oğ!\fOğ\001\f\013¿"'\002'}\003&\003&«h\001;\004+\000òX\201ßè\023ğ}\003\001"\000}\n\001!\000&\001Õø\2240Cğ@\003Åø\2240\001 ø½Oğ\021\f\022'\023&\020 åç\225ø\2210uL\003ğÿ\002\000+ºÑ(F\205ø\220 û÷§ø)h³ç8FOô\000f+j `\000+@ĞeK\231B\000ğ\026\201 3\231B\000ğ\022\201bK\231B\000ğ\a\201 3\231B\000ğ\003\201dK\231B\000ğø\200 3\231B\000ğô\200aK\231B\000ğ\005\201`K\231B\000ğ\b\201«i\002ë\202\002)j³õ\000/OêB\002\000ğÜ\200«j³ñ\200o\024¿\001}\003\002}\003\001û\003ó\e\002²ûóóUJ¢û\003\022Ò\b\002ë\202\001£ëA\003\t+\b¿\0012jbkh/m3ğ\002\003@ğ«\200\001?\030¿\001'\177\002ü÷Ñøil°õ\000_Õé\0002Bê\001\002©lBê\001\002élBê\001\002éjBê\001\002iiBê\001\002Àğ\210\200©i\030h\nC©j [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xeb80, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b994b0, 0xeb80, 5248) = 1, 992, bytes =
+ 54 35 01 00 00 28 00 f0 84 81 f8 b5 05 46 fc f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xef60,3d0:\204fDh4ğ\002\004\024¿\001}\004\000}\004\004eOô\2004ÄeOöÿtDg\023ğ\001\004çÑM\036\001-!ØDfOô\0004\004f\003}\nŞØßè\002ğ.H8}\004à![\001\200"\201dCeÂf0¼ÿ÷ë½À!õç\200"[\001\202dCeÂfôç\200!\e\001@"\201dCeÂfíçOô\200!Àé\030A\003}\n¼Øßè\002ğ\f85\002[\bà}\004\232\001\200![\001\204dÁfÀé\025}\003Ùç[\b\200}\004@!Z\001\204d\e\001ÁfÀé\025}\003Ïç[\bÀ"\200%\002)Oê\203\024\202dOêC\023ÅfDe\203eÂÑ\b}\003\203f¿ç[\b\200"\002)Oê\203\024\202dOêC\023ÂfÀé\025C³Ñ\020}\003\203f°ç[\bÀ}\004Ëç[\b\200"\231\001\202d[\001ÂfÀé\025\023¤ç\000¿\030³8µ\220ø,0\004F\rF\003ğÿ\002³±!F\002}\003\204ø,0Qø\004\013\000ğQøbh)F h\000ğ\202ø\bJ\001!\000 \023hCğ\000C\023`\204ø,\0208½\200ø- ù÷8ıãç\001 pG\000¿\000@\000Rpµ\220ø,0\005F\002+Ø²\004Ğ\000ğû\004\001,\001Ğ\001 p½\002}\003\016F(h\205ø,0\000ğ\230ø3h\002+\003Ğ\205ø,@\000 p½\005}\003\205ø,0ùç\000¿8µ\220ø,0\004F\002+Ø²\005Ğ\224ø,0\001+İ²\001Ğ\001 8½\002}\003 h\204ø,0\000ğ\214ø\000 \204ø,P8½-éğAÑé\a>Ñé\000\202OjCê\016\003Ñé\002ÆÑé\004T\211i¸ñ\000\017\017 [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xef60, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b99890, 0xef60, 4256) = 1, 976, bytes =
+ 84 66 44 68 34 f0 02 04 14 bf 01 24 00 24 04 65 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xf330,3d0:´ç\000}\003\fJ\001\223Üø\0200Cğ\001\003Ìø\0200\004àÜø\020\000\020ğ\001\000ËĞ\001\233\0013\223B\001\223õÙÄçÃhCô\200\023Ã`\214ç\000¿@\r\003\000\003F\000 \232hBğ\001\002\232`pG\000¿\003F\000 \232h"ğ\001\002\232`pG\000¿\bµÃh\001)}\003ğÀCÃ`\013ĞA¹ÃhCğ\200CÃ`2 û÷\207ı\000 \b½\001 \b½ÃhCğ\000SÃ`óç\204°\204F-éğA\202°\t¬\f\235\204è\016\000\000}\003\023\234\nFÀø\0041Àø\b1Àø\f1Àø\0201Àø\0241Àø\0301Àø\0341Àø 1Àø}\0041Àø(1Àø,1Àø01Àø41Àø81Àø<1\203k\000,@ğ¹\200}\003ô\000\023\203c\003hCğ@\003\003`\003hCğ\200\003\003`\000}\003\fõ\000aÌø\000>Üø\0008Ìø\0008\016\233\001+\000ğ³\200Üø\0008Cğ\003\003Ìø\0008\000}\003]N\000\223Oô\204cÌø\0200\004àÜø\020\000\020ğ \000\005Ğ\000\233\0013³B\000\223õÙ\001 \000}\003SN\001\223\020}\003Ìø\0200\003àÜø\0200Û\006\005Õ\001\233\0013³B\001\223öÙ\001 \000&\016aNaÎa\002³Üø\000y\fõ\020c¶F\000/\024Û\000&\036`Oğ\000\bOö\1777\016ñ\001\016Ãø\020\200\237` 3\226E:Ğ\036h\000.îÚOğ\220F\036`ğçOğ\000fÌø\000içç\013i\001-}\003ô\200s\013aNĞ\000}\003Ìø\0300oğ\200CÌø\0240-¹Üø\0300Cğ\020\003Ìø\0300Üø\030 .K\023C\017\232 [498 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xf330, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b99c60, 0xf330, 3280) = 1, 976, bytes =
+ b4 e7 00 23 0c 4a 01 93 dc f8 10 30 43 f0 01 03 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xf700,3d0:\020[oóÜEÌø\020[\215h\223³+DuN\001}\n\003ñÿ3³ûõó\006êÃF\233²\005û\003óŞø\020PEê\006\005Ãó\022\003Îø\020PŞø\020PCê\005\003Îø\0200'Ğ\001,\fÑĞø\b8\023ô\200\177Üø\000;\f¿Cğ\000SCğ\200SÌø\000;Üø\000;Cğ\004CÌø\000;\000 ½èğ\203Şø\0200Åó\022\005\001}\nEê\003\005Îø\020PŞø\0200Cô\000}\003Îø\0200×ÑËh\000+ÔĞÎø\0240Ñç\fõ\020e\000+6Ñ.i\001}\noóÜF.a.iFô\000&.a.ioó\022\006.alĞÜø\000Y\001,Eğ\004EÌø\000YÌÑĞø\bH\024ô\200\177Üø\000I\f¿Dğ\000TDğ\200TÌø\000I\000}\n½Ñ\233²\0033\232\b¹ĞËh\000ë\016>\003ë\202\001\016õ\200^Sø\004+\213BÎø\000 ùÑ«ç/i\001,Ñø\b\220oó\022\a\të\003\b/a\bñÿ8/i¸ûùøoóÜG/a+O\aêÈGÕø\020\200Gê\b\a/aÃó\022\aÕø\020\200Gê\b\a/a\021Ğ\001}\n?ĞÜø\0009\016ğ\017\016Cğ\004C\006ú\016öÌø\0009Ğø48\036CÀø4hxç,i\001}\n}\004ğÀD,a,iDğ\000T,a\024ĞÜø\000IDğ\004DÌø\000I\232ç\013i\003±ka\001,\013ĞÜø\0009\000 Cğ\004CÌø\0009½èğ\203\013i\003±kaĞø\b8\023ô\200\177Üø\0009\f¿Cğ\000SCğ\200SÌø\0009åç\013i\000+âĞkaàç\000¿\000\000ø\037K [503 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xf700, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a030, 0xf700, 2304) = 1, 976, bytes =
+ 10 5b 6f f3 dc 45 cc f8 10 5b 8d 68 93 b3 2b 44 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xfad0,3e0:\000 0¼pG\000¿\n0TOĞø\2242\203±\020µĞø\220B\224ø\000\002ÿ(\aĞ\233h!F\224ø\001"\230Gÿ}\003\204ø\0002\000 \020½\000 pG\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000\2101\001\000\0202\001\000\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000Ì1\001\000\0202\001\000\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000D1\001\000\0202\001\000\003F\n"\001H\032\200pG\000¿´2\001\0008µ\004FĞø\220Rú÷FÿÔø\2202Åø\f\002K±Ôø\2242\005õ\003qÕø\004\002Ûh\230G\000 8½\002 8½\000¿8µĞø\220Bô±\001ë\201\fĞø\230R\000ë\214\fÜø\0340}\003¹\000}\003Äø\0242\000 8½ÁëÁ\002\005ë\202\005jl³ûòõ\002û\0253\000+ïÑ\032FÌø\0340ú÷úşìç\002 8½\000¿pµ\000}\003\202°\fF\005F\215ø\0050­ø\0060\013xĞø\220b\023ğ`\002\032Ğ }\n\006Ğ(F!F\000ğAù\002 \002°p½Ê\210\221ø\001Àò±\e\0062ÕÕø\22421F`F\233h\230Gâ\2101F(F\000ğaù\025àKx\n+\031Ğ\013+\022Ğ\000+ßÑ\220øt2\003+ÛÑ\002"\rñ\006\001\000ğPù\004àĞø\2242`F\233h\230G\000 Óç\220øt2\003+ùĞÉç\220øt2\003+ÅÑ\001"\rñ\005\001\000ğ:ùîç1F\206ø\000Â\206ø\001"\000ğ@ùæç\000¿8µ\004F\000%\201!ú [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f77bcde0, 0xfad0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a400, 0xfad0, 1328) = 1, 992, bytes =
+ 00 20 30 bc 70 47 00 bf 0a 30 54 4f d0 f8 94 32 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xfeb0,150:\200!ú÷\217ı\000! F½è\020@ú÷\211½\000¿\b³pµ\003x\016F\005F\024Fã±\0010\000ğeÿC\034Û²\0013[\000Ú²}\003\200\003}\0032psp,xd±(F\002}\003\000!Z\034ôT\0023Ò²Û²±T\020ø\001O\000,õÑp½pG\002"\023Fçç\000¿\020µ\023F\002}\004\nF\000!ÀølBÀé\a3ú÷aı\000 \020½\000¿\020µ\023F\003}\004\nF\000!ÀølBÀéR3ú÷_ı\000 \020½\000¿\fJ\202°\fKÒøÜ\020Ağ@\001ÂøÜ\020ÒøÜ \002ğ@\002\001\222\001\232\032h"ğ \002\032`\032hBğ\004\002\032`\002°pG\000¿\000D\002X\000\030\002H-éğC\000"\211°\eK\001!\rñ\004\f\236F\032K\a\221áFàFgF\016ñ\034\006\016ñ8\005\016ñT\004Íé\001"Íé\003"Íé\005"ÿ"\032p¼è\017\000®è\017\000\234è\a\000\216è\a\000¹è\017\000\017Æ\234è\a\000\206è\a\000¸è\017\000\017Å\234è\a\000\205è\a\000\017Ï\017Ä\234è\a\000\204è\a\000\t°½èğ\203\000¿#ca
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x5635f7a4d350, 0xfeb0, 0x150, 0x150) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a7e0, 0xfeb0, 336) = 1, 336, bytes =
+ 80 21 fa f7 8f fd 00 21 20 46 bd e8 10 40 fa f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x5635f7b9a930, 0x10000, 7680) = -1, 0
+-> extended-remote->supports_terminal_ours (...)
+<- extended-remote->supports_terminal_ours () = false
+Load failed
+-> extended-remote->log_command (...)
+<- extended-remote->log_command (quit)
+-> extended-remote->pid_to_str (...)
+<- extended-remote->pid_to_str (1) = Remote target
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+-> extended-remote->get_trace_status (...)
+<- extended-remote->get_trace_status (0x5635f7654620) = -1
+-> extended-remote->detach (...)
+-> extended-remote->pid_to_str (...)
+<- extended-remote->pid_to_str (1) = Remote target
+Detaching from program: /home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp, Remote target
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $D#44
+[remote] Received Ack
+[remote] Packet received: OK
+-> extended-remote->pid_to_str (...)
+<- extended-remote->pid_to_str (1) = Remote target
+-> extended-remote->mourn_inferior (...)
+<- extended-remote->mourn_inferior ()
+[Inferior 1 (Remote target) detached]
+<- extended-remote->detach (0x5635f77db310, 1)
+target_close ()
+target_close ()
+target_close ()
+-> extended-remote->log_command (...)
+<- extended-remote->log_command (load)
+-> extended-remote->load (...)
+Loading section .init, size 0xc lma 0x8000
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8000,0:#b6
+[remote] Received Ack
+[remote] Packet received: OK
+[remote] check_binary_download: binary downloading supported by target
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8000,c:øµ\000¿ø¼\b¼\236FpG#68
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29bf0500, 0x8000, 0xc, 0xc) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29bf63d0, 0x8000, 12) = 1, 12, bytes =
+ f8 b5 00 bf f8 bc 08 bc 9e 46 70 47
+Loading section .text, size 0x9df0 lma 0x8010
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8010,3d0:\bµ\006K\004F\023±\000!\bğ'ÿ\004K\eh\003±\230G F\tğèşm\016\001\000@Ë\001\000\006K0 \003!Oğ~RÃé\002\001\000 \000!\032aZaÃé\006\001pGPv\001\0008µ\aM\aL}\nF\aH!F\bğÂû}\nF!F\005H½è8@\bğ»»\000¿@0\001\0005\215\000\000\214v\001\000\210v\001\000\004K\020"\032t\203øè \203øÀ!\203ø\230"pG\\|\001\000\bK\032\035\230\035\003ñ\b\001\020´\234\034\232f\003ñ\n\002Ãé\0304Ãé\e\001]ø\004KZgpGÀ\177\001\000\003H\000}\003\003J\004I\003`\bğ\213»\000¿ğ\204\001\000@0\001\000µ¢\000\000WI\b"\002}\003WH\237íS{ğ´VMÁø\224&Áø4(JaÁø´!ÁøT}\003Áøô}\004\001õ\004bPLÁø¤6ÁøD8KbÁøÄ1Áød3Áø\0045«xJO}\003rcqJN;r3r\002í\002{}\n\210â\200¤ø\003 FLú\200â\200}\003rELò\200â\200}\003r\001õ d\201íÖ{\201í\006{\201ín{\001õÔa\004í\002{\001í\002{=L)hÂ\200\003r ø\003 Cq;Hâ\200}\003rÂ\200:L\003r\b\f!\200 p¤ø\003 cqâ\200}\003r6L6M!\200 p¤ø\003 cqâ\200}\003r3L¥ø\003 !\200 p¤ø\003 cqâ\200}\003r/Lkq!\200ê\200+r p¤ø\003 cqâ\200}\003r+L!\200 p¤ø\003 cqâ\200}\003r(L!\200 p¤ø\003 cqâ\200}\003r%L!\200 p [503 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x8010, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d1f3d0, 0x8010, 32752) = 1, 976, bytes =
+ 08 b5 06 4b 04 46 13 b1 00 21 08 f0 27 ff 04 4b ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X83e0,3e0:ZqÙ\200\032r"K\030\200£ø\003\020ZqÙ\200\032r\203ø\002À\036K\030\200£ø\003\020ZqÙ\200\032r\203ø\002À\eK\030\200£ø\003\020\032HZqÙ\200\032r\203ø\002À\030K ø\003\020BqÁ\200\002r£ø\003\020ZqÙ\200\032r0¼pG\001\000\000\000\000\000\000\000Ğº\001\000L5\001\000@5\001\00045\001\000\0345\001\000\0045\001\000(5\001\000Àº\001\000\0205\001\000ì4\001\000ø4\001\000à4\001\000´º\001\000¨º\001\000\234º\001\000Ô4\001\000È4\001\000\020µ\005L}\003x3¹\004K\023±\004H¯ó\000\200\001}\003}\003p\020½¸u\001\000\000\000\000\000¬\037\001\000\bµ\003K\e±\003I\003H¯ó\000\200\b½\000\000\000\000¼u\001\000¬\037\001\000£õ\200:pG\000¿\025K\000+\b¿\021K\235Fÿ÷õÿ\000!\213F\017F\021H\022J\022\032\bğÃû\fK\000+\000Ğ\230G\013K\000+\000Ğ\230G\000 \000!\004\000\r\000\013H\bğuù\bğ\020ü \000)\000\000ğ}\004øÿ÷|ı\000\000\b\000\000\000\000\000\000\000\000\000\000\000\000\000¸u\001\000èÌ\001\000u\r\001\000pG\000\000\bµ\005H\000}\003\003`Ca\003bÃc\003J\003I\bğMù\b½Ôu\001\000@0\001\0005\205\000\000\bµ\000!\005H\000ğËø\000 \000ğJü\003H\000ğãû\000 \b½\000¿Ôu\001\000\f\036\001\000\bµÿ÷Ùÿ\b½\020µ@ò\0031\216°\000}\004Oö\013s@ò\003B­ø\b\020\002\231\t¨­ø\0200­ø}\0040\001}\003­ø\f "F\000\224\a\224\f\224Íé\005DÍé\nD\000ğÌü\004¨\001}\003"F\003\231 [508 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x83e0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d1f7a0, 0x83e0, 31776) = 1, 992, bytes =
+ 5a 71 d9 80 1a 72 22 4b 18 80 a3 f8 03 10 5a 71 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X87c0,3d0:\001ğ>ù×ç\000¿\005\a\005\006\005\b\005\t\020µ\204°\003F\001}\004\003¨­ø\f0­ø\016@\000ğßü!F\003¨\000ğ¹ı F\001ğbı\000!\003¨\000ğ²ı F\001ğ[ı!F\003¨\000ğ«ı\004°\020½\000¿\020µÂó\000}\003\204°\fF\001|\215ø\r CêD\002ú}\004\002}\003\215ø\f \003ª\000\224\000ğvÿ\030±\001}\004 F\004°\020½\004F\n \001ğ9ı F\004°\020½\003FpµCø\004+\004F\204°ú%\aÉ\203è\a\000¡y\036}\003\000\225\003ª\0321­ø\f0 F\002}\003É²!t\000ğSÿ\020±\001 \004°p½\n \001ğ\030ıOô¸R\000\225\002}\003­ø\f  F\003ª!|\000ğAÿ\000(ìÑ\n \001ğ\bıAò\002r\000\225\002}\003­ø\f  F\003ª!|\000ğ1ÿ\000(ÜÑ\n \001ğøü\004"\000\225\002}\003­ø\f  F\003ª!|\000ğ"ÿ\000(ÍÑ\n \001ğéü\006"\000\225\002}\003­ø\f  F\003ª!|\000ğ\023ÿ\000(¾Ñ\n \001ğÚüAò\b"\000\225\002}\003­ø\f  F\003ª!|\000ğ\003ÿ\000(®Ñ\n \n&\001ğÉü\000\225\002}\003\003ª!| F­ø\f`\000ğôş\000(\237Ñ0F\001ğ»ü}\003y\f"\000\225\000+!|\215ø\f  F\024¿b}\003B}\003jD\215ø\r0\002}\003\000ğŞş\000(\211Ñ0F\001ğ¥ü£h\000\225 Fâh!|\023C"yÛ²\202ğ\001\002Cê\202\023byRB\002ğ \002\023C\016"\215ø\r0\002}\003\215ø\f \003ª\000ğ¿ş\000 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x87c0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d1fb80, 0x87c0, 30784) = 1, 976, bytes =
+ 01 f0 3e f9 d7 e7 00 bf 05 07 05 06 05 08 05 09 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8b90,3e0:\002ğ\b\002\003\222\003\232Óøà Bô\200rÃøà Óøà \002ô\200r\004\222\004\232Óøà Bğ\200\002Ãøà Óøà \002ğ\200\002\005\222\005\232Óøà Bğ \002Ãøà Óøà \002ğ \002\006\222\006\232Óøà Bğ\004\002Ãøà Oö\203rÓøà0\013\226\003ğ\004\003\f\225\a\223\002}\003\a\231\b©Íé\b}\003\002ğàüHò7\023\b©}\003H\b\223\f\225\t\227Íé\nF\002ğÕüLò\003s\b©\036H\b\223Íé\ttÍé\013e\002ğÊü@òÿc\b©\032H\b\223Íé\ttÍé\013e\002ğ¿üOö\fs\b©\025H\b\223Íé\ttÍé\013e\002ğ´üOö?\003\b©\021H\b\223Íé\ttÍé\013e\002ğ©ü }\003\b©\013H\t\227\f\225\b\223Íé\nF\002ğ\237ü\017°ğ½\000¿\024v\001\000\000D\002X\000\020\002X\000\030\002X\000\f\002X\000 \002X\000\034\002X\000\024\002X0µ\030L\025F\205°\004`\004ñ\b\016ìF\017É\216è\017\000Ôí\004zõîÀz\214è\017\000ñî\020ú\032İ·î\000j\224í\005z'î'zÆî'j\204í\rzÄí\fjm± F@ø\030_\001ğÆú\006I\003i\000 \006J!b¢bã`\005°0½\001 \005°0½Pv\001\000¸U\001\000¸5\001\000\000h\b0pG\000¿\000h\0300\001ğ®ºpG\000¿\017´ğµ\203°,L,N\b« hSø\004+Àñ\200\0010D\001\223\ağ\177ÿ}\003hÀ\030'Ğ2\030\000à ³\022ø\001=\001F\0018\r+\030¿\n+öĞ\215\034\177-3ÙBò}\004B\200}\003 [509 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x8b90, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d1ff50, 0x8b90, 29808) = 1, 992, bytes =
+ 02 f0 08 02 03 92 03 9a d3 f8 e0 20 42 f4 80 72 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X8f70,3e0:\001}\003/Ğ\220ø\001à\204F¾ñ\017\017)Ø\002}\n9Ğ\003}\n\004Ğ¢ñ\001\002²ú\202òR\t\001+\016\222\005Ğ£ñ\002\003³ú\203ó[\t[\000\002,\017\223\006Ğ\003,\004Ğ¤ñ\001\004´ú\204ôd\t\n)\020\224\fÙ\000}\003\030FÌø\0200\001}\003\r©\003ú\016ó\r\223\002ğüú\022°\020½[KJ\036\003ë\201}\003Ìø\0200\t}\n\000ò\237\200ßè\002ğ\216\177paRC4%\026\a\021"ÊçSKTHÓøà Bô\200bÃøà Óøà0\003ô\200c\f\223\f\233ÕçLKMHÓøà Bô\000rÃøà Óøà0\003ô\000s\013\223\013\233ÆçDKGHÓøà Bô\200rÃøà Óøà0\003ô\200s\n\223\n\233·ç=K@HÓøà Bğ\200\002Ãøà Óøà0\003ğ\200\003\t\223\t\233¨ç5K:HÓøà Bğ@\002Ãøà Óøà0\003ğ@\003\b\223\b\233\231ç.K3HÓøà Bğ \002Ãøà Óøà0\003ğ \003\a\223\a\233\212ç&K-HÓøà Bğ\020\002Ãøà Óøà0\003ğ\020\003\006\223\006\233{ç\037K&HÓøà Bğ\b\002Ãøà Óøà0\003ğ\b\003\005\223\005\233lç\027K HÓøà Bğ\004\002Ãøà Óøà0\003ğ\004\003\004\223\004\233]ç\020K\031HÓøà Bğ\002\002Ãøà Óøà0\003ğ\002\003\003\223\003\233Nç\bK\aHÓøà Bğ\001\002Ãøà Óøà0\003ğ\001\003\002\223\002\233?ç\000¿\000\000\002X\000D\002X\000(\002X\000}\004\002X\000 \002X\000 [504 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x8f70, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d20330, 0x8f70, 28816) = 1, 992, bytes =
+ 01 23 2f d0 90 f8 01 e0 84 46 be f1 0f 0f 29 d8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9350,3e0:\002ğ<ù\017°0½\032F1ç\000D\002Xpµ\006F\rF\001ğ9ı\004F0F\001ğ=ı}\n\036\001F F\030¿\001"½èp@\002ğd¼pµ\000}\003\206°\022"\004F\003\223Íé\001}\003\003h\003+\001Ø\004}\003\004\223&\035\00640F\001ğ\032ı\005F0F\001ğ\036ı\003FiF(F\000\223\002ğ\bù F\001ğ\rı\003F F\034F\001ğ\020ıiF\003F F\000\223\002ğúø\006°p½cJ\003h\223B\020µ\214°(ĞaJ\223BXĞaJ\223B\000ğ\224\200`J\223B\001Ğ\f°\020½^L_HÔøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\n\223\n\233ÿ÷²ÿÔøô0Cğ\200\003Äøô0Ôøô0\003ğ\200\003\013\223\013\233àçPLQHÔøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\001\223\001\233ÿ÷\225ÿÔøè0\000"\037 Cô\000\023\021FÄøè0Ôøè0\003ô\000\023\002\223\002\233ÔøØ0Cğ\001\003ÄøØ0ÔøØ0\003ğ\001\003\003\223\003\233\001ğ<ı\037 \f°½è\020@\001ğr½6L9HÔøà0Cğ\200\003Äøà0Ôøà0\003ğ\200\003\004\223\004\233Ôøà0Cğ\002\003Äøà0Ôøà0\003ğ\002\003\005\223\005\233ÿ÷VÿÔøè0\000"! Cô\200\003\021FÄøè0Ôøè0\003ô\200\003\006\223\006\233ÔøØ0Cğ\001\003ÄøØ0ÔøØ0\003ğ\001\003\a\223\a\233\001ğıü! \f°½è\020@\001ğ3½\eHÿ÷0ÿ\025K\000"H Óøè@\021FDô\000\004Ãøè@Óøè@\004ô\000\004\b [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x9350, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d20710, 0x9350, 27824) = 1, 992, bytes =
+ 02 f0 3c f9 0f b0 30 bd 1a 46 31 e7 00 44 02 58 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9730,3d0:\bñ\214\004 F\002ğGı (úÑØø\f0s¹m\000 F\b\2343F:F©²\000\224\002ğ\207û\0008\030¿\001 \002°½èğ\201\b\2332F9F F\002ğGüòç0µ\000}\003\225°Oô\200q\006"\004F\013\223\006\222\023\223Íé\f\023Íé\0163Íé\0213\000ğøş\a(}\nĞ\004ñ\020\005Aò\2102\006©(F\003ğNù(±\001}\003\204ø\\0\001 \025°0½\002}\003\020"\006©(F\002\222\000"Íé\0003\001}\003\003\223Oô\200\003Íé\004}\003\005"Oğ\200s\006\222jF\017\223Aò\2103\003ğ¿ú\000(ßÑ\025°0½\003}\003\204ø\\0Üç\000¿pµ\000}\003¤°Oğ\200rOô\200u\004F­ø\0060\e\223Íé\0362\001"Íé\034SÍé }\003Íé"3\000)BĞğ}\003\000ñ\020\005\026®­ø\0060À}\003Aò\21021F(F\026\223\003ğ\002ù(±\001}\003\204ø\\0\001 }\004°p½Aò\2102\rñ\006\001(F\003ğbù\003F\000(ïÑOô\200q\005"(F\001%\b\222\020"\020\223\r\223\025\223\002\223\005\225Íé\016\023\237í\036{Oğ\200qÍé\0233\021\221Aò\2103\b©Íé\003R\002ª\215í\006{\003ğbú\000(ÒĞ\204ø\\PÎç\000ñ\020\005\026®a}\003Aò\21021F(F\026\223\003ğÂø\000(¾ÑAò\2102\rñ\006\001(F\003ğµù\000(µÑ½ø\0060 F}\003ğx\003Cğ@\003­ø\0060ÿ÷Bÿ\000(\237Ğ§ç\000¿¯ó\000\200\000\000\000\000\000\000@\000-éğO\000}\003Oô\200v\001%Oğ\200x\004F-í\002 [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x9730, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d20af0, 0x9730, 26832) = 1, 976, bytes =
+ 08 f1 8c 04 20 46 02 f0 47 fd 20 28 fa d1 d8 f8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9b00,3e0:\200s!\220\024©\035\223\020}\003Íø\f\200\002\223Aò\2103\237í}\004{Íé\032\220Íé\037\000Íé\000\b(\035\215í\004{\003ğ\eù\000(¼Ñ1F Fÿ÷_ş\000(¶Ñ Fÿ÷Şş\006F\000(°Ñ\000/²Ñë}\003\006ª\024©(\035\024\223Oô@cÍøh\220\e\223Oô\000S\030\226\027\223Oô@C\034\223 }\003\026\223\006}\003\031\223Oğ\200S\237í\f{!\223Oğ@sÍé\037f\035\223\215í\006{\003ğvù\000(\215Ğ\204ø\\\200\211ç\003}\003\204ø\\0\205ç\000¿\000\000\000\000\000\000@\000\000\000\000\000\000\000\000\000À\177\001\000\000P\000R-éğO\217°AK\000}\004\002h\000¯\232B|cÇé\tDÇé\013D\003Ğ<7½F½èğ\217:K@ö\t!:HêFÓøÔ \añ\034\006\añ"\013Oğ\002\tBô\200BOğ\003\bÃøÔ ÓøÔ \002ô\200Bº`ºhÓøà Bğ@\002Ãøà Óøà \002ğ@\002ú`úhÓøà Bğ \002Ãøà Óøà \002ğ \002:a:iÓøà Bğ\020\002Ãøà Óøà \002ğ\020\002zaziÓøà Bğ\002\002Ãøà Óøà0øa\003ğ\002\0039\204»a\027K{`»i{hSø\004\017{`\001ğ©ø{h\005F\030h\001ğ¬ø\026ø\001;xb\añ}\004\001(FÇø0\200{cÇé\n\224\001ğ\217ü^EåÑ\000"\\ \021F\001ğ(ù\\ \001ğaù<7ÕF½F½èğ\217\000P\000R\000D\002X\n\n\t\t\034\200\001\000\021K\002h\232B\000ĞpG\020JpµÒøÔ [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x9b00, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d20ec0, 0x9b00, 25856) = 1, 992, bytes =
+ 80 73 21 90 14 a9 1d 93 10 23 cd f8 0c 80 02 93 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $X9ee0,3e0:\000(\000ğ\225\200ÿ¾şç_L`NÔøà00FCğ\001\003Äøà0Ôøà0\003ğ\001\003\000\223\000\233Ôøà0Cğ\020\003Äøà0Ôøà0\003ğ\020\003\001\223\001\233Ôøà0Cğ@\003Äøà0Ôøà0\003ğ@\003\002\223\002\233Ôøğ0Cô\200\003Äøğ0Ôøğ0\003ô\200\003\003\223\003\233ÿ÷îşÔøØ0)hCğ\001\003@J0hÄøØ0\221BÔøØ0\003ğ\001\003\004\223\004\233'Ğsj\001;\030¿\001}\003\233\001\000(RÑ;J\006õètX!À6Æø\020!\000" FÄé\001\023Oô\200SOô\200abbcaOô\200sÄé\003!Oô\200BÄé\006}\003Oô\0003}\003b\001ğRù\b³ÿ¾şç3j\001;\030¿\001}\003\233\001\030»\002õ(B\006õ¬tW!(6\f2Æø0!ÕçÓø|"\001:\030¿\001"\222\001X» HW!\003õmt\003õ!uÃø´\003UçÆé D¦c\n°p½Åé D¥c\n°p½\030J\006õ¬tY!(6Æø0!³ç\025J\006õètZ!À6Æø\020!«ç\021HZ!\003ò,D\003õGuÃø,\0042ç\013HY!\003õmt\003õ!uÃø´\003)ç\000¿\004X\001@\004\\\001@\000D\002X\224\202\001\0008\200\001\000(\000\002@\020\000\002@X\000\002@p\000\002@\000\000\000\000-éğO\fhOô\027wyN\207°\004û\a÷\001,\006ë\a\bÀø\000\200\000ó\237\200Oğ\000\t\aõ\022s\rF\216FFø\003\2203DÄFÃø\004\220ÈøP\222h£Óé\000}\003i¡Ñé\000\001 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0x9ee0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d212a0, 0x9ee0, 24864) = 1, 992, bytes =
+ 00 28 00 f0 95 80 ff be fe e7 5f 4c 60 4e d4 f8 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xa2c0,3e0:Î°\004FL"\000!\n¨\006ğÑü "\000!\002¨\006ğÌü¼"\000!\036¨\006ğÇü\002 \002ğ0ú}\003h\001+Oğ\000\003PĞPJ\002%\001\223È ÑjNK!ğ\001\001ÑbÒj\002ğ\001\002\001\222\232iBô@B\232a\233i\003ô@C\001\223\001\233FJ\223i\231\004üÕEI\002}\004\000"\001&\213jOğ\004\b\b'}\003ğ\003\003}\003C\213b\005}\003\026\220\n¨\030\223Oô\2003\020\226\027\224\031\224ÍøT\200\032\227Íé\e"!"Íé\023DÍé\n}\003\002ğîı\000±şç@}\003)F?"Oô\200e\t\223\004\220\002¨\005\227\b\225Íé\0063\003}\003Íé\002}\003\003ğõø\003F¸±şç(J\004%\000\223ğ \221i%KAô@A\221a\222i\002ô@B\000\222ÚjBğ\001\002ÚbÛj\003ğ\001\003\000\223\000\233­çOô\2002Oô\200Q"\224\036¨F\222/\2243\224\006}\0045\221!\227Íø¨\200,\225\037\226}\003\226Íé%1Íé02Íé-3\000"Oô\200qÍé;3Oô@\023C\221\020!Íé>}\003@ò'\022\200}\003)\221}\004\2234\223\f}\003Íé'B " \223+\222\bJ\036\222\003ğÁú\000±şç\002ğ³ùN°½èğ\201\000\004\000X\000H\002X\000D\002X\017\023\017\003-éğA\rF\004F\204°Ñé\000\001\204è\003\000\000ğùü®y\000.5ĞlF\005ğ\227ÿÿ÷\223ø\005ğ\215ı\005ğ\023ÿ+y\000+RÑky\233±¿óO\217¿óo\217;K\000"ÃøP"¿óO\217¿óo\217ZiBô\0002Za¿óO\217¿óo\217\000} [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xa2c0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d21680, 0xa2c0, 23872) = 1, 992, bytes =
+ ce b0 04 46 4c 22 00 21 0a a8 06 f0 d1 fc 20 22 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xa6a0,3e0:\005ğ\202û\bI\aH\005ğ\210û\aK\032h\n±\000 \b½\006J\000 \032`\b½\000¿ü\204\001\000¼y\001\000ü\214\001\000ô\204\001\000ı¥\000\000 (\fĞ!(\001Ğ\000 pG\tK\030h\232\210\233y\b`\000 \212\200\213qpG\005K\bh±ø\004À\212y\030`\000 £ø\004À\232qpG\2240\001\000 (\fĞ!(\001Ğ\000 pG\tK\030h\232\210\233y\b`\000 \212\200\213qpG\005K\bh±ø\004À\212y\030`\000 £ø\004À\232qpG\2140\001\000\000 pG\020µ\tLÔø\2202Óø\0242\013±\001 \020½\nF\001F F\005ğ"û F½è\020@\005ğ/»\000¿ w\001\000KJ\003h0µ\223B\213°Oğ\000\004Íé\004DÍé\006D\b\224\004ĞFJ\223BIĞ\013°0½DMOôÀRDHÕøà0Cğ\001\003Åøà0Õøà0\003ğ\001\003\000\223\002}\003\000\231\004©Íé\004}\003\n}\003\b\223\000ğ\002ÿOô\000r\000}\003\004©7H\006\224Íé\004}\003\000ğøşÕøØ0"F!FCğ\000cb ÅøØ0ÕøØ0\003ğ\000c\001\223\001\233\000ğ\207ûb \000ğÀû"F!Fc \000ğ\177ûc \000ğ¸û"F!Fe \000ğwûe \000ğ°û\013°0½ MOô@B\004©Õøà0Cğ\002\003Åøà0Õøà0\003ğ\002\003\002\223\002}\003\002\230\032HÍé\004}\003\f}\003\b\223\000ğºşÕøØ0"F!FJ Cğ\000sÅøØ0ÕøØ0\003ğ\000s\003\223\003\233\000ğIûJ \000ğ\202û"F!FK \000ğAûK \000 [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xa6a0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d21a60, 0xa6a0, 22880) = 1, 992, bytes =
+ 05 f0 82 fb 08 49 07 48 05 f0 88 fb 07 4b 1a 68 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xaa80,3f0:\020µ\004L\nF\004H!F\005ğ\eú F\020½\000¿\020­\001\000T\036\001\000\020µ\004L\nF\004H!F\005ğ\rú F\020½\000¿\020­\001\000`\036\001\000\020µ\004L\nF\004H!F\005ğÿù F\020½\000¿\020­\001\000p\036\001\000\004}\003\001H\013\200pGØ0\001\000\020µ\004L\nF\004H!F\005ğëù F\020½\000¿\020­\001\0000\036\001\000RJOğ\032\fÒø\0008Òø\b\b¡ø\000À\e\030\001ÑNHpGÒø\004\030\030\017KJ³ñ OOğ\000\f,¿7000\202ø\003ÀÃó\003l\220p¼ñ\t\017`FOğ\000\f\214¿7000\202ø\005ÀÃó\003\\\020q¼ñ\t\017`FOğ\000\f\214¿7000\202ø\aÀÃó\003L\220q¼ñ\t\017`FOğ\000\f\214¿7000\202ø\tÀÃó\003<\020r¼ñ\t\017`FOğ\000\f\214¿7000\202ø\013ÀÃó\003,\220r¼ñ\t\017`FOğ\000\f\214¿7000\202ø\rÀÃó\003\034\020s¼ñ\t\017`FOğ\000\f\214¿7000\202ø\017ÀOğ\000\f\220s\003ğ\017\000\202ø\023ÀOğ\000\f\003F\t(Oğ\000\000\202ø\025À\224¿0373±ñ OPt\023tOê\021sÁó\003`Oğ\000\f,¿7303\t(\202ø\027À\223t\003FÁó\003P\214¿7303\t(\023u\003FÁó\003@Oğ\000\001\214¿7303\t(Qv\223u\003F\004H\224¿0373\023vpG\000¿\000àñ\037¼0\001\000RJOğ\032\fÒø\0008Òø\b\b¡ø\000À\e\030\001ÑNHpGÒø\004\030\030\017KJ³ñ [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xaa80, 0x400, 0x3f0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d21e40, 0xaa80, 21888) = 1, 1008, bytes =
+ 10 b5 04 4c 0a 46 04 48 21 46 05 f0 1b fa 20 46 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xae70,3e0:\016 +`\222i\002ğ\017\002\212\\\002ğ\037\002Ó@}\003`ÿ÷¼ÿ\020±\001}\004 F8½\004Fÿ÷³ÿ F8½\000¿T5\001\000P5\001\000\000D\002X\\\037\001\000\001K\030hpG\000¿\020¯\001\0008µ\004Fÿ÷öÿ\005Fc\034\002Ğ\004K\ex\034Dÿ÷îÿ@\e BúÓ8½<1\001\000\001K\030h\000\fpG\000\020\000\\\006IOöÿ\f\000\002\005KÊh\000ôà`\002ê\f\002\020C\003CË`pG\000í\000à\000\000ú\005\032KÛhÃó\002}\003\000µÃñ\a\016\003ñ\004\f¾ñ\004\017(¿Oğ\004\016¼ñ\006\017\032Ù£ñ\003\fOğÿ3\003ú\fó"ê\003\002Oğÿ3\000(\003ú\016ó!ê\003\003\003ú\fóCê\002\003Oê\003\023Û²\006Û\aJ\023T]ø\004û\000"\224Féç\000ğ\017\000\004J\023T]ø\004û\000¿\000í\000à\000ä\000à\024í\000à\000(\aÛ\000ğ\037\001\001}\003@\t\002J\213@Bø 0pG\000¿\000á\000à\000(\fÛC\t\001"\000ğ\037\000\004I 3\202@Aø}\003 ¿óO\217¿óo\217pG\000á\000àC\036³ñ\200\177\001Ó\001 pGOğà"\000 \005IOğğ\fSa\a}\003\201ø}\003À\220a\023apG\000¿\000í\000à¿ó_\217\004K\000!Zj"ô\2002ZbÃø\224\020pG\000¿\000í\000à\006K@ğ\001\000Ãø\224\000ZjBô\2002Zb¿óO\217¿óo\217pG\000í\000à\027JCxÂø\2300\001x!³Ch\000µÂø\2340Ãz\220ø\fÀ\e\006\220ø\017àCê\fs\220ø\nÀ\013C\201{CêÌC\220ø [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xae70, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d22230, 0xae70, 20880) = 1, 992, bytes =
+ 0e 20 2b 60 92 69 02 f0 0f 02 8a 5c 02 f0 1f 02 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xb250,3e0:\200X\002Xğûı¿«ªªª\000\202\000\020\200\b\002@pµ\005Fÿ÷ ş\000-\000ğ©\200+h\004F\220J\220I\213B\030¿\223B\001ñ\030\001\f¿\001"\000"\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\001õVq\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\0301\213B\b¿Bğ\001\002\032¹lJ\223B@ğã\200\002"\000!\205ø5 \205ø4\020\032h"ğ\001\002\032`\005àÿ÷¾ı\003\e\005+AØ+h\032hÑ\aöÔÕé\002}\004)i"C¨i\034h\nCii\nCéi\002C\nC[I!@,j"C\nCij\004)0Ğ\032`Zi"ğ\a\002\021CYa(Fÿ÷\214şêm?}\003\002ğ\037\002\223@\203`(Fÿ÷\003ÿ«h\200+nĞkh¨nÙ²\001;Õé\030B\a+!`P`.Ù\000}\003Åé\e3kg\000}\003\001"ke\030F\205ø5 p½ "\003}\003je\205ø50\001 p½Õé\013A!C\021Cªj\031`Yi!ğ\a\001\021CAğ\004\001\000,ÅĞ\000(JÑ\001}\n_Ğ2ğ\002\002¾Ñâ\001¼Õ@"\001}\003je\205ø50àç}\nhH\0360K0L¢B\030¿\232B\004ñ\024\004\f¿\001}\003\000}\003¢B\b¿Cğ\001\003\0244¢B\b¿Cğ\001\003\0244¢B\b¿Cğ\001\003\0244¢B\b [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xb250, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d22610, 0xb250, 19888) = 1, 992, bytes =
+ 80 58 02 58 f0 fb fd bf ab aa aa aa 00 82 00 10 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xb630,3e0:oê\t\013Eê\f\005\005`\215h\005ú\aüĞø\b\220}\004\tÍh\tê\013\t\224@\005ú\a÷Gê\t\a\207`Gh'ê\006\0064CD`Äh\004ê\013\004Dê\f\004Ä`\00123ú\002ôyĞ\bú\002ö\026ê\003\töĞLh}\004ğ\020\005\002-²ĞW\000Oğ\003\f\005ñÿ:Ğø\000°\fú\aü\004ğ\003\005ºñ\001\017+ê\f\013\005ú\aõEê\013\005oê\f\013\005`\215h\005ú\aüÀÙÆh\013ê\006\005Eê\f\005Å`å\000ÏÕEN"ğ\003\aOğ\017\fÖøôP\añ°GEğ\002\005\aõ\200gÆøôPÖøôP\002ğ\003\006\005ğ\002\005¶\000\003\225\fú\006ü\003\235½h%ê\f\n7M¨B^Ğ7M¨B-ĞßøØÀ`E\000ğB\201ßøÔÀ`E\000ğD\201ßøÌÀ`E\000ğ1\201ßøÈÀ`E\000ğA\201ßøÀÀ`E\000ğC\201ßø¼À`E\000ğE\201ßø´À`E\f¿Oğ\t\fOğ\n\f\fú\006öJê\006\005\bà\005°½èğ\217Oğ\002\f\fú\006öJê\006\005½`oê\t\006Şø\200Pç\003T¿5@Iê\005\005§\003Îø\200PŞø\204PT¿5@Iê\005\005ç\002Îø\204PŞø\000PT¿5@Iê\005\005¤\002Îø\000PŞø\004PT¿5@Iê\005\005Îø\004PPç\bú\006öJê\006\005Òçßø\f°Oğ°F{à\000\000\002X\000D\002X\000\004\002X\000\b\002X\000\f\002X\000\020\002X\000\024\002X\000\030\002X\000\034\002X\000 \002X\000}\004\002X\fñÿ7OêB\016Ğø\000 \004ğ\003\b\001\227\003'\bú [502 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xb630, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d229f0, 0xb630, 18896) = 1, 992, bytes =
+ 6f ea 09 0b 45 ea 0c 05 05 60 8d 68 05 fa 07 fc ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xba10,3d0:wĞ}\003ğ\003\005\003ğ\003\004\177O\005ñ°Eä\000¸B\tú\004øÕø\bÄ\005õ\200e\bê\f\f'ĞyO¸BnĞxO¸BpĞxO¸BcĞßøà±XE\000ğÑ\200ßøÜ±XE\000ğÒ\200ßøÔ±XE\000ğÂ\200ßøĞ±XE\000ğÍ\200ßøÈ±XE\f¿Oğ\t\013Oğ\n\013\013ú\004ô\002à\001'\aú\004ô¤E\027Ñ¬h}\004ê\b\004¬`Öø\200@}\004ê\016\004Æø\200@Öø\204@}\004ê\016\004Æø\204@4h}\004ê\016\0044`th}\004ê\016\004t`]\000\004hOêÓ\f\nú\005õ\000ë\214\f,C\004`\003ğ\a\004Üø à¤\000\tú\004ô.ê\004\004Ìø @\204h}\004ê\005\004\204`Dh}\004ê\002\002B`Âh"ê\005\002Â`\00131ú\003ò\177ô~¯½èğ\217Oğ\004\013\013ú\004ô¸çOğ\002\013\013ú\004ô³çOğ\003\013\013ú\004ô®ç\000"Oğ\001\f<O\017%Oğ°FOğ\003\016\002ğ\003\003\fú\002ô"ğ\003\bÛ\000\021ê\004\t¸D\005ú\003óAĞØø\b \023ê\n\017\031ÑØø\b }\nê\003\003Èø\b0Öø\2000}\003ê\t\003Æø\2000Öø\2040}\003ê\t\003Æø\20403h}\003ê\t\0033`sh}\003ê\t\003s`OêB\b\003hOêÒ\t\016ú\bø\000ë\211\tCê\b\003\003`\002ğ\a\003Ùø  \233\000\005ú\003ó}\nê\003\003Éø 0\203h}\003ê\b\003\203`Ch}\003ê\004\003C`Ãh}\003ê\b\003Ã`\00121ú\002ó¬Ñ½èğ\217Oğ\a\013\013ú\004ôKç [504 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xba10, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d22dd0, 0xba10, 17904) = 1, 976, bytes =
+ 77 d0 23 f0 03 05 03 f0 03 04 7f 4f 05 f1 b0 45 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xbde0,3d0:\001\001\001(\031`\032a\232h¡h"ô\000B\232`)ĞAô\004A\002(\231`\002ÑOô\000bZ`XhOğ \f\025I"i\001CY`Ùh!ô\000AÙ`Ôé\005\001\002CBê\001"Ôé\a\020Ú`\000"\001C\020F\031`\031hAğ\001\001\031`bd\204øAÀ"c\204øB \020½Aô\000A\231`Ùç\200ø@ ı÷Âú¸ç\001 pG\000¿\000\200\000\002-éøC\230F\220øA0\b\236 +@ğ\204\200\220ø@0\004F\001+~Ğ\001}\003\017F\221F\200ø@0ÿ÷\017ø\005F\004àÿ÷\013ø@\e\031(}]Ø}\003h\230i\020ô\000@õÑ!"Çó\t\aÄø}\004\220\204øA \020"`c\204øB `d¤ø}\n\200b\215\222²ÿ}\ntØb\215EH\222²Yh"\205Ò²\001@Gê\002B\nCBI\021CY`c\215}\nF1F F\233²\000+4Ğÿ÷¯ş\000(YÑaj"h\021ø\001\013}\003\215\220b´ø}\nÀ\001;ab\fñÿ<\233²\037ú\214ü}\003\205¤ø}\nÀa\215\211²\000)ŞĞ\000+ÜÑp\034,Ñ\223i\031\006üÕc\215\233²ÿ+EÙSh F}\nI\013@}\nI;C\031Cÿ}\003}\003\205Q`}\nFc\2151F\233²\000+ÊÑÿ÷Øş(»}\003h !}\003MÙaZh}\n@Z`\204øA\020\204ø@\000\204øB\000\000à\002 ½èø\203F±"h\223i\e\006ÒÔş÷\215ÿC\e\236BõÒcl !\000"\013C\204ø@ cd\204øA\020\204øB \001 ½èø\203Zh\013I\n@\017I:C\021Cÿ" [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xbde0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d231a0, 0xbde0, 16928) = 1, 976, bytes =
+ 01 01 01 28 19 60 1a 61 9a 68 a1 68 22 f4 00 42 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc1b0,3d0:@\020cd\204øA\000\204øB\020ShCô\000CS`¢ç\000¿\220øA\000pG\000¿\220øA  }\n}\003Ñ_ú\202ü\220ø@ \003F\001}\n\034Ğ\002h}\004 \000µ\203øA\000Oğ\000\016\020h ğ\001\000\020`\020h ô\200P\020`\020h\001CpF\021`\021hAğ\001\001\021`\203øAÀ\203ø@à]ø\004û\002 pG\220øA  }\n"Ñ\003F\000µ_ú\202ş\220ø@ \001}\n\034Ğ\002h}\004 Oğ\000\f\203øA\000\020h ğ\001\000\020`\020h ôp`@ê\001!`F\021`\021hAğ\001\001\021`\203øAà\203ø@À]ø\004û\002 pG\002 ]ø\004ûğµ\213°`³\220ø½3\005F\004h\003ğÿ\002\000+yĞ F\003}\003.F/\035\205ø½3ãklF\023ô\200s\b¿+a\003ğgøVø\020ë´F¼è\017\000\017Ä¼è\017\000\017Ä\234è\003\000\204è\003\000pF\227è\016\000\002ğ»ÿ\004F0±\002}\003\205ø½3\001}\004 F\013°ğ½\001F(h\003ğPøhhX³"FOğ\001\016!FÂëÂ\003\002ñ\001\f\005ë\203\003\203ø< £øB _ú\214ò\203ø=à\202B\203ø?\020\031eÃé\021\021êÓ\000"ÄëÄ\003a\034\005ë\203\003\203øüAÌ²\203øı!\204B\203øÿ!Ãø\020"Ãé\201"íÓlF\017Î\017Ä\017Î\017Ä\226è\003\000\204è\003\000\227è\016\000(h\003ğ,ø\004F\000(µÑ\001"kj\205ø8\000\223B\205ø½}\003\013Ğ(h\003ğxû F\013°ğ½\200ø¼}\003ş÷óù(h\200ç(F\000ğÀùï [500 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xc1b0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d23570, 0xc1b0, 15952) = 1, 976, bytes =
+ 40 10 63 64 84 f8 41 00 84 f8 42 10 53 68 43 f4 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc580,3d0:8µCh\001ğ\017\005\235B4Ø\013\006\004F\035Ô\034"ÁëÁ\003\002û\001\001\000ë\203\003\000"\001õşq\203øı!\001}\003\rp\213p\224ø¼}\003\232B\034Ğ h\204ø¼3\003ğ\021úÕ±\000}\003\030F\204ø¼38½\034!ÅëÅ\003\001"\001û\005\001\000ë\203\003<1\203ø= \001}\003\rp\213p\224ø¼}\003\232BâÑ\002 8½\001 8½\004õqr!| h\003ğCúİç\000h\022\004Cj\031¹\023C\203b\000 pG0´\0019\204j\003ë\024CkĞĞø\004A\001)\003ë\024CeĞĞø\bA\002)\003ë\024C_ĞĞø\fA\003)\003ë\024CYĞĞø\020A\004)\003ë\024CSĞĞø\024A\005)\003ë\024CMĞĞø\030A\006)\003ë\024CGĞĞø\034A\a)\003ë\024CAĞĞø A\b)\003ë\024C;ĞĞø}\004A\t)\003ë\024C5ĞĞø(A\n)\003ë\024C/ĞĞø,A\013)\003ë\024C)ĞĞø0A\f)\003ë\024C}\003ĞĞø4A\r)\003ë\024C\035ĞĞø8A\016)\003ë\024C\027ĞĞø<A\017)\003ë\024C\021ĞĞø@A\020)\003ë\024C\013Ğ\020}\004\004ñ@\f\0014\000ë\214\f\214BÜø\004P\003ë\025CôÓ@1\032C\000ë\201\003\000 0¼Z`pG\003F\000 \ehYbpG\000¿\003FOğ\000\f\tI\032h`F\020´\001}\004\203øôÃÃøüC\223i]ø\004KCğ\000c\223aSm\031CQepG\003\000\000\0208µ\021KÚhR\a\004ÔÛh\003ğ\a\003\203B\024Ñ\fLãh}\003ğ\a\003\003Cã`ş÷  [496 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xc580, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d23940, 0xc580, 14976) = 1, 976, bytes =
+ 38 b5 43 68 01 f0 0f 05 9d 42 34 d8 0b 06 04 46 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xc950,3d0:\000+7Ğ¦l"h¡h\023h\0019}\003ôpcCê\001}\003\023`\223h\233\006\004Õp\0342Ñ\223h\231\006üÔÔé\aPãh\021h+C\000%\003C`hCê\000c\034H\b@ai\003C\023`£iPh\013C!iCê\001C\030I\001@(F\013CS`\023hCğ\001\003\023`\001}\003ed\204øA0\000}\003\204ø@0p½ F\204ø@ ı÷ùøAò\2103\036F£d¾çş÷hú@\e°B\006Ø.±"h¿ç\001 p½\002 p½\004}\003\001 \204øA0cl\003Ccdİç/ÿÿ\000şøàÿÈ±\020µ\220ø@0\004F\001+\021Ğ\002h\001}\003\200ø@0\023h}\003ğ\001\003\023`ı÷Yù\000}\003cd\030F\204øA0\204ø@0\020½\002 \020½\001 pG\000¿-éøC\004F\017F\026Fş÷-ú\224ø@0\001+3Ğ\001}\003\204ø@0\224øA0\001+_ú\203ø\aĞOğ\002\b\000}\003@F\204ø@0½èø\203\000}\003q\034\201FcdOğ\002\003\204øA0\036Ñ%hªh\022ğ \002ûÑ9F Fÿ÷\202ş{j+±\001}\003\204øA0Oğ\000\bßç«h\232\aüÕ\002"\001}\003ê`\204øA0óçOğ\002\b@F½èø\203%hªh\022ğ \002\017Ğş÷éù ë\t\003\236B\001Ó\000.òÑ\004}\003\204øA0clCğ\001\003cd¼ç9F Fÿ÷Sş{j\000+ÏÑ«h\233\aÕÔş÷Ïù ë\t\003\236BçÓ\000.åĞ%hòç\000¿-éøC\004F\016F\027Fş÷¿ù\224ø@0%h\001+8 [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xc950, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d23d10, 0xc950, 14000) = 1, 976, bytes =
+ 00 2b 37 d0 a6 6c 22 68 a1 68 13 68 01 39 23 f4 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xcd20,3c0:clCğ\001\003cdäç+F\bàş÷½ø ë\t\003\237BïÓ\000/íĞ}\003h\233h\023ğ\006\017òĞ\225ø  }\003k\032p¢k}\003k\001:\0013¢c¢k}\003c\000}\níÑÕç-éğG\004F\230F\017F\026Fş÷\234ø\224ø@0\001+?Ğ\001}\003\204ø@0\224øA0\001+_ú\203ù\aĞOğ\002\t\000}\003HF\204ø@0½èğ\207\000}\003¸ñÿ?\202FcdOğB\003\204øA0)Ñ%h«h\230\006üÔ3h F2i«bshñhkb³hëb+h}\003ô@\003\023COğ\000bCô\200\003+`¹b9Fÿ÷ßü«h\032\aüÕ\b"\001}\003Oğ\000\tê`\204øA0ÊçOğ\002\tHF½èğ\207%h«h\231\006\020Õş÷Mø ë\n\003\230E\002Ó¸ñ\000\017òÑ\004}\003\204øA0clCğ\001\003cd°ç3h9F2i F«bshkb³hëb+h}\003ô@\003\023CòhCô\200\003+`ºbOğ\000bÿ÷¤ü«h\e\aÄÔş÷}\003ø ë\n\003\230EØÓ¸ñ\000\017ÕĞ%h«h\e\aòÕ¶ç\000¿-éğC\004F\203°\017F\026Fş÷\016ø\224ø@0\001+0Ğ\001}\003\204ø@0\224øA0\001+_ú\203ø\bĞOğ\002\b\000}\003@F\204ø@0\003°½èğ\203\000}\003\201Fcd\202}\003\204øA0£lX\034\eÑ%h«h\231\006üÔ+hrh}\003ğ\b\003\b}\nCê\002\003+`}\004ĞOğ@b9F FOğ\000\bÿ÷VüÙçOğ\002\b@F\003 [496 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xcd20, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d240e0, 0xcd20, 13024) = 1, 960, bytes =
+ 63 6c 43 f0 01 03 63 64 e4 e7 2b 46 08 e0 fe f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd0e0,3d0:<M+h}\003ğ\031\003\023C+`ı÷Şş\006F\005àı÷Úş\200\e\002(\000ò\231\200+h[\aöÕı÷éşAò\003\003"i\230Bkh\000òğ\200}\003ô|3Cê\0023k`}\003hJç\030+\000ğâ\200)Mâh+h\000}\n\000ğË\200}\003ğ\031\003\023C+`ı÷´ş\006F\004àı÷°ş\200\e\002(oØ+h_\a÷ÕÕç\001ğ\003\001\002)\177ô\003¯\eJ\022h\221\003\177õ}\004¯bh\000}\n\177ô ¯\001 ø½\002ğ\003\002\001}\n\177ô)¯\023K\ehÚ\005\002Õãi\200+ñÑı÷£şAò\003\003\016J\230B!j\000ò±\200Sh}\003ğøCCê\201cS`}\003h5ç\aJ\023hCô\2003\023`éæ\005M+hCô\200s+`ı÷oş\006F\tà\000¿\000D\002X\000H\002Xı÷fş\200\ed(%Ø+hÚ\005÷Õ£h\001+\000ğ \201\000+\000ğû\200\005+\225K\032o\000ğ\036\201"ğ\001\002\032g\032o"ğ\004\002\032gı÷Kş\217NAò\2107\005F\004àı÷Dş@\e¸B\003Ø3o\233\a÷Õ+ç\003 ø½\207MAò\2107+h}\003ô\2003+`+h}\003ô\200}\003+`ı÷.ş\006F\004àı÷}\nş\200\e¸BéØ+h\233\003÷Ô¦æko}\003ğ\001\003kgı÷\035ş\006F\004àı÷\031ş\200\e\002(ØØko\231\a÷Ôãæ+h}\003ô\200S+`ı÷\fş\006F\004àı÷\bş\200\e\002(ÇØ+h\230\004÷Ôëæ+h}\003ğ\200\003+`ı÷ûı\006F\004àı÷÷ı\200\e\002(¶Ø [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xd0e0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d244a0, 0xd0e0, 12064) = 1, 976, bytes =
+ 3c 4d 2b 68 23 f0 19 03 13 43 2b 60 fd f7 de fe ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd4b0,3d0:\006î\220:úîéj\002Ğ\002)HĞI³\237í(z\207î'j\023kÃó\b\003\aî\020:÷î\000Z¸îÇz7î&z7î%z'î\006z\035K\ekÃóF}\003\0013\aî\220:øîçjÇî&züîçz\027î\220\n0¼pG\027HpG\027HpG\023HpG\023h\233\006\035Õ\020h÷î\000Z\023k\017IÀóÁ\002Ãó\b\003Ñ@\aî\020:\006î\020\032¸îÇz¸îÆjwî&j\206î'zvî¥z'î'zÊç\237í\az¶ç\237í\az³ç\000D\002X\000\220Ğ\003\000}\004tJ\000}\004ô\000\000\t=\000\000}\004tK\000}\004tL\000(\000ğ\004\201\210J\023h\003ğ\017\003\213B-éğA\004F\rF\fÒ\023h}\003ğ\017\003\013C\023`\023h\003ğ\017\003\213B\002Ğ\001 ½èğ\201}\003hX\a\013Õ|I i\212i\002ğp\002\220B\004Ù\212i"ğp\002\002C\212a\031\a\013ÕuI`iÊi\002ğp\002\220B\004ÙÊi"ğp\002\002CÊaÚ\006\013ÕnI iÊi\002ôàb\220B\004ÙÊi"ôàb\002CÊa\237\006\013ÕgIài\nj\002ğp\002\220B\004Ù\nj"ğp\002\002C\nb\236\a\003ğ\001\002@ñ¡\200^Nàh±i\001ğ\017\001\210B\004Ù±i!ğ\017\001\001C±a\000}\n0ĞWJ¡h\223i}\003ôpc\013C\223aah\023h\002)\000ğ\227\200\003)\000ğ\216\200\001)\000ğ\227\200_\a\234ÕMNAò\21083i}\003ğ\a\003\013C3aı÷\026ü\aF\005àı÷\022üÀ\e@E\000ò\201\2003ibh\003ğ8\003³ëÂ [501 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xd4b0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d24870, 0xd4b0, 11088) = 1, 976, bytes =
+ 06 ee 90 3a fa ee e9 6a 02 d0 02 29 48 d0 49 b3 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xd880,3c0:ãjß±\001/\f¿Cô\200\023Cô\000\023ãb\fL}\003hCğ\200c}\003`ı÷\006û\005F\004àı÷\002û@\e\002(\004Ø}\003h\e\001÷Õ\000 ø½\003 ø½Cô\000}\003ãbæç\000D\002Xøµ6L\006F\017F}\003h}\003ğ\200S}\003`ı÷èú\005F\004àı÷äú@\e\002(VØ}\003h\232\000÷Ô£j2h}\003ğ|sCê\002S£bÖé\0022\001;\001:[\002\022\004\233²\002ôş\002\023Crh\001:Âó\b\002\023C2i\001:\022\006\002ğşB\023C}\003dãjri}\003ô@c\023Cãbãj²i}\003ô\000s\023Cãbãj}\003ô\200sãbclòioóÏ\003CêÂ\003cdãjCô\200sãbãjß±\001/\f¿Cô\000\003Cğ\200sãb\fL}\003hCğ\200S}\003`ı÷\226ú\005F\004àı÷\222ú@\e\002(\004Ø}\003h\233\000÷Õ\000 ø½\003 ø½Cô\200\003ãbæç\000D\002X-éøC\003h\004F\023ğ\000f}\003ĞBn²õ\000\037\000ğ\026\205\000òı\205\000}\n\000ğ}\n\205²õ\200\037@ğú\205¢J\222j\002ğ\003\002\003}\n\000ğó\205\002!\0040ÿ÷\000ÿ\006F}\003h>¹bn\232H\000&\001m!ô@\021\nC\002eİ\005\nÕbm\004}\n\006Øßè\022ğk\003³\004\237\004p\003p\003\001&5F\230\005"Õ¢m\200}\n\000ğ~\204\000ò¿\205\000}\n\000ğ¯\204@}\n@ğÀ\205\211J\222j\002ğ\003\002\003}\n\000ğ¹\205\000! \035ÿ÷Îş}\003h\005F\000-@ğw\204\201I m [509 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xd880, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d24c40, 0xd880, 10112) = 1, 960, bytes =
+ e3 6a df b1 01 2f 0c bf 43 f4 80 13 43 f4 00 13 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xdc40,3d0:\001&5FØ\001\024Õbl\003}\n\000òã\204ßè\022ğ\013\000\006\000\013\003\013\000\000D\002X5IÊjBô\0002Êb\000-\000ğ\216\202.FY\002\000ñô\201ß\a/Õ¢o(}\n}\nØßè\022ğÑ\001)\000)\000)\000)\000)\000)\000)\000Ä\001)\000)\000)\000)\000)\000)\000)\000\025\004)\000)\000)\000)\000)\000)\000)\000Ñ\001)\000)\000)\000)\000)\000)\000)\000Ñ\001)\000)\000)\000)\000)\000)\000)\000Ñ\001\001&5F\230\a\034Õbo\005}\n\000ò\217\204ßè\022ğ\023\000\006\000Ğ\003\023\000\023\000\023\000\017J\222j\002ğ\003\002\003}\n\000ğ\200\204\001! \035ÿ÷mı}\003h\005F\000-\000ğM\202.FY\a\037ÕÔø\220 \005}\n\000òs\204ßè\022ğ\025\000\b\000\236\003\025\000\025\000\025\000\000D\002X©J\222j\002ğ\003\002\003}\n\000ğb\204\001! \035ÿ÷Kı}\003h\005F\000-\000ğ"\202.F\232\006}\004ÕÔø\214 ²ñ\000_\000ğ\\\202\000ò¾\203\202±²ñ\200_@ğÃ\203\231J\222j\002ğ\003\002\003}\n\000ğ¼\203\000! \035ÿ÷+ı}\003h\005F\000-@ğ\031\202\221IÔø\214\000Jm"ğàB\002CJe_\006}\004ÕÔø\230 ²õ\000o\000ğF\202\000òÀ\203\202±²õ\200o@ğÅ\203\206J\222j\002ğ\003\002\003}\n\000ğ¾\203\000! \035ÿ÷\004ı}\003h\005F\000-@ğğ\201~IÔø\230\000\212m"ôàR\002C\212e\030\006}\004ÕÔø\234 ²õ\200O\000ğı\201\000òc\203\202±²õ\000_@ğh\203rJ\222j\002ğ\003\002\003}\n\000ğ [508 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xdc40, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d25000, 0xdc40, 9152) = 1, 976, bytes =
+ 01 26 35 46 d8 01 14 d5 62 6c 03 2a 00 f2 e3 84 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe010,3c0:\222j\002ğ\003\002\003}\n?ô^®\001! \035ÿ÷âû}\003h\005F\000-@ğ·\200\227I oJm"ğ8\002\002CJeNæ\223IÊjBô\0002Êb\000-@ğ\233\200\217IÔø\204\000Jm"ô@\022\002CJeFç\213O;hCô\200s;`ü÷\037ÿ\200F\006àü÷\eÿ ë\b\000d(\000ò­\202;hÚ\005õÕ\000-@ğ¨\202\177JÔø°0\021oY@\021ô@\177\013Ğ\021o\020o!ô@q@ô\2000\020g\020o ô\2000\020g\021g³õ\200\177\000ğ±\202\003ô@r²õ@\177\000ğ¿\202pI\ni"ô|R\nanJÃó\013\003\021o\013C\023g}\003hÊåjIÊjBô\0002Êb5F\000-@ğ<\201eI`m\nm"ğ\a\002\002C\ne\212äaJ\222j\002ğ\003\002\003}\n\bĞ\002!\004ñ}\004\000ÿ÷×û}\003h\000(?ô¯®\001&¬æYJ\222j\002ğ\003\002\003}\n\bĞ\002!\004ñ}\004\000ÿ÷Æû}\003h\000(?ô\220®\001&\215æPHÁjAô\0001Áb\000-\177ô?¯LM0\036im\030¿\001 !ô@q\nCjeôæGIÊjBô\0002Êb\000-?ôÑ®.FÕæ.F_å.F²æ.FØä?I`lÊl"ğ\003\002\002CÊdjå.F\235å:IÔø\220\000\212m"ğ\a\002\002C\212eÕå6I`oJm"ğ\a\002\002CJe«å.F\aå.F,å.F\025æ.Fìå.F8æ.Fwæ\000}\n\177ôû®·ç}\nJ\222j\002ğ\003\002\003}\n\000ğ¤\201\001!\004ñ}\004\000ÿ÷ [510 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xe010, 0x400, 0x3c0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d253d0, 0xe010, 8176) = 1, 960, bytes =
+ 92 6a 02 f0 03 02 03 2a 3f f4 5e ae 01 21 20 1d ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe3d0,3d0:Ì\200\000!\004ñ}\004\000ÿ÷vú\005F}\003h\000-?ô\211«.Fÿ÷\216»mJ\222j\002ğ\003\002\003}\n\000ğæ\200\002!}\0040ÿ÷cú\006Fÿ÷ñºfIÊjBô\0002Êb\000-?ôG«.Fÿ÷L»aHÁjAô\0001Ábÿ÷âº]IÊjBô\0002Êbÿ÷\\»ZJ\222j\002ğ\003\002\003}\n\000ğ©\200\000!\004ñ}\004\000ÿ÷;ú}\003h\005Fÿ÷}\003»RIÊjBô\0002Êbÿ÷\210»NJ\222j\002ğ\003\002\003}\n\000ğÌ\200\001!\004ñ}\004\000ÿ÷}\004ú\005F}\003h\000-\177ôi¬\211æEJ\222j\002ğ\003\002\003}\n\000ğ¶\200\001!\004ñ}\004\000ÿ÷\022ú\005F}\003h\000-\177ô5¬\200æ<J\222j\002ğ\003\002\003}\n?ô\r¬\001!\004ñ}\004\000ÿ÷\000ú\005F}\003h\000-\177ôe®¬å"ô\000Q±õ\000O?ô©¬²õÀO?ô¥¬\001&5F¬ä"ğ\200Q±ñ\200O?ôN¬²ñ@_?ôJ¬\001&5FQä"ô\2001±õ\200/?ôW«²õ@??ôS«\001&5Fÿ÷Y»"ğ\200Q±ñ\200O?ôo«²ñ@_?ôk«\001&5Fÿ÷r»"ô\200a±õ\200_?ôL¬²õ@o?ôH¬\001&5FOä²ñ@\177?ôÈª²ñ\200o?ôÄª\001&5Fÿ÷Ëº²õ@_?ôÿª²õ\200O?ôûª\001&5Fÿ÷\001»²õÀ\017?ô\207ª²õ\000\017?ô\203ª\001&5Fÿ÷\212º\000¿\000D\002XÀ}\n?ôQª²õ\200\177 [507 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xe3d0, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d25790, 0xe3d0, 7216) = 1, 976, bytes =
+ cc 80 00 21 04 f1 24 00 ff f7 76 fa 05 46 23 68 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xe7a0,3e0:GJp´\224j\225jÖj\025ğ|\177Åó\005SQl[ĞÁóÌ\001\006ô\200v\004ğ\003\004\aî\220:\006û\001ñ\001,¸îçz\006î\220\032úîéj\003Ğ\002,jĞ\000,JĞßí8z\207î\207j\023lÃó\b\003\aî\220:÷î\000Zøîçzwî¦zwî¥zgî\206z-J·î\000j\023lÃóF}\003\aî\020:¸îÇzp¼7î\006zÇî\207jüîæjÀí\000j\023lÃó\006C\aî\020:¸îÇz7î\006zÇî\207jüîæjÀí\001j\023lÃó\006c\006î\220:øîæjvî\206j\207î¦züîÇz\027î\220:\203`pGp¼Àé\0003\203`pG\023h\233\006\035Õ\024h÷î\000Z\023l\020IÄóÁ\002Ãó\b\003Ñ@\aî\220:\006î\020\032øîçz¸îÆjwî¦jÆî\az6î¥zgî\207z©çßí\005z\225çßí\005z\222ç\000D\002X\000}\004tJ\000\220Ğ\003\000}\004tK\000}\004tLGJp´\224j\225jÖj\025ô|\177Åó\005\023Qk[ĞÁóÌ\001\006ğ\001\006\004ğ\003\004\aî\220:\006û\001ñ\001,¸îçz\006î\220\032úîéj\003Ğ\002,jĞ\000,JĞßí8z\207î\207j\023kÃó\b\003\aî\220:÷î\000Zøîçzwî¦zwî¥zgî\206z-J·î\000j\023kÃóF}\003\aî\020:¸îÇzp¼7î\006zÇî\207jüîæjÀí\000j\023kÃó\006C\aî\020:¸îÇz7î\006zÇî\207jüîæjÀí\001j\023kÃó\006c\006î\220:øîæjvî [505 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xe7a0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d25b60, 0xe7a0, 6240) = 1, 992, bytes =
+ 47 4a 70 b4 94 6a 95 6a d6 6a 15 f0 7c 7f c5 f3 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xeb80,3e0:T5\001\000\000(\000ğ\204\201øµ\005Fü÷¥ù\225ø80)h\001+§K\024Ğ\231B}\004Ğ 3\231B!Ğ¤K\231BcĞ 3\231B`Ğ\003õxs\231B\003Ğ 3\231B@ğ}\004\201\236L\022à\231B\005Ğ\003ñÀS£õ\2023\231BFÑkh\001+CÑkl\000+@Ñ\224K\231B@ğ\017\201\225L\225ø\2210\003ğÿ\002\000+DĞ\223K\223J\eh¢û\003}\003\nh\e\013"ô\2002\233\000\n`\e³\nh\001;\022ô\2002ùÑ\002}\003\205ø\2210ëh\001+ Ğ\002+\013¿  \000 Oğ!\fOğ\001\f\013¿"'\002'}\003&\003&«h\001;\004+\000òX\201ßè\023ğ}\003\001"\000}\n\001!\000&\001Õø\2240Cğ@\003Åø\2240\001 ø½Oğ\021\f\022'\023&\020 åç\225ø\2210uL\003ğÿ\002\000+ºÑ(F\205ø\220 û÷§ø)h³ç8FOô\000f+j `\000+@ĞeK\231B\000ğ\026\201 3\231B\000ğ\022\201bK\231B\000ğ\a\201 3\231B\000ğ\003\201dK\231B\000ğø\200 3\231B\000ğô\200aK\231B\000ğ\005\201`K\231B\000ğ\b\201«i\002ë\202\002)j³õ\000/OêB\002\000ğÜ\200«j³ñ\200o\024¿\001}\003\002}\003\001û\003ó\e\002²ûóóUJ¢û\003\022Ò\b\002ë\202\001£ëA\003\t+\b¿\0012jbkh/m3ğ\002\003@ğ«\200\001?\030¿\001'\177\002ü÷Ñøil°õ\000_Õé\0002Bê\001\002©lBê\001\002élBê\001\002éjBê\001\002iiBê\001\002Àğ\210\200©i\030h\nC©j [512 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xeb80, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d25f40, 0xeb80, 5248) = 1, 992, bytes =
+ 54 35 01 00 00 28 00 f0 84 81 f8 b5 05 46 fc f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xef60,3d0:\204fDh4ğ\002\004\024¿\001}\004\000}\004\004eOô\2004ÄeOöÿtDg\023ğ\001\004çÑM\036\001-!ØDfOô\0004\004f\003}\nŞØßè\002ğ.H8}\004à![\001\200"\201dCeÂf0¼ÿ÷ë½À!õç\200"[\001\202dCeÂfôç\200!\e\001@"\201dCeÂfíçOô\200!Àé\030A\003}\n¼Øßè\002ğ\f85\002[\bà}\004\232\001\200![\001\204dÁfÀé\025}\003Ùç[\b\200}\004@!Z\001\204d\e\001ÁfÀé\025}\003Ïç[\bÀ"\200%\002)Oê\203\024\202dOêC\023ÅfDe\203eÂÑ\b}\003\203f¿ç[\b\200"\002)Oê\203\024\202dOêC\023ÂfÀé\025C³Ñ\020}\003\203f°ç[\bÀ}\004Ëç[\b\200"\231\001\202d[\001ÂfÀé\025\023¤ç\000¿\030³8µ\220ø,0\004F\rF\003ğÿ\002³±!F\002}\003\204ø,0Qø\004\013\000ğQøbh)F h\000ğ\202ø\bJ\001!\000 \023hCğ\000C\023`\204ø,\0208½\200ø- ù÷8ıãç\001 pG\000¿\000@\000Rpµ\220ø,0\005F\002+Ø²\004Ğ\000ğû\004\001,\001Ğ\001 p½\002}\003\016F(h\205ø,0\000ğ\230ø3h\002+\003Ğ\205ø,@\000 p½\005}\003\205ø,0ùç\000¿8µ\220ø,0\004F\002+Ø²\005Ğ\224ø,0\001+İ²\001Ğ\001 8½\002}\003 h\204ø,0\000ğ\214ø\000 \204ø,P8½-éğAÑé\a>Ñé\000\202OjCê\016\003Ñé\002ÆÑé\004T\211i¸ñ\000\017\017 [506 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xef60, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d26320, 0xef60, 4256) = 1, 976, bytes =
+ 84 66 44 68 34 f0 02 04 14 bf 01 24 00 24 04 65 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xf330,3d0:´ç\000}\003\fJ\001\223Üø\0200Cğ\001\003Ìø\0200\004àÜø\020\000\020ğ\001\000ËĞ\001\233\0013\223B\001\223õÙÄçÃhCô\200\023Ã`\214ç\000¿@\r\003\000\003F\000 \232hBğ\001\002\232`pG\000¿\003F\000 \232h"ğ\001\002\232`pG\000¿\bµÃh\001)}\003ğÀCÃ`\013ĞA¹ÃhCğ\200CÃ`2 û÷\207ı\000 \b½\001 \b½ÃhCğ\000SÃ`óç\204°\204F-éğA\202°\t¬\f\235\204è\016\000\000}\003\023\234\nFÀø\0041Àø\b1Àø\f1Àø\0201Àø\0241Àø\0301Àø\0341Àø 1Àø}\0041Àø(1Àø,1Àø01Àø41Àø81Àø<1\203k\000,@ğ¹\200}\003ô\000\023\203c\003hCğ@\003\003`\003hCğ\200\003\003`\000}\003\fõ\000aÌø\000>Üø\0008Ìø\0008\016\233\001+\000ğ³\200Üø\0008Cğ\003\003Ìø\0008\000}\003]N\000\223Oô\204cÌø\0200\004àÜø\020\000\020ğ \000\005Ğ\000\233\0013³B\000\223õÙ\001 \000}\003SN\001\223\020}\003Ìø\0200\003àÜø\0200Û\006\005Õ\001\233\0013³B\001\223öÙ\001 \000&\016aNaÎa\002³Üø\000y\fõ\020c¶F\000/\024Û\000&\036`Oğ\000\bOö\1777\016ñ\001\016Ãø\020\200\237` 3\226E:Ğ\036h\000.îÚOğ\220F\036`ğçOğ\000fÌø\000içç\013i\001-}\003ô\200s\013aNĞ\000}\003Ìø\0300oğ\200CÌø\0240-¹Üø\0300Cğ\020\003Ìø\0300Üø\030 .K\023C\017\232 [498 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xf330, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d266f0, 0xf330, 3280) = 1, 976, bytes =
+ b4 e7 00 23 0c 4a 01 93 dc f8 10 30 43 f0 01 03 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xf700,3d0:\020[oóÜEÌø\020[\215h\223³+DuN\001}\n\003ñÿ3³ûõó\006êÃF\233²\005û\003óŞø\020PEê\006\005Ãó\022\003Îø\020PŞø\020PCê\005\003Îø\0200'Ğ\001,\fÑĞø\b8\023ô\200\177Üø\000;\f¿Cğ\000SCğ\200SÌø\000;Üø\000;Cğ\004CÌø\000;\000 ½èğ\203Şø\0200Åó\022\005\001}\nEê\003\005Îø\020PŞø\0200Cô\000}\003Îø\0200×ÑËh\000+ÔĞÎø\0240Ñç\fõ\020e\000+6Ñ.i\001}\noóÜF.a.iFô\000&.a.ioó\022\006.alĞÜø\000Y\001,Eğ\004EÌø\000YÌÑĞø\bH\024ô\200\177Üø\000I\f¿Dğ\000TDğ\200TÌø\000I\000}\n½Ñ\233²\0033\232\b¹ĞËh\000ë\016>\003ë\202\001\016õ\200^Sø\004+\213BÎø\000 ùÑ«ç/i\001,Ñø\b\220oó\022\a\të\003\b/a\bñÿ8/i¸ûùøoóÜG/a+O\aêÈGÕø\020\200Gê\b\a/aÃó\022\aÕø\020\200Gê\b\a/a\021Ğ\001}\n?ĞÜø\0009\016ğ\017\016Cğ\004C\006ú\016öÌø\0009Ğø48\036CÀø4hxç,i\001}\n}\004ğÀD,a,iDğ\000T,a\024ĞÜø\000IDğ\004DÌø\000I\232ç\013i\003±ka\001,\013ĞÜø\0009\000 Cğ\004CÌø\0009½èğ\203\013i\003±kaĞø\b8\023ô\200\177Üø\0009\f¿Cğ\000SCğ\200SÌø\0009åç\013i\000+âĞkaàç\000¿\000\000ø\037K [503 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xf700, 0x400, 0x3d0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d26ac0, 0xf700, 2304) = 1, 976, bytes =
+ 10 5b 6f f3 dc 45 cc f8 10 5b 8d 68 93 b3 2b 44 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xfad0,3e0:\000 0¼pG\000¿\n0TOĞø\2242\203±\020µĞø\220B\224ø\000\002ÿ(\aĞ\233h!F\224ø\001"\230Gÿ}\003\204ø\0002\000 \020½\000 pG\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000\2101\001\000\0202\001\000\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000Ì1\001\000\0202\001\000\005J\003F\005I\022x\005H\001}\n\016¿e"C"\bF\032\200pG\034w\001\000D1\001\000\0202\001\000\003F\n"\001H\032\200pG\000¿´2\001\0008µ\004FĞø\220Rú÷FÿÔø\2202Åø\f\002K±Ôø\2242\005õ\003qÕø\004\002Ûh\230G\000 8½\002 8½\000¿8µĞø\220Bô±\001ë\201\fĞø\230R\000ë\214\fÜø\0340}\003¹\000}\003Äø\0242\000 8½ÁëÁ\002\005ë\202\005jl³ûòõ\002û\0253\000+ïÑ\032FÌø\0340ú÷úşìç\002 8½\000¿pµ\000}\003\202°\fF\005F\215ø\0050­ø\0060\013xĞø\220b\023ğ`\002\032Ğ }\n\006Ğ(F!F\000ğAù\002 \002°p½Ê\210\221ø\001Àò±\e\0062ÕÕø\22421F`F\233h\230Gâ\2101F(F\000ğaù\025àKx\n+\031Ğ\013+\022Ğ\000+ßÑ\220øt2\003+ÛÑ\002"\rñ\006\001\000ğPù\004àĞø\2242`F\233h\230G\000 Óç\220øt2\003+ùĞÉç\220øt2\003+ÅÑ\001"\rñ\005\001\000ğ:ùîç1F\206ø\000Â\206ø\001"\000ğ@ùæç\000¿8µ\004F\000%\201!ú [511 bytes omitted]
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29b41b80, 0xfad0, 0x400, 0x3e0) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d26e90, 0xfad0, 1328) = 1, 992, bytes =
+ 00 20 30 bc 70 47 00 bf 0a 30 54 4f d0 f8 94 32 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+-> extended-remote->xfer_partial (...)
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $Xfeb0,150:\200!ú÷\217ı\000! F½è\020@ú÷\211½\000¿\b³pµ\003x\016F\005F\024Fã±\0010\000ğeÿC\034Û²\0013[\000Ú²}\003\200\003}\0032psp,xd±(F\002}\003\000!Z\034ôT\0023Ò²Û²±T\020ø\001O\000,õÑp½pG\002"\023Fçç\000¿\020µ\023F\002}\004\nF\000!ÀølBÀé\a3ú÷aı\000 \020½\000¿\020µ\023F\003}\004\nF\000!ÀølBÀéR3ú÷_ı\000 \020½\000¿\fJ\202°\fKÒøÜ\020Ağ@\001ÂøÜ\020ÒøÜ \002ğ@\002\001\222\001\232\032h"ğ \002\032`\032hBğ\004\002\032`\002°pG\000¿\000D\002X\000\030\002H-éğC\000"\211°\eK\001!\rñ\004\f\236F\032K\a\221áFàFgF\016ñ\034\006\016ñ8\005\016ñT\004Íé\001"Íé\003"Íé\005"ÿ"\032p¼è\017\000®è\017\000\234è\a\000\216è\a\000¹è\017\000\017Æ\234è\a\000\206è\a\000¸è\017\000\017Å\234è\a\000\205è\a\000\017Ï\017Ä\234è\a\000\204è\a\000\t°½èğ\203\000¿#ca
+[remote] Received Ack
+[remote] Packet received: OK
+<- extended-remote->xfer_partial (1, (null), 0x0, 0x55bc29c37350, 0xfeb0, 0x150, 0x150) = 1
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d27270, 0xfeb0, 336) = 1, 336, bytes =
+ 80 21 fa f7 8f fd 00 21 20 46 bd e8 10 40 fa f7 ...
+-> extended-remote->get_memory_xfer_limit (...)
+<- extended-remote->get_memory_xfer_limit () = 0x400
+extended-remote:target_xfer_partial (1, (null), 0x0, 0x55bc29d273c0, 0x10000, 7680) = -1, 0
+-> extended-remote->supports_terminal_ours (...)
+<- extended-remote->supports_terminal_ours () = false
+blackmagic.gdb:14: Error in sourced command file:
+Load failed
+-> extended-remote->log_command (...)
+<- extended-remote->log_command (quit)
+-> extended-remote->pid_to_str (...)
+<- extended-remote->pid_to_str (1) = Remote target
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+-> extended-remote->get_trace_status (...)
+<- extended-remote->get_trace_status (0x55bc29303620) = -1
+-> extended-remote->detach (...)
+-> extended-remote->pid_to_str (...)
+<- extended-remote->pid_to_str (1) = Remote target
+Detaching from program: /home/me/Workspace/GitHub/daisy_cpp/build/daisy_cpp, Remote target
+-> extended-remote->always_non_stop_p (...)
+<- extended-remote->always_non_stop_p () = false
+-> extended-remote->is_async_p (...)
+<- extended-remote->is_async_p () = false
+[remote] Sending packet: $D#44
+[remote] Received Ack
+[remote] Packet received: OK
+-> extended-remote->pid_to_str (...)
+<- extended-remote->pid_to_str (1) = Remote target
+-> extended-remote->mourn_inferior (...)
+<- extended-remote->mourn_inferior ()
+[Inferior 1 (Remote target) detached]
+<- extended-remote->detach (0x55bc299c5310, 1)
+target_close ()
+target_close ()
+target_close ()
